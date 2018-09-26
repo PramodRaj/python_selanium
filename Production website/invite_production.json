@@ -1,0 +1,125 @@
+{
+    "invite":[
+        {
+            "path": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(3) > input",       
+            "action": "teacher@mytaptrack.com"
+          },
+          {
+            "path": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(5) > input",
+            "action": "Inspire123"
+          },
+          {
+            "path": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > input.btn.btn-primary.submitButton-customizable",
+            "action": "-click-",
+            "type":"css"
+          },
+        {
+            "path":"/html/body/div[1]/div/div[2]/ui-view/div/div/div[2]/div[3]/div/a",
+            "action":"-click-",
+            "type":"xpath"
+        },
+        {
+            "path":"//*[@id='activityRow']/div[1]/a",
+            "action":"-click-",
+            "type":"xpath"
+        },
+        {
+            "path":"/html/body/div[1]/div/div[2]/ui-view/div/div/div/div[1]/div[2]/div/div/div[2]/a",
+            "action":"-click-",
+            "type":"xpath"
+        },
+        {
+            "path":"body > div.container-main > div > div.content > ui-view > div > div:nth-child(2) > div > input",
+            "action":"parent@mytaptrack.com",
+            "type":"css"
+        },
+        {
+            "path":"/html/body/div[1]/div/div[2]/ui-view/div/div[3]/div/select/option[2]",
+            "action":"-click-",
+            "type":"xpath"
+        },
+        {
+            "path":"/html/body/div[1]/div/div[2]/ui-view/div/div[4]/div/div[2]/a",
+            "action":"-click-",
+            "type":"xpath"
+        }
+    ],
+    "notification_ignore":[
+        {
+            "path": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(3) > input",       
+            "action": "parent@mytaptrack.com"
+          },
+          {
+            "path": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(5) > input",
+            "action": "Inspire123"
+          },
+          {
+            "path": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > input.btn.btn-primary.submitButton-customizable",
+            "action": "-click-",
+            "type":"css"
+          },
+        {
+        "path":"//*[@id='navbarSupportedContent']/ul[2]/li[1]/div/a",
+        "action":"-click-",
+        "type":"xpath"
+        },
+       
+        {
+            "path":"//*[@id='navbarSupportedContent']/ul[2]/li[1]/div/div/div/span[2]/input[2]",
+            "action":"-click-",
+            "type":"xpath"
+        }
+    ],
+    "notification_accept":[
+        {
+            "path": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(3) > input",       
+            "action": "parent@mytaptrack.com"
+          },
+          {
+            "path": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(5) > input",
+            "action": "Inspire123"
+          },
+          {
+            "path": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > input.btn.btn-primary.submitButton-customizable",
+            "action": "-click-",
+            "type":"css"
+          },
+        {
+        "path":"//*[@id='navbarSupportedContent']/ul[2]/li[1]/div/a",
+        "action":"-click-",
+        "type":"xpath"
+        },
+        
+        {
+            "path":"//*[@id='navbarSupportedContent']/ul[2]/li[1]/div/div/div/span[2]/input[1]",
+            "action":"-click-",
+            "type":"xpath"
+        }
+    ],
+    "invite_vreify":[
+        {
+            "path": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(3) > input",       
+            "action": "teacher@mytaptrack.com"
+          },
+          {
+            "path": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(5) > input",
+            "action": "Inspire123"
+          },
+          {
+            "path": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > input.btn.btn-primary.submitButton-customizable",
+            "action": "-click-",
+            "type":"css"
+          },
+        {
+            "path":"/html/body/div[1]/div/div[2]/ui-view/div/div/div[2]/div[3]/div/a",
+            "action":"-click-",
+            "type":"xpath"
+        },
+        {
+            "path":"//*[@id='activityRow']/div[1]/a",
+            "action":"-click-",
+            "type":"xpath"
+        }
+    ]
+
+}

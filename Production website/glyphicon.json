@@ -1,0 +1,56 @@
+{
+  "Test41_fb": [
+    {
+      "path": "//*[@id='comp-jlu8tkwj0imageimageimage']",
+      "action": "-click-"
+    }
+  ],
+   "Test42_instagram": [
+    {
+      "path": "body > div.footer.container-fluid > div > div:nth-child(4) > div > a:nth-child(2) > i",
+      "action": "-click-"
+    }
+  ],
+   "Test43_twitter": [
+    {
+      "path": "body > div.footer.container-fluid > div > div:nth-child(4) > div > a:nth-child(3) > i",
+      "action": "-click-"
+    }
+  ],
+   "Test44_linkedin": [
+    {
+      "path": "body > div.footer.container-fluid > div > div:nth-child(4) > div > a:nth-child(4) > i",
+      "action": "-click-"
+    }
+  ],
+    "Test45_printerest": [
+    {
+      "path": "body > div.footer.container-fluid > div > div:nth-child(4) > div > a:nth-child(5) > i",
+      "action": "-click-"
+    }
+  ],
+   "Test46_terms": [
+    {
+      "path": "body > div.footer.container-fluid > div > div.col-md-3.footer-form > div:nth-child(2) > a",
+      "action": "-click-"
+    }
+  ],
+   "Test47_privacy": [
+    {
+      "path": "body > div.footer.container-fluid > div > div.col-md-3.footer-form > div:nth-child(3) > a",
+      "action": "-click-"
+    }
+  ],
+  "AWS":[
+    {
+      "path":"body > div.container-main > div > div.content > ui-view > div > div:nth-child(4) > div > div.offset-3.col-3 > a > img",
+      "action":"-click-"
+    }
+  ],
+  "Logicworks":[
+    {
+  "path":"body > div.container-main > div > div.content > ui-view > div > div:nth-child(4) > div > div.offset-1.col-3 > a > img",
+  "action":"-click-"
+    }
+  ]
+}

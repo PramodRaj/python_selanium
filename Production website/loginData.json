@@ -1,0 +1,173 @@
+{
+  "Test1_login": [
+
+    {
+      "path": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(3) > input",
+              
+      "action": "parent@mytaptrack.com"
+    },
+    {
+      "path": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(5) > input",
+      "action": "Inspire123"
+    },
+    {
+      "path": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > input.btn.btn-primary.submitButton-customizable",
+      "action": "-click-"
+    },
+       {
+      "path": "#navbarSupportedContent > ul:nth-child(2) > li:nth-child(2) > div > button",
+      "action": "-click-"
+    },
+
+     {
+      "path": "#navbarSupportedContent > ul:nth-child(2) > li:nth-child(2) > div > div > a:nth-child(2)",
+      "action": "-click-"
+    }
+
+
+  ],
+  "Test3_invalidPwd":[
+
+    {
+      "path": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(3) > input",
+      "action": "parent@mytaptrack.com"
+    },
+    {
+      "path": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(5) > input",
+      "action": "Inspi"
+    },
+    {
+      "path": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > input.btn.btn-primary.submitButton-customizable",
+      "action": "-click-"
+    }
+  ],
+   "Test4_invalidEmail":[
+
+    {
+      "path": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(3) > input",
+      "action": "parent@mytap.com"
+    },
+    {
+      "path": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(5) > input",
+      "action": "Inspire123"
+    },
+    {
+      "path": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > input.btn.btn-primary.submitButton-customizable",
+      "action": "-click-"
+    }
+  ],
+     "Test5_blankEmail":[
+
+    {
+      "path": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(3) > input",
+      "action": ""
+    },
+    {
+      "path": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(5) > input",
+      "action": "Inspire123"
+    },
+    {
+      "path": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > input.btn.btn-primary.submitButton-customizable",
+      "action": "-click-"
+    }
+  ],
+   "Test6_invalidEmailPwd":[
+
+    {
+      "path": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(3) > input",
+      "action": "parent@tap.com"
+    },
+    {
+      "path": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(5) > input",
+      "action": "Inspi"
+    },
+    {
+      "path": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > input.btn.btn-primary.submitButton-customizable",
+      "action": "-click-"
+    }
+  ],
+   "Test9_oldPwd":[
+
+    {
+      "path": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(3) > input",
+      "action": "parent@mytaptrack.com"
+    },
+    {
+      "path": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(5) > input",
+      "action": "Inspire@123"
+    },
+    {
+      "path": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > input.btn.btn-primary.submitButton-customizable",
+      "action": "-click-"
+    }
+  ],
+    "Test10_validDetails":[
+
+    {
+      "path": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(3) > input",
+      "action": "parent@mytaptrack.com"
+    },
+    {
+      "path": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(5) > input",
+      "action": "Inspire123"
+    },
+    {
+      "path": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > input.btn.btn-primary.submitButton-customizable",
+      "action": "-click-"
+    },
+       {
+      "path": "#navbarSupportedContent > ul:nth-child(2) > li:nth-child(2) > div > button",
+      "action": "-click-"
+    },
+      {
+      "path": "#navbarSupportedContent > ul:nth-child(2) > li:nth-child(2) > div > div > a:nth-child(2)",
+      "action": "-click-"
+    }
+  ],
+  "Test12_Invalidcode_ForgetPwd":[
+
+    {
+      "path": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > a",
+      "action": "-click-"
+    },
+    {
+      "path": "#username",
+      "action": "parent@mytaptrack.com"
+    },
+    {
+      "path": "#div-forms > div > div > form > button",
+      "action": "-click-"
+    },
+      {
+      "path": "#forgot_password_code",
+      "action": "2222"
+    },
+      {
+      "path": "#new_password",
+      "action": "InspireNew"
+    },
+      {
+      "path": "#confirm_password",
+      "action": "InspireNew"
+    },
+       {
+      "path": "#div-forms > div > div > form > button",
+      "action": "-click-"
+    }
+  ],
+      "Test38_InvalidEmail_ForgetPwd":[
+
+     {
+      "path": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > a",
+      "action": "-click-"
+    },
+    {
+      "path":"#username",
+      "action": "parent@m.com"
+    },
+    {
+      "path": "#div-forms > div > div > form > button",
+      "action": "-click-"
+    }
+  ]
+}

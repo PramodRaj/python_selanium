@@ -1,0 +1,778 @@
+{
+    "Add_Activity":[
+{
+    "path":"/html/body/div[1]/div/div[2]/ui-view/div/div/div[2]/div[4]/div/a",
+    "action":"-click-"
+
+},
+{
+    "path":"//*[@id='activityRow']/div[2]/a",
+    "action":"-click-"
+
+},
+{
+    "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(1) > input:nth-child(2)",
+    "action":"12:00 pm"
+
+},
+{
+    "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(1) > input:nth-child(5)",
+    "action":"1:00 pm"
+
+},
+{
+    "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(2) > input",
+    "action":"Add_Activity"
+
+},
+{
+    "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(3) > textarea",
+    "action":"test1"
+
+},
+{
+    "path":"//*[@id='studentSummary']/div[5]/div/table/tbody/tr/td[4]/div/a[1]",
+    "action":"-click-"
+
+}
+],
+"Add_Activity_kelly":[
+{
+    "path":"/html/body/div[2]/ui-view/div/div/div[2]/div[1]/div/a",
+    "action":"-click-"
+
+},
+{
+    "path":"//*[@id='activityRow']/div[2]/a",
+    "action":"-click-"
+
+},
+{
+    "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(1) > input:nth-child(2)",
+    "action":"12:00 pm"
+
+},
+{
+    "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(1) > input:nth-child(5)",
+    "action":"1:00 pm"
+
+},
+{
+    "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(2) > input",
+    "action":"test1"
+
+},
+{
+    "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(3) > textarea",
+    "action":"test1"
+
+},
+{
+    "path":"//*[@id='studentSummary']/div[5]/div/table/tbody/tr/td[4]/div/a[1]",
+    "action":"-click-"
+
+}
+],
+"Add_Activity_with_empty_starttime":[
+    {
+        "path":"/html/body/div[1]/div/div[2]/ui-view/div/div/div[2]/div[4]/div/a",
+        "action":"-click-"
+    
+    },
+    {
+        "path":"//*[@id='activityRow']/div[2]/a",
+        "action":"-click-"
+    
+    },
+   
+    {
+        "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(1) > input:nth-child(5)",
+        "action":"1:00 pm"
+    
+    },
+    {
+        "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(2) > input",
+        "action":"Add_Activity_with_empty_starttime"
+    
+    },
+    {
+        "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(3) > textarea",
+        "action":"test1"
+    
+    },
+    {
+        "path":"//*[@id='studentSummary']/div[5]/div/table/tbody/tr/td[4]/div/a[1]",
+        "action":"-click-"
+    
+    }
+
+],
+"Add_Activity_with_empty_endtime":[
+    {
+        "path":"/html/body/div[1]/div/div[2]/ui-view/div/div/div[2]/div[4]/div/a",
+        "action":"-click-"
+    
+    },
+    {
+        "path":"//*[@id='activityRow']/div[2]/a",
+        "action":"-click-"
+    
+    },
+    {
+        "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(1) > input:nth-child(2)",
+        "action":"12:00 pm"
+    
+    },
+    
+    {
+        "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(2) > input",
+        "action":"test1"
+    
+    },
+    {
+        "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(3) > textarea",
+        "action":"Add_Activity_with_empty_endtime"
+    
+    },
+    {
+        "path":"//*[@id='studentSummary']/div[5]/div/table/tbody/tr/td[4]/div/a[1]",
+        "action":"-click-"
+    
+    }
+],
+"Add_Activity_with_empty_title":[
+    {
+        "path":"/html/body/div[1]/div/div[2]/ui-view/div/div/div[2]/div[4]/div/a",
+        "action":"-click-"
+    
+    },
+    {
+        "path":"//*[@id='activityRow']/div[2]/a",
+        "action":"-click-"
+    
+    },
+    {
+        "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(1) > input:nth-child(2)",
+        "action":"12:00 pm"
+    
+    },
+    {
+        "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(1) > input:nth-child(5)",
+        "action":"1:00 pm"
+    
+    },
+    
+    {
+        "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(2) > input",
+        "action":"Add_Activity_with_empty_title"
+    
+    },
+    {
+        "path":"//*[@id='studentSummary']/div[5]/div/table/tbody/tr/td[4]/div/a[1]",
+        "action":"-click-"
+    
+    }
+],
+"Add_Activity_woth_empty_comments":[
+    {
+        "path":"/html/body/div[1]/div/div[2]/ui-view/div/div/div[2]/div[4]/div/a",
+        "action":"-click-"
+    
+    },
+    {
+        "path":"//*[@id='activityRow']/div[2]/a",
+        "action":"-click-"
+    
+    },
+    {
+        "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(1) > input:nth-child(2)",
+        "action":"12:00 pm"
+    
+    },
+    {
+        "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(1) > input:nth-child(5)",
+        "action":"1:00 pm"
+    
+    },
+    {
+        "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(2) > input",
+        "action":"Add_Activity_woth_empty_comments"
+    
+    },
+    
+    {
+        "path":"//*[@id='studentSummary']/div[5]/div/table/tbody/tr/td[4]/div/a[1]",
+        "action":"-click-"
+    
+    }
+],
+"Add_Activity_second_time":[
+    {
+        "path":"/html/body/div[1]/div/div[2]/ui-view/div/div/div[2]/div[4]/div/a",
+        "action":"-click-"
+    
+    },
+    {
+        "path":"//*[@id='activityRow']/div[2]/a",
+        "action":"-click-"
+    
+    },
+    {
+        "path":"//*[@id='studentSummary']/div[5]/div/table/tbody/tr[1]/td[4]/div/a[2]",
+        "action":"-click-"
+    
+    },
+    {
+        "path":"//*[@id='activityRow']/div[2]/a",
+        "action":"-click-"
+    
+    },
+    {
+        "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(1) > input:nth-child(2)",
+        "action":"12:00 pm"
+    
+    },
+    {
+        "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(1) > input:nth-child(5)",
+        "action":"1:00 pm"
+    
+    },
+    {
+        "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(2) > input",
+        "action":"Add_Activity_second_time"
+    
+    },
+    {
+        "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(3) > textarea",
+        "action":"test1"
+    
+    },
+    {
+        "path":"//*[@id='studentSummary']/div[5]/div/table/tbody/tr/td[4]/div/a[1]",
+        "action":"-click-"
+    
+    }
+],
+"Add_Activity_invalid_timeformat":[
+{
+    "path":"/html/body/div[1]/div/div[2]/ui-view/div/div/div[2]/div[4]/div/a",
+    "action":"-click-"
+
+},
+{
+    "path":"//*[@id='activityRow']/div[2]/a",
+    "action":"-click-"
+
+},
+{
+    "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(1) > input:nth-child(2)",
+    "action":"23 pm"
+
+},
+{
+    "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(1) > input:nth-child(5)",
+    "action":"0:00 pm"
+
+},
+{
+    "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(2) > input",
+    "action":"Add_Activity_invalid_timeformat"
+
+},
+{
+    "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(3) > textarea",
+    "action":"test1"
+
+},
+{
+    "path":"//*[@id='studentSummary']/div[5]/div/table/tbody/tr/td[4]/div/a[1]",
+    "action":"-click-"
+
+}
+],
+"Add_Activity_with_wrong_timeDiff":[
+{
+    "path":"/html/body/div[1]/div/div[2]/ui-view/div/div/div[2]/div[4]/div/a",
+    "action":"-click-"
+
+},
+{
+    "path":"//*[@id='activityRow']/div[2]/a",
+    "action":"-click-"
+
+},
+{
+    "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(1) > input:nth-child(2)",
+    "action":"3:00 pm"
+
+},
+{
+    "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(1) > input:nth-child(5)",
+    "action":"2:00 pm"
+
+},
+{
+    "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(2) > input",
+    "action":"Add_Activity_with_wrong_timeDiff"
+
+},
+{
+    "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(3) > textarea",
+    "action":"test1"
+
+},
+{
+    "path":"//*[@id='studentSummary']/div[5]/div/table/tbody/tr/td[4]/div/a[1]",
+    "action":"-click-"
+
+}
+],
+"Add_Activity_with_same_time":[
+    {
+        "path":"/html/body/div[1]/div/div[2]/ui-view/div/div/div[2]/div[4]/div/a",
+        "action":"-click-"
+    
+    },
+    {
+        "path":"//*[@id='activityRow']/div[2]/a",
+        "action":"-click-"
+    
+    },
+    {
+        "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(1) > input:nth-child(2)",
+        "action":"3:30 pm"
+    
+    },
+    {
+        "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(1) > input:nth-child(5)",
+        "action":"3:30 pm"
+    
+    },
+    {
+        "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(2) > input",
+        "action":"Add_Activity_with_same_time"
+    
+    },
+    {
+        "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(3) > textarea",
+        "action":"test1"
+    
+    },
+    {
+        "path":"//*[@id='studentSummary']/div[5]/div/table/tbody/tr/td[4]/div/a[1]",
+        "action":"-click-"
+    
+    }
+    ],
+"Add_Activity_valid_second_time":[
+        {
+            "path":"/html/body/div[1]/div/div[2]/ui-view/div/div/div[2]/div[4]/div/a",
+            "action":"-click-"
+        
+        },
+        {
+            "path":"//*[@id='activityRow']/div[2]/a",
+            "action":"-click-"
+        
+        },
+        {
+            "path":"//*[@id='studentSummary']/div[5]/div/table/tbody/tr[1]/td[4]/div/a[2]",
+            "action":"-click-"
+        
+        },
+        {
+            "path":"//*[@id='activityRow']/div[2]/a",
+            "action":"-click-"
+        
+        },
+        {
+            "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(1) > input:nth-child(2)",
+            "action":"13:00 pm"
+        
+        },
+        {
+            "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(1) > input:nth-child(5)",
+            "action":""
+        
+        },
+        {
+            "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(2) > input",
+            "action":""
+        
+        },
+        {
+            "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(3) > textarea",
+            "action":"Add_Activity_valid_second_time"
+        
+        },
+        {
+            "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(1) > input:nth-child(2)",
+            "action":"10:00 am"
+        
+        },
+        {
+            "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(1) > input:nth-child(5)",
+            "action":"11:00 am"
+        
+        },
+        {
+            "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(2) > input",
+            "action":"Add_Activity_valid_second_time"
+        
+        },
+        {
+            "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(3) > textarea",
+            "action":"test1"
+        
+        },
+        {
+            "path":"//*[@id='studentSummary']/div[5]/div/table/tbody/tr/td[4]/div/a[1]",
+            "action":"-click-"
+        
+        }
+    ],
+"Add_2_Activity":[
+        {
+            "path":"/html/body/div[1]/div/div[2]/ui-view/div/div/div[2]/div[4]/div/a",
+            "action":"-click-"
+        
+        },
+        {
+            "path":"//*[@id='activityRow']/div[2]/a",
+            "action":"-click-"
+        
+        },
+        {
+            "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(1) > input:nth-child(2)",
+            "action":"12:30 pm"
+        
+        },
+        {
+            "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(1) > input:nth-child(5)",
+            "action":"1:30 pm"
+        
+        },
+        {
+            "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(2) > input",
+            "action":"Add_2_Activity"
+        
+        },
+        {
+            "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(3) > textarea",
+            "action":"test1"
+        
+        },
+        {
+            "path":"//*[@id='studentSummary']/div[5]/div/table/tbody/tr/td[4]/div/a[1]",
+            "action":"-click-"
+        
+        },
+        
+        {
+            "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(1) > input:nth-child(2)",
+            "action":"3:30 pm"
+        
+        },
+        {
+            "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(1) > input:nth-child(5)",
+            "action":"4:30 pm"
+        
+        },
+        {
+            "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(2) > input",
+            "action":"test2"
+        
+        },
+        {
+            "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(3) > textarea",
+            "action":"Add_2_Activity(1)"
+        
+        },
+        {
+            "path":"//*[@id='studentSummary']/div[5]/div/table/tbody/tr[2]/td[5]/a",
+            "action":"-click-"
+        
+        }
+        ],
+        "editing_Activity_with_unfilled_starttime":[
+            {
+                "path":"/html/body/div[1]/div/div[2]/ui-view/div/div/div[2]/div[4]/div/a",
+                "action":"-click-"
+            
+            },
+            {
+                "path":"//*[@id='activityRow']/div[2]/a",
+                "action":"-click-"
+            
+            },
+            
+            {
+                "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(1) > input:nth-child(5)",
+                "action":"1344"
+            
+            },
+            {
+                "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(2) > input",
+                "action":"editing_Activity_with_unfilled_starttime"
+            
+            },
+            {
+                "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(3) > textarea",
+                "action":"test"
+            
+            },
+            {
+                "path":"//*[@id='studentSummary']/div[5]/div/table/tbody/tr/td[4]/div/a[1]",
+                "action":"-click-"
+            
+            },
+            {
+                "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(1) > input:nth-child(2)",
+                "action":"233"
+            
+            },
+            {
+                "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(1) > input:nth-child(5)",
+                "action":"344"
+            
+            },
+        {
+            "path":"//*[@id='studentSummary']/div[5]/div/table/tbody/tr/td[4]/div/a[1]",
+            "action":"-click-"
+        
+        } 
+                ],
+        "editing_Activity_with_unfilled_endtime":[
+            {
+                "path":"/html/body/div[1]/div/div[2]/ui-view/div/div/div[2]/div[4]/div/a",
+                "action":"-click-"
+            
+            },
+            {
+                "path":"//*[@id='activityRow']/div[2]/a",
+                "action":"-click-"
+            
+            },
+            
+            {
+                "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(1) > input:nth-child(2)",
+                "action":"1344"
+            
+            },
+            {
+                "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(2) > input",
+                "action":"editing_Activity_with_unfilled_endtime"
+            
+            },
+            {
+                "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(3) > textarea",
+                "action":"test"
+            
+            },
+            {
+                "path":"//*[@id='studentSummary']/div[5]/div/table/tbody/tr/td[4]/div/a[1]",
+                "action":"-click-"
+            
+            },
+            {
+                "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(1) > input:nth-child(2)",
+                "action":"233"
+            
+            },
+            {
+                "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(1) > input:nth-child(5)",
+                "action":"344"
+            
+            },
+        {
+            "path":"//*[@id='studentSummary']/div[5]/div/table/tbody/tr/td[4]/div/a[1]",
+            "action":"-click-"
+        
+        } 
+                ],
+        "editing_Activity_with_unfilled_title":[
+            {
+                "path":"/html/body/div[1]/div/div[2]/ui-view/div/div/div[2]/div[4]/div/a",
+                "action":"-click-"
+            
+            },
+            {
+                "path":"//*[@id='activityRow']/div[2]/a",
+                "action":"-click-"
+            
+            },
+            {
+                "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(1) > input:nth-child(2)",
+                "action":"134"
+            
+            },
+            {
+                "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(1) > input:nth-child(5)",
+                "action":"234"
+            
+            },
+            
+            {
+                "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(3) > textarea",
+                "action":"editing_Activity_with_unfilled_title"
+            
+            },
+            {
+                "path":"//*[@id='studentSummary']/div[5]/div/table/tbody/tr/td[4]/div/a[1]",
+                "action":"-click-"
+            
+            },
+            {
+                "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(2) > input",
+                "action":"editing_Activity_with_unfilled_title"
+            
+            },
+            
+        {
+            "path":"//*[@id='studentSummary']/div[5]/div/table/tbody/tr/td[4]/div/a[1]",
+            "action":"-click-"
+        
+        } 
+                ],
+        
+        "editing_Activity_with_invalidToValid_starttime":[
+            {
+                "path":"/html/body/div[1]/div/div[2]/ui-view/div/div/div[2]/div[4]/div/a",
+                "action":"-click-"
+            
+            },
+            {
+                "path":"//*[@id='activityRow']/div[2]/a",
+                "action":"-click-"
+            
+            },
+            {
+                "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(1) > input:nth-child(2)",
+                "action":"2433"
+            
+            },
+            {
+                "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(1) > input:nth-child(5)",
+                "action":"134"
+            
+            },
+            {
+                "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(2) > input",
+                "action":"Add_Activity_valid_second_time"
+            
+            },
+            {
+                "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(3) > textarea",
+                "action":"editing_Activity_with_invalidToValid_starttime"
+            
+            },
+            {
+                "path":"//*[@id='studentSummary']/div[5]/div/table/tbody/tr/td[4]/div/a[1]",
+                "action":"-click-"
+            
+            },
+            {
+                "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(1) > input:nth-child(2)",
+                "action":"1233"
+            
+            },
+        {
+            "path":"//*[@id='studentSummary']/div[5]/div/table/tbody/tr/td[4]/div/a[1]",
+            "action":"-click-"
+        
+        } 
+                ],
+        "editing_Activity_with_invalidToValid_endtime":[
+            {
+                "path":"/html/body/div[1]/div/div[2]/ui-view/div/div/div[2]/div[4]/div/a",
+                "action":"-click-"
+            
+            },
+            {
+                "path":"//*[@id='activityRow']/div[2]/a",
+                "action":"-click-"
+            
+            },
+            {
+                "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(1) > input:nth-child(2)",
+                "action":"243"
+            
+            },
+            {
+                "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(1) > input:nth-child(5)",
+                "action":"1344"
+            
+            },
+            {
+                "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(2) > input",
+                "action":"Add_Activity_valid_second_time"
+            
+            },
+            {
+                "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(3) > textarea",
+                "action":"editing_Activity_with_invalidToValid_endtime"
+            
+            },
+            {
+                "path":"//*[@id='studentSummary']/div[5]/div/table/tbody/tr/td[4]/div/a[1]",
+                "action":"-click-"
+            
+            },
+            
+            {
+                "path":"#studentSummary > div:nth-child(5) > div > table > tbody > tr > td:nth-child(1) > input:nth-child(5)",
+                "action":"344"
+            
+            }
+        ,
+        {
+            "path":"//*[@id='studentSummary']/div[5]/div/table/tbody/tr/td[4]/div/a[1]",
+            "action":"-click-"
+        
+        } 
+                ],
+"editing_added_Activity_endtime_with_invalid_time_Format":[
+            {
+                    "path":"",
+                    "action":"-click-"
+            }
+        ],
+"editing_added_Activity_empty_starttime":[
+            {
+                    "path":"",
+                    "action":"-click-"
+            }
+        ],
+"editing_added_Activity_empty_endtime":[
+            {
+                    "path":"",
+                    "action":"-click-"
+            }
+        ],
+"editing_added_Activity_empty_title":[
+            {
+                    "path":"",
+                    "action":"-click-"
+            }
+        ],
+"editing_added_Activity_empty_comment":[
+            {
+                    "path":"",
+                    "action":"-click-"
+            }
+        ],
+"Add_behavior_1":[
+    {
+        "path":"/html/body/div[1]/div/div[2]/ui-view/div/div/div/div[2]/div[2]/div/a",
+                "action":"-click-"
+    },
+    {
+        "path":"body > div.container-main > div > div.content > ui-view > div > div:nth-child(2) > div > input",
+                "action":"test1"
+    },
+    {
+        "path":"/html/body/div[1]/div/div[2]/ui-view/div/div[3]/div/div[2]/a",
+        "action":"-click-"
+    }
+    ]
+}

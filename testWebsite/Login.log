@@ -1,0 +1,861 @@
+09/03/2018 11:40:40 AM: DEBUG: POST http://127.0.0.1:64550/session {"capabilities": {"alwaysMatch": {"goog:chromeOptions": {"args": [], "extensions": []}, "browserName": "chrome", "platformName": "any"}, "firstMatch": [{}]}, "desiredCapabilities": {"goog:chromeOptions": {"args": [], "extensions": []}, "platform": "ANY", "browserName": "chrome", "version": ""}}
+09/03/2018 11:40:40 AM: DEBUG: Starting new HTTP connection (1): 127.0.0.1:64550
+09/03/2018 11:40:42 AM: DEBUG: http://127.0.0.1:64550 "POST /session HTTP/1.1" 200 832
+09/03/2018 11:40:42 AM: DEBUG: Finished Request
+09/03/2018 11:40:42 AM: DEBUG: POST http://127.0.0.1:64550/session/8d67f115228d4d57043486b8d797e28f/timeouts/implicit_wait {"sessionId": "8d67f115228d4d57043486b8d797e28f", "ms": 2000.0}
+09/03/2018 11:40:42 AM: DEBUG: http://127.0.0.1:64550 "POST /session/8d67f115228d4d57043486b8d797e28f/timeouts/implicit_wait HTTP/1.1" 200 72
+09/03/2018 11:40:42 AM: DEBUG: Finished Request
+09/03/2018 11:40:42 AM: DEBUG: POST http://127.0.0.1:64550/session/8d67f115228d4d57043486b8d797e28f/url {"url": "https://mytaptrack.com", "sessionId": "8d67f115228d4d57043486b8d797e28f"}
+09/03/2018 11:40:52 AM: DEBUG: http://127.0.0.1:64550 "POST /session/8d67f115228d4d57043486b8d797e28f/url HTTP/1.1" 200 72
+09/03/2018 11:40:52 AM: DEBUG: Finished Request
+09/03/2018 11:40:53 AM: DEBUG: POST http://127.0.0.1:64592/session {"capabilities": {"alwaysMatch": {"goog:chromeOptions": {"args": [], "extensions": []}, "browserName": "chrome", "platformName": "any"}, "firstMatch": [{}]}, "desiredCapabilities": {"goog:chromeOptions": {"args": [], "extensions": []}, "platform": "ANY", "browserName": "chrome", "version": ""}}
+09/03/2018 11:40:53 AM: DEBUG: Starting new HTTP connection (1): 127.0.0.1:64592
+09/03/2018 11:40:55 AM: DEBUG: http://127.0.0.1:64592 "POST /session HTTP/1.1" 200 832
+09/03/2018 11:40:55 AM: DEBUG: Finished Request
+09/03/2018 11:40:55 AM: DEBUG: POST http://127.0.0.1:64592/session/89b4d17366add2f78482bc5ecb0f2aba/url {"url": "https://mytaptrack.com", "sessionId": "89b4d17366add2f78482bc5ecb0f2aba"}
+09/03/2018 11:40:56 AM: DEBUG: http://127.0.0.1:64592 "POST /session/89b4d17366add2f78482bc5ecb0f2aba/url HTTP/1.1" 200 72
+09/03/2018 11:40:56 AM: DEBUG: Finished Request
+09/03/2018 11:40:56 AM: DEBUG: POST http://127.0.0.1:64592/session/89b4d17366add2f78482bc5ecb0f2aba/element {"using": "class name", "sessionId": "89b4d17366add2f78482bc5ecb0f2aba", "value": "nav-link"}
+09/03/2018 11:40:56 AM: DEBUG: http://127.0.0.1:64592 "POST /session/89b4d17366add2f78482bc5ecb0f2aba/element HTTP/1.1" 200 101
+09/03/2018 11:40:56 AM: DEBUG: Finished Request
+09/03/2018 11:40:56 AM: DEBUG: POST http://127.0.0.1:64592/session/89b4d17366add2f78482bc5ecb0f2aba/element/0.796433653625833-1/click {"sessionId": "89b4d17366add2f78482bc5ecb0f2aba", "id": "0.796433653625833-1"}
+09/03/2018 11:40:58 AM: DEBUG: http://127.0.0.1:64592 "POST /session/89b4d17366add2f78482bc5ecb0f2aba/element/0.796433653625833-1/click HTTP/1.1" 200 72
+09/03/2018 11:40:58 AM: DEBUG: Finished Request
+09/03/2018 11:41:00 AM: DEBUG: POST http://127.0.0.1:64592/session/89b4d17366add2f78482bc5ecb0f2aba/element {"using": "css selector", "sessionId": "89b4d17366add2f78482bc5ecb0f2aba", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(3) > input"}
+09/03/2018 11:41:00 AM: DEBUG: http://127.0.0.1:64592 "POST /session/89b4d17366add2f78482bc5ecb0f2aba/element HTTP/1.1" 200 102
+09/03/2018 11:41:00 AM: DEBUG: Finished Request
+09/03/2018 11:41:00 AM: DEBUG: POST http://127.0.0.1:64592/session/89b4d17366add2f78482bc5ecb0f2aba/element/0.9036596205014418-1/clear {"sessionId": "89b4d17366add2f78482bc5ecb0f2aba", "id": "0.9036596205014418-1"}
+09/03/2018 11:41:00 AM: DEBUG: http://127.0.0.1:64592 "POST /session/89b4d17366add2f78482bc5ecb0f2aba/element/0.9036596205014418-1/clear HTTP/1.1" 200 72
+09/03/2018 11:41:00 AM: DEBUG: Finished Request
+09/03/2018 11:41:00 AM: DEBUG: POST http://127.0.0.1:64592/session/89b4d17366add2f78482bc5ecb0f2aba/element {"using": "css selector", "sessionId": "89b4d17366add2f78482bc5ecb0f2aba", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(3) > input"}
+09/03/2018 11:41:00 AM: DEBUG: http://127.0.0.1:64592 "POST /session/89b4d17366add2f78482bc5ecb0f2aba/element HTTP/1.1" 200 102
+09/03/2018 11:41:00 AM: DEBUG: Finished Request
+09/03/2018 11:41:00 AM: DEBUG: POST http://127.0.0.1:64592/session/89b4d17366add2f78482bc5ecb0f2aba/element/0.9036596205014418-1/value {"text": "parent@mytaptrack.com", "sessionId": "89b4d17366add2f78482bc5ecb0f2aba", "id": "0.9036596205014418-1", "value": ["p", "a", "r", "e", "n", "t", "@", "m", "y", "t", "a", "p", "t", "r", "a", "c", "k", ".", "c", "o", "m"]}
+09/03/2018 11:41:01 AM: DEBUG: http://127.0.0.1:64592 "POST /session/89b4d17366add2f78482bc5ecb0f2aba/element/0.9036596205014418-1/value HTTP/1.1" 200 72
+09/03/2018 11:41:01 AM: DEBUG: Finished Request
+09/03/2018 11:41:03 AM: DEBUG: POST http://127.0.0.1:64592/session/89b4d17366add2f78482bc5ecb0f2aba/element {"using": "css selector", "sessionId": "89b4d17366add2f78482bc5ecb0f2aba", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(5) > input"}
+09/03/2018 11:41:03 AM: DEBUG: http://127.0.0.1:64592 "POST /session/89b4d17366add2f78482bc5ecb0f2aba/element HTTP/1.1" 200 102
+09/03/2018 11:41:03 AM: DEBUG: Finished Request
+09/03/2018 11:41:03 AM: DEBUG: POST http://127.0.0.1:64592/session/89b4d17366add2f78482bc5ecb0f2aba/element/0.9036596205014418-2/clear {"sessionId": "89b4d17366add2f78482bc5ecb0f2aba", "id": "0.9036596205014418-2"}
+09/03/2018 11:41:03 AM: DEBUG: http://127.0.0.1:64592 "POST /session/89b4d17366add2f78482bc5ecb0f2aba/element/0.9036596205014418-2/clear HTTP/1.1" 200 72
+09/03/2018 11:41:03 AM: DEBUG: Finished Request
+09/03/2018 11:41:03 AM: DEBUG: POST http://127.0.0.1:64592/session/89b4d17366add2f78482bc5ecb0f2aba/element {"using": "css selector", "sessionId": "89b4d17366add2f78482bc5ecb0f2aba", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(5) > input"}
+09/03/2018 11:41:03 AM: DEBUG: http://127.0.0.1:64592 "POST /session/89b4d17366add2f78482bc5ecb0f2aba/element HTTP/1.1" 200 102
+09/03/2018 11:41:03 AM: DEBUG: Finished Request
+09/03/2018 11:41:03 AM: DEBUG: POST http://127.0.0.1:64592/session/89b4d17366add2f78482bc5ecb0f2aba/element/0.9036596205014418-2/value {"text": "Inspire123", "sessionId": "89b4d17366add2f78482bc5ecb0f2aba", "id": "0.9036596205014418-2", "value": ["I", "n", "s", "p", "i", "r", "e", "1", "2", "3"]}
+09/03/2018 11:41:03 AM: DEBUG: http://127.0.0.1:64592 "POST /session/89b4d17366add2f78482bc5ecb0f2aba/element/0.9036596205014418-2/value HTTP/1.1" 200 72
+09/03/2018 11:41:03 AM: DEBUG: Finished Request
+09/03/2018 11:41:05 AM: DEBUG: POST http://127.0.0.1:64592/session/89b4d17366add2f78482bc5ecb0f2aba/element {"using": "css selector", "sessionId": "89b4d17366add2f78482bc5ecb0f2aba", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > input.btn.btn-primary.submitButton-customizable"}
+09/03/2018 11:41:05 AM: DEBUG: http://127.0.0.1:64592 "POST /session/89b4d17366add2f78482bc5ecb0f2aba/element HTTP/1.1" 200 102
+09/03/2018 11:41:05 AM: DEBUG: Finished Request
+09/03/2018 11:41:05 AM: DEBUG: POST http://127.0.0.1:64592/session/89b4d17366add2f78482bc5ecb0f2aba/element/0.9036596205014418-3/click {"sessionId": "89b4d17366add2f78482bc5ecb0f2aba", "id": "0.9036596205014418-3"}
+09/03/2018 11:41:06 AM: DEBUG: http://127.0.0.1:64592 "POST /session/89b4d17366add2f78482bc5ecb0f2aba/element/0.9036596205014418-3/click HTTP/1.1" 200 72
+09/03/2018 11:41:06 AM: DEBUG: Finished Request
+09/03/2018 11:41:08 AM: DEBUG: POST http://127.0.0.1:64592/session/89b4d17366add2f78482bc5ecb0f2aba/element {"using": "css selector", "sessionId": "89b4d17366add2f78482bc5ecb0f2aba", "value": "#navbarSupportedContent > ul:nth-child(2) > li:nth-child(2) > div > button"}
+09/03/2018 11:41:08 AM: DEBUG: http://127.0.0.1:64592 "POST /session/89b4d17366add2f78482bc5ecb0f2aba/element HTTP/1.1" 200 102
+09/03/2018 11:41:08 AM: DEBUG: Finished Request
+09/03/2018 11:41:08 AM: DEBUG: POST http://127.0.0.1:64592/session/89b4d17366add2f78482bc5ecb0f2aba/element/0.2975587889063809-1/click {"sessionId": "89b4d17366add2f78482bc5ecb0f2aba", "id": "0.2975587889063809-1"}
+09/03/2018 11:41:09 AM: DEBUG: http://127.0.0.1:64592 "POST /session/89b4d17366add2f78482bc5ecb0f2aba/element/0.2975587889063809-1/click HTTP/1.1" 200 72
+09/03/2018 11:41:09 AM: DEBUG: Finished Request
+09/03/2018 11:41:11 AM: DEBUG: POST http://127.0.0.1:64592/session/89b4d17366add2f78482bc5ecb0f2aba/element {"using": "css selector", "sessionId": "89b4d17366add2f78482bc5ecb0f2aba", "value": "#navbarSupportedContent > ul:nth-child(2) > li:nth-child(2) > div > div > a:nth-child(2)"}
+09/03/2018 11:41:11 AM: DEBUG: http://127.0.0.1:64592 "POST /session/89b4d17366add2f78482bc5ecb0f2aba/element HTTP/1.1" 200 102
+09/03/2018 11:41:11 AM: DEBUG: Finished Request
+09/03/2018 11:41:11 AM: DEBUG: POST http://127.0.0.1:64592/session/89b4d17366add2f78482bc5ecb0f2aba/element/0.2975587889063809-2/click {"sessionId": "89b4d17366add2f78482bc5ecb0f2aba", "id": "0.2975587889063809-2"}
+09/03/2018 11:41:12 AM: DEBUG: http://127.0.0.1:64592 "POST /session/89b4d17366add2f78482bc5ecb0f2aba/element/0.2975587889063809-2/click HTTP/1.1" 200 72
+09/03/2018 11:41:12 AM: DEBUG: Finished Request
+09/03/2018 11:41:18 AM: DEBUG: POST http://127.0.0.1:64659/session {"capabilities": {"alwaysMatch": {"goog:chromeOptions": {"args": [], "extensions": []}, "browserName": "chrome", "platformName": "any"}, "firstMatch": [{}]}, "desiredCapabilities": {"goog:chromeOptions": {"args": [], "extensions": []}, "platform": "ANY", "browserName": "chrome", "version": ""}}
+09/03/2018 11:41:18 AM: DEBUG: Starting new HTTP connection (1): 127.0.0.1:64659
+09/03/2018 11:41:20 AM: DEBUG: http://127.0.0.1:64659 "POST /session HTTP/1.1" 200 832
+09/03/2018 11:41:20 AM: DEBUG: Finished Request
+09/03/2018 11:41:20 AM: DEBUG: POST http://127.0.0.1:64659/session/ffada48b80c25b0dc749cab54e0f34f5/url {"url": "https://mytaptrack.com", "sessionId": "ffada48b80c25b0dc749cab54e0f34f5"}
+09/03/2018 11:41:21 AM: DEBUG: http://127.0.0.1:64659 "POST /session/ffada48b80c25b0dc749cab54e0f34f5/url HTTP/1.1" 200 72
+09/03/2018 11:41:21 AM: DEBUG: Finished Request
+09/03/2018 11:41:21 AM: DEBUG: POST http://127.0.0.1:64659/session/ffada48b80c25b0dc749cab54e0f34f5/element {"using": "class name", "sessionId": "ffada48b80c25b0dc749cab54e0f34f5", "value": "nav-link"}
+09/03/2018 11:41:21 AM: DEBUG: http://127.0.0.1:64659 "POST /session/ffada48b80c25b0dc749cab54e0f34f5/element HTTP/1.1" 200 101
+09/03/2018 11:41:21 AM: DEBUG: Finished Request
+09/03/2018 11:41:21 AM: DEBUG: POST http://127.0.0.1:64659/session/ffada48b80c25b0dc749cab54e0f34f5/element/0.972587401971821-1/click {"sessionId": "ffada48b80c25b0dc749cab54e0f34f5", "id": "0.972587401971821-1"}
+09/03/2018 11:41:22 AM: DEBUG: http://127.0.0.1:64659 "POST /session/ffada48b80c25b0dc749cab54e0f34f5/element/0.972587401971821-1/click HTTP/1.1" 200 72
+09/03/2018 11:41:22 AM: DEBUG: Finished Request
+09/03/2018 11:41:24 AM: DEBUG: POST http://127.0.0.1:64659/session/ffada48b80c25b0dc749cab54e0f34f5/element {"using": "css selector", "sessionId": "ffada48b80c25b0dc749cab54e0f34f5", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(3) > input"}
+09/03/2018 11:41:24 AM: DEBUG: http://127.0.0.1:64659 "POST /session/ffada48b80c25b0dc749cab54e0f34f5/element HTTP/1.1" 200 102
+09/03/2018 11:41:24 AM: DEBUG: Finished Request
+09/03/2018 11:41:24 AM: DEBUG: POST http://127.0.0.1:64659/session/ffada48b80c25b0dc749cab54e0f34f5/element/0.8615314758841492-1/clear {"sessionId": "ffada48b80c25b0dc749cab54e0f34f5", "id": "0.8615314758841492-1"}
+09/03/2018 11:41:24 AM: DEBUG: http://127.0.0.1:64659 "POST /session/ffada48b80c25b0dc749cab54e0f34f5/element/0.8615314758841492-1/clear HTTP/1.1" 200 72
+09/03/2018 11:41:24 AM: DEBUG: Finished Request
+09/03/2018 11:41:24 AM: DEBUG: POST http://127.0.0.1:64659/session/ffada48b80c25b0dc749cab54e0f34f5/element {"using": "css selector", "sessionId": "ffada48b80c25b0dc749cab54e0f34f5", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(3) > input"}
+09/03/2018 11:41:24 AM: DEBUG: http://127.0.0.1:64659 "POST /session/ffada48b80c25b0dc749cab54e0f34f5/element HTTP/1.1" 200 102
+09/03/2018 11:41:24 AM: DEBUG: Finished Request
+09/03/2018 11:41:24 AM: DEBUG: POST http://127.0.0.1:64659/session/ffada48b80c25b0dc749cab54e0f34f5/element/0.8615314758841492-1/value {"text": "parent@mytaptrack.com", "sessionId": "ffada48b80c25b0dc749cab54e0f34f5", "id": "0.8615314758841492-1", "value": ["p", "a", "r", "e", "n", "t", "@", "m", "y", "t", "a", "p", "t", "r", "a", "c", "k", ".", "c", "o", "m"]}
+09/03/2018 11:41:24 AM: DEBUG: http://127.0.0.1:64659 "POST /session/ffada48b80c25b0dc749cab54e0f34f5/element/0.8615314758841492-1/value HTTP/1.1" 200 72
+09/03/2018 11:41:24 AM: DEBUG: Finished Request
+09/03/2018 11:41:26 AM: DEBUG: POST http://127.0.0.1:64659/session/ffada48b80c25b0dc749cab54e0f34f5/element {"using": "css selector", "sessionId": "ffada48b80c25b0dc749cab54e0f34f5", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(5) > input"}
+09/03/2018 11:41:26 AM: DEBUG: http://127.0.0.1:64659 "POST /session/ffada48b80c25b0dc749cab54e0f34f5/element HTTP/1.1" 200 102
+09/03/2018 11:41:26 AM: DEBUG: Finished Request
+09/03/2018 11:41:26 AM: DEBUG: POST http://127.0.0.1:64659/session/ffada48b80c25b0dc749cab54e0f34f5/element/0.8615314758841492-2/clear {"sessionId": "ffada48b80c25b0dc749cab54e0f34f5", "id": "0.8615314758841492-2"}
+09/03/2018 11:41:26 AM: DEBUG: http://127.0.0.1:64659 "POST /session/ffada48b80c25b0dc749cab54e0f34f5/element/0.8615314758841492-2/clear HTTP/1.1" 200 72
+09/03/2018 11:41:26 AM: DEBUG: Finished Request
+09/03/2018 11:41:26 AM: DEBUG: POST http://127.0.0.1:64659/session/ffada48b80c25b0dc749cab54e0f34f5/element {"using": "css selector", "sessionId": "ffada48b80c25b0dc749cab54e0f34f5", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(5) > input"}
+09/03/2018 11:41:26 AM: DEBUG: http://127.0.0.1:64659 "POST /session/ffada48b80c25b0dc749cab54e0f34f5/element HTTP/1.1" 200 102
+09/03/2018 11:41:26 AM: DEBUG: Finished Request
+09/03/2018 11:41:26 AM: DEBUG: POST http://127.0.0.1:64659/session/ffada48b80c25b0dc749cab54e0f34f5/element/0.8615314758841492-2/value {"text": "Inspire123", "sessionId": "ffada48b80c25b0dc749cab54e0f34f5", "id": "0.8615314758841492-2", "value": ["I", "n", "s", "p", "i", "r", "e", "1", "2", "3"]}
+09/03/2018 11:41:26 AM: DEBUG: http://127.0.0.1:64659 "POST /session/ffada48b80c25b0dc749cab54e0f34f5/element/0.8615314758841492-2/value HTTP/1.1" 200 72
+09/03/2018 11:41:26 AM: DEBUG: Finished Request
+09/03/2018 11:41:28 AM: DEBUG: POST http://127.0.0.1:64659/session/ffada48b80c25b0dc749cab54e0f34f5/element {"using": "css selector", "sessionId": "ffada48b80c25b0dc749cab54e0f34f5", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > input.btn.btn-primary.submitButton-customizable"}
+09/03/2018 11:41:28 AM: DEBUG: http://127.0.0.1:64659 "POST /session/ffada48b80c25b0dc749cab54e0f34f5/element HTTP/1.1" 200 102
+09/03/2018 11:41:28 AM: DEBUG: Finished Request
+09/03/2018 11:41:28 AM: DEBUG: POST http://127.0.0.1:64659/session/ffada48b80c25b0dc749cab54e0f34f5/element/0.8615314758841492-3/click {"sessionId": "ffada48b80c25b0dc749cab54e0f34f5", "id": "0.8615314758841492-3"}
+09/03/2018 11:41:29 AM: DEBUG: http://127.0.0.1:64659 "POST /session/ffada48b80c25b0dc749cab54e0f34f5/element/0.8615314758841492-3/click HTTP/1.1" 200 72
+09/03/2018 11:41:29 AM: DEBUG: Finished Request
+09/03/2018 11:41:31 AM: DEBUG: POST http://127.0.0.1:64659/session/ffada48b80c25b0dc749cab54e0f34f5/element {"using": "css selector", "sessionId": "ffada48b80c25b0dc749cab54e0f34f5", "value": "#navbarSupportedContent > ul:nth-child(2) > li:nth-child(2) > div > button"}
+09/03/2018 11:41:31 AM: DEBUG: http://127.0.0.1:64659 "POST /session/ffada48b80c25b0dc749cab54e0f34f5/element HTTP/1.1" 200 103
+09/03/2018 11:41:31 AM: DEBUG: Finished Request
+09/03/2018 11:41:31 AM: DEBUG: POST http://127.0.0.1:64659/session/ffada48b80c25b0dc749cab54e0f34f5/element/0.07796883141248423-1/click {"sessionId": "ffada48b80c25b0dc749cab54e0f34f5", "id": "0.07796883141248423-1"}
+09/03/2018 11:41:31 AM: DEBUG: http://127.0.0.1:64659 "POST /session/ffada48b80c25b0dc749cab54e0f34f5/element/0.07796883141248423-1/click HTTP/1.1" 200 72
+09/03/2018 11:41:31 AM: DEBUG: Finished Request
+09/03/2018 11:41:33 AM: DEBUG: POST http://127.0.0.1:64659/session/ffada48b80c25b0dc749cab54e0f34f5/element {"using": "css selector", "sessionId": "ffada48b80c25b0dc749cab54e0f34f5", "value": "#navbarSupportedContent > ul:nth-child(2) > li:nth-child(2) > div > div > a:nth-child(2)"}
+09/03/2018 11:41:33 AM: DEBUG: http://127.0.0.1:64659 "POST /session/ffada48b80c25b0dc749cab54e0f34f5/element HTTP/1.1" 200 103
+09/03/2018 11:41:33 AM: DEBUG: Finished Request
+09/03/2018 11:41:33 AM: DEBUG: POST http://127.0.0.1:64659/session/ffada48b80c25b0dc749cab54e0f34f5/element/0.07796883141248423-2/click {"sessionId": "ffada48b80c25b0dc749cab54e0f34f5", "id": "0.07796883141248423-2"}
+09/03/2018 11:41:33 AM: DEBUG: http://127.0.0.1:64659 "POST /session/ffada48b80c25b0dc749cab54e0f34f5/element/0.07796883141248423-2/click HTTP/1.1" 200 72
+09/03/2018 11:41:33 AM: DEBUG: Finished Request
+09/03/2018 11:41:41 AM: DEBUG: POST http://127.0.0.1:64725/session {"capabilities": {"alwaysMatch": {"goog:chromeOptions": {"args": [], "extensions": []}, "browserName": "chrome", "platformName": "any"}, "firstMatch": [{}]}, "desiredCapabilities": {"goog:chromeOptions": {"args": [], "extensions": []}, "platform": "ANY", "browserName": "chrome", "version": ""}}
+09/03/2018 11:41:41 AM: DEBUG: Starting new HTTP connection (1): 127.0.0.1:64725
+09/03/2018 11:41:43 AM: DEBUG: http://127.0.0.1:64725 "POST /session HTTP/1.1" 200 833
+09/03/2018 11:41:43 AM: DEBUG: Finished Request
+09/03/2018 11:41:43 AM: DEBUG: POST http://127.0.0.1:64725/session/40a3e45d3af6204f44e07123e64d65d7/url {"url": "https://mytaptrack.com", "sessionId": "40a3e45d3af6204f44e07123e64d65d7"}
+09/03/2018 11:41:44 AM: DEBUG: http://127.0.0.1:64725 "POST /session/40a3e45d3af6204f44e07123e64d65d7/url HTTP/1.1" 200 72
+09/03/2018 11:41:44 AM: DEBUG: Finished Request
+09/03/2018 11:41:44 AM: DEBUG: POST http://127.0.0.1:64725/session/40a3e45d3af6204f44e07123e64d65d7/element {"using": "class name", "sessionId": "40a3e45d3af6204f44e07123e64d65d7", "value": "nav-link"}
+09/03/2018 11:41:44 AM: DEBUG: http://127.0.0.1:64725 "POST /session/40a3e45d3af6204f44e07123e64d65d7/element HTTP/1.1" 200 103
+09/03/2018 11:41:44 AM: DEBUG: Finished Request
+09/03/2018 11:41:44 AM: DEBUG: POST http://127.0.0.1:64725/session/40a3e45d3af6204f44e07123e64d65d7/element/0.16043603493284886-1/click {"sessionId": "40a3e45d3af6204f44e07123e64d65d7", "id": "0.16043603493284886-1"}
+09/03/2018 11:41:45 AM: DEBUG: http://127.0.0.1:64725 "POST /session/40a3e45d3af6204f44e07123e64d65d7/element/0.16043603493284886-1/click HTTP/1.1" 200 72
+09/03/2018 11:41:45 AM: DEBUG: Finished Request
+09/03/2018 11:41:47 AM: DEBUG: POST http://127.0.0.1:64725/session/40a3e45d3af6204f44e07123e64d65d7/element {"using": "css selector", "sessionId": "40a3e45d3af6204f44e07123e64d65d7", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(3) > input"}
+09/03/2018 11:41:47 AM: DEBUG: http://127.0.0.1:64725 "POST /session/40a3e45d3af6204f44e07123e64d65d7/element HTTP/1.1" 200 103
+09/03/2018 11:41:47 AM: DEBUG: Finished Request
+09/03/2018 11:41:47 AM: DEBUG: POST http://127.0.0.1:64725/session/40a3e45d3af6204f44e07123e64d65d7/element/0.49663733130332877-1/clear {"sessionId": "40a3e45d3af6204f44e07123e64d65d7", "id": "0.49663733130332877-1"}
+09/03/2018 11:41:47 AM: DEBUG: http://127.0.0.1:64725 "POST /session/40a3e45d3af6204f44e07123e64d65d7/element/0.49663733130332877-1/clear HTTP/1.1" 200 72
+09/03/2018 11:41:47 AM: DEBUG: Finished Request
+09/03/2018 11:41:47 AM: DEBUG: POST http://127.0.0.1:64725/session/40a3e45d3af6204f44e07123e64d65d7/element {"using": "css selector", "sessionId": "40a3e45d3af6204f44e07123e64d65d7", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(3) > input"}
+09/03/2018 11:41:47 AM: DEBUG: http://127.0.0.1:64725 "POST /session/40a3e45d3af6204f44e07123e64d65d7/element HTTP/1.1" 200 103
+09/03/2018 11:41:47 AM: DEBUG: Finished Request
+09/03/2018 11:41:47 AM: DEBUG: POST http://127.0.0.1:64725/session/40a3e45d3af6204f44e07123e64d65d7/element/0.49663733130332877-1/value {"text": "parent@mytaptrack.com", "sessionId": "40a3e45d3af6204f44e07123e64d65d7", "id": "0.49663733130332877-1", "value": ["p", "a", "r", "e", "n", "t", "@", "m", "y", "t", "a", "p", "t", "r", "a", "c", "k", ".", "c", "o", "m"]}
+09/03/2018 11:41:47 AM: DEBUG: http://127.0.0.1:64725 "POST /session/40a3e45d3af6204f44e07123e64d65d7/element/0.49663733130332877-1/value HTTP/1.1" 200 72
+09/03/2018 11:41:47 AM: DEBUG: Finished Request
+09/03/2018 11:41:49 AM: DEBUG: POST http://127.0.0.1:64725/session/40a3e45d3af6204f44e07123e64d65d7/element {"using": "css selector", "sessionId": "40a3e45d3af6204f44e07123e64d65d7", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(5) > input"}
+09/03/2018 11:41:49 AM: DEBUG: http://127.0.0.1:64725 "POST /session/40a3e45d3af6204f44e07123e64d65d7/element HTTP/1.1" 200 103
+09/03/2018 11:41:49 AM: DEBUG: Finished Request
+09/03/2018 11:41:49 AM: DEBUG: POST http://127.0.0.1:64725/session/40a3e45d3af6204f44e07123e64d65d7/element/0.49663733130332877-2/clear {"sessionId": "40a3e45d3af6204f44e07123e64d65d7", "id": "0.49663733130332877-2"}
+09/03/2018 11:41:49 AM: DEBUG: http://127.0.0.1:64725 "POST /session/40a3e45d3af6204f44e07123e64d65d7/element/0.49663733130332877-2/clear HTTP/1.1" 200 72
+09/03/2018 11:41:49 AM: DEBUG: Finished Request
+09/03/2018 11:41:49 AM: DEBUG: POST http://127.0.0.1:64725/session/40a3e45d3af6204f44e07123e64d65d7/element {"using": "css selector", "sessionId": "40a3e45d3af6204f44e07123e64d65d7", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(5) > input"}
+09/03/2018 11:41:49 AM: DEBUG: http://127.0.0.1:64725 "POST /session/40a3e45d3af6204f44e07123e64d65d7/element HTTP/1.1" 200 103
+09/03/2018 11:41:49 AM: DEBUG: Finished Request
+09/03/2018 11:41:49 AM: DEBUG: POST http://127.0.0.1:64725/session/40a3e45d3af6204f44e07123e64d65d7/element/0.49663733130332877-2/value {"text": "Inspi", "sessionId": "40a3e45d3af6204f44e07123e64d65d7", "id": "0.49663733130332877-2", "value": ["I", "n", "s", "p", "i"]}
+09/03/2018 11:41:49 AM: DEBUG: http://127.0.0.1:64725 "POST /session/40a3e45d3af6204f44e07123e64d65d7/element/0.49663733130332877-2/value HTTP/1.1" 200 72
+09/03/2018 11:41:49 AM: DEBUG: Finished Request
+09/03/2018 11:41:51 AM: DEBUG: POST http://127.0.0.1:64725/session/40a3e45d3af6204f44e07123e64d65d7/element {"using": "css selector", "sessionId": "40a3e45d3af6204f44e07123e64d65d7", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > input.btn.btn-primary.submitButton-customizable"}
+09/03/2018 11:41:51 AM: DEBUG: http://127.0.0.1:64725 "POST /session/40a3e45d3af6204f44e07123e64d65d7/element HTTP/1.1" 200 103
+09/03/2018 11:41:51 AM: DEBUG: Finished Request
+09/03/2018 11:41:51 AM: DEBUG: POST http://127.0.0.1:64725/session/40a3e45d3af6204f44e07123e64d65d7/element/0.49663733130332877-3/click {"sessionId": "40a3e45d3af6204f44e07123e64d65d7", "id": "0.49663733130332877-3"}
+09/03/2018 11:41:52 AM: DEBUG: http://127.0.0.1:64725 "POST /session/40a3e45d3af6204f44e07123e64d65d7/element/0.49663733130332877-3/click HTTP/1.1" 200 72
+09/03/2018 11:41:52 AM: DEBUG: Finished Request
+09/03/2018 11:41:59 AM: DEBUG: POST http://127.0.0.1:64778/session {"capabilities": {"alwaysMatch": {"goog:chromeOptions": {"args": [], "extensions": []}, "browserName": "chrome", "platformName": "any"}, "firstMatch": [{}]}, "desiredCapabilities": {"goog:chromeOptions": {"args": [], "extensions": []}, "platform": "ANY", "browserName": "chrome", "version": ""}}
+09/03/2018 11:41:59 AM: DEBUG: Starting new HTTP connection (1): 127.0.0.1:64778
+09/03/2018 11:42:01 AM: DEBUG: http://127.0.0.1:64778 "POST /session HTTP/1.1" 200 831
+09/03/2018 11:42:01 AM: DEBUG: Finished Request
+09/03/2018 11:42:01 AM: DEBUG: POST http://127.0.0.1:64778/session/4631c157bf10cdc863eb67020092769f/url {"url": "https://mytaptrack.com", "sessionId": "4631c157bf10cdc863eb67020092769f"}
+09/03/2018 11:42:01 AM: DEBUG: http://127.0.0.1:64778 "POST /session/4631c157bf10cdc863eb67020092769f/url HTTP/1.1" 200 72
+09/03/2018 11:42:01 AM: DEBUG: Finished Request
+09/03/2018 11:42:01 AM: DEBUG: POST http://127.0.0.1:64778/session/4631c157bf10cdc863eb67020092769f/element {"using": "class name", "sessionId": "4631c157bf10cdc863eb67020092769f", "value": "nav-link"}
+09/03/2018 11:42:02 AM: DEBUG: http://127.0.0.1:64778 "POST /session/4631c157bf10cdc863eb67020092769f/element HTTP/1.1" 200 102
+09/03/2018 11:42:02 AM: DEBUG: Finished Request
+09/03/2018 11:42:02 AM: DEBUG: POST http://127.0.0.1:64778/session/4631c157bf10cdc863eb67020092769f/element/0.5141560669094625-1/click {"sessionId": "4631c157bf10cdc863eb67020092769f", "id": "0.5141560669094625-1"}
+09/03/2018 11:42:03 AM: DEBUG: http://127.0.0.1:64778 "POST /session/4631c157bf10cdc863eb67020092769f/element/0.5141560669094625-1/click HTTP/1.1" 200 72
+09/03/2018 11:42:03 AM: DEBUG: Finished Request
+09/03/2018 11:42:05 AM: DEBUG: POST http://127.0.0.1:64778/session/4631c157bf10cdc863eb67020092769f/element {"using": "css selector", "sessionId": "4631c157bf10cdc863eb67020092769f", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(3) > input"}
+09/03/2018 11:42:05 AM: DEBUG: http://127.0.0.1:64778 "POST /session/4631c157bf10cdc863eb67020092769f/element HTTP/1.1" 200 102
+09/03/2018 11:42:05 AM: DEBUG: Finished Request
+09/03/2018 11:42:05 AM: DEBUG: POST http://127.0.0.1:64778/session/4631c157bf10cdc863eb67020092769f/element/0.2946909287286543-1/clear {"sessionId": "4631c157bf10cdc863eb67020092769f", "id": "0.2946909287286543-1"}
+09/03/2018 11:42:05 AM: DEBUG: http://127.0.0.1:64778 "POST /session/4631c157bf10cdc863eb67020092769f/element/0.2946909287286543-1/clear HTTP/1.1" 200 72
+09/03/2018 11:42:05 AM: DEBUG: Finished Request
+09/03/2018 11:42:05 AM: DEBUG: POST http://127.0.0.1:64778/session/4631c157bf10cdc863eb67020092769f/element {"using": "css selector", "sessionId": "4631c157bf10cdc863eb67020092769f", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(3) > input"}
+09/03/2018 11:42:05 AM: DEBUG: http://127.0.0.1:64778 "POST /session/4631c157bf10cdc863eb67020092769f/element HTTP/1.1" 200 102
+09/03/2018 11:42:05 AM: DEBUG: Finished Request
+09/03/2018 11:42:05 AM: DEBUG: POST http://127.0.0.1:64778/session/4631c157bf10cdc863eb67020092769f/element/0.2946909287286543-1/value {"text": "parent@mytap.com", "sessionId": "4631c157bf10cdc863eb67020092769f", "id": "0.2946909287286543-1", "value": ["p", "a", "r", "e", "n", "t", "@", "m", "y", "t", "a", "p", ".", "c", "o", "m"]}
+09/03/2018 11:42:05 AM: DEBUG: http://127.0.0.1:64778 "POST /session/4631c157bf10cdc863eb67020092769f/element/0.2946909287286543-1/value HTTP/1.1" 200 72
+09/03/2018 11:42:05 AM: DEBUG: Finished Request
+09/03/2018 11:42:07 AM: DEBUG: POST http://127.0.0.1:64778/session/4631c157bf10cdc863eb67020092769f/element {"using": "css selector", "sessionId": "4631c157bf10cdc863eb67020092769f", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(5) > input"}
+09/03/2018 11:42:07 AM: DEBUG: http://127.0.0.1:64778 "POST /session/4631c157bf10cdc863eb67020092769f/element HTTP/1.1" 200 102
+09/03/2018 11:42:07 AM: DEBUG: Finished Request
+09/03/2018 11:42:07 AM: DEBUG: POST http://127.0.0.1:64778/session/4631c157bf10cdc863eb67020092769f/element/0.2946909287286543-2/clear {"sessionId": "4631c157bf10cdc863eb67020092769f", "id": "0.2946909287286543-2"}
+09/03/2018 11:42:07 AM: DEBUG: http://127.0.0.1:64778 "POST /session/4631c157bf10cdc863eb67020092769f/element/0.2946909287286543-2/clear HTTP/1.1" 200 72
+09/03/2018 11:42:07 AM: DEBUG: Finished Request
+09/03/2018 11:42:07 AM: DEBUG: POST http://127.0.0.1:64778/session/4631c157bf10cdc863eb67020092769f/element {"using": "css selector", "sessionId": "4631c157bf10cdc863eb67020092769f", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(5) > input"}
+09/03/2018 11:42:07 AM: DEBUG: http://127.0.0.1:64778 "POST /session/4631c157bf10cdc863eb67020092769f/element HTTP/1.1" 200 102
+09/03/2018 11:42:07 AM: DEBUG: Finished Request
+09/03/2018 11:42:07 AM: DEBUG: POST http://127.0.0.1:64778/session/4631c157bf10cdc863eb67020092769f/element/0.2946909287286543-2/value {"text": "Inspire123", "sessionId": "4631c157bf10cdc863eb67020092769f", "id": "0.2946909287286543-2", "value": ["I", "n", "s", "p", "i", "r", "e", "1", "2", "3"]}
+09/03/2018 11:42:07 AM: DEBUG: http://127.0.0.1:64778 "POST /session/4631c157bf10cdc863eb67020092769f/element/0.2946909287286543-2/value HTTP/1.1" 200 72
+09/03/2018 11:42:07 AM: DEBUG: Finished Request
+09/03/2018 11:42:09 AM: DEBUG: POST http://127.0.0.1:64778/session/4631c157bf10cdc863eb67020092769f/element {"using": "css selector", "sessionId": "4631c157bf10cdc863eb67020092769f", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > input.btn.btn-primary.submitButton-customizable"}
+09/03/2018 11:42:09 AM: DEBUG: http://127.0.0.1:64778 "POST /session/4631c157bf10cdc863eb67020092769f/element HTTP/1.1" 200 102
+09/03/2018 11:42:09 AM: DEBUG: Finished Request
+09/03/2018 11:42:09 AM: DEBUG: POST http://127.0.0.1:64778/session/4631c157bf10cdc863eb67020092769f/element/0.2946909287286543-3/click {"sessionId": "4631c157bf10cdc863eb67020092769f", "id": "0.2946909287286543-3"}
+09/03/2018 11:42:10 AM: DEBUG: http://127.0.0.1:64778 "POST /session/4631c157bf10cdc863eb67020092769f/element/0.2946909287286543-3/click HTTP/1.1" 200 72
+09/03/2018 11:42:10 AM: DEBUG: Finished Request
+09/03/2018 11:42:17 AM: DEBUG: POST http://127.0.0.1:64831/session {"capabilities": {"alwaysMatch": {"goog:chromeOptions": {"args": [], "extensions": []}, "browserName": "chrome", "platformName": "any"}, "firstMatch": [{}]}, "desiredCapabilities": {"goog:chromeOptions": {"args": [], "extensions": []}, "platform": "ANY", "browserName": "chrome", "version": ""}}
+09/03/2018 11:42:17 AM: DEBUG: Starting new HTTP connection (1): 127.0.0.1:64831
+09/03/2018 11:42:19 AM: DEBUG: http://127.0.0.1:64831 "POST /session HTTP/1.1" 200 833
+09/03/2018 11:42:19 AM: DEBUG: Finished Request
+09/03/2018 11:42:19 AM: DEBUG: POST http://127.0.0.1:64831/session/96a29582b227e531cbca0852ab5ad3d1/url {"url": "https://mytaptrack.com", "sessionId": "96a29582b227e531cbca0852ab5ad3d1"}
+09/03/2018 11:42:20 AM: DEBUG: http://127.0.0.1:64831 "POST /session/96a29582b227e531cbca0852ab5ad3d1/url HTTP/1.1" 200 72
+09/03/2018 11:42:20 AM: DEBUG: Finished Request
+09/03/2018 11:42:20 AM: DEBUG: POST http://127.0.0.1:64831/session/96a29582b227e531cbca0852ab5ad3d1/element {"using": "class name", "sessionId": "96a29582b227e531cbca0852ab5ad3d1", "value": "nav-link"}
+09/03/2018 11:42:20 AM: DEBUG: http://127.0.0.1:64831 "POST /session/96a29582b227e531cbca0852ab5ad3d1/element HTTP/1.1" 200 101
+09/03/2018 11:42:20 AM: DEBUG: Finished Request
+09/03/2018 11:42:20 AM: DEBUG: POST http://127.0.0.1:64831/session/96a29582b227e531cbca0852ab5ad3d1/element/0.919340931077347-1/click {"sessionId": "96a29582b227e531cbca0852ab5ad3d1", "id": "0.919340931077347-1"}
+09/03/2018 11:42:21 AM: DEBUG: http://127.0.0.1:64831 "POST /session/96a29582b227e531cbca0852ab5ad3d1/element/0.919340931077347-1/click HTTP/1.1" 200 72
+09/03/2018 11:42:21 AM: DEBUG: Finished Request
+09/03/2018 11:42:23 AM: DEBUG: POST http://127.0.0.1:64831/session/96a29582b227e531cbca0852ab5ad3d1/element {"using": "css selector", "sessionId": "96a29582b227e531cbca0852ab5ad3d1", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(3) > input"}
+09/03/2018 11:42:23 AM: DEBUG: http://127.0.0.1:64831 "POST /session/96a29582b227e531cbca0852ab5ad3d1/element HTTP/1.1" 200 102
+09/03/2018 11:42:23 AM: DEBUG: Finished Request
+09/03/2018 11:42:23 AM: DEBUG: POST http://127.0.0.1:64831/session/96a29582b227e531cbca0852ab5ad3d1/element/0.8312676627999884-1/clear {"sessionId": "96a29582b227e531cbca0852ab5ad3d1", "id": "0.8312676627999884-1"}
+09/03/2018 11:42:23 AM: DEBUG: http://127.0.0.1:64831 "POST /session/96a29582b227e531cbca0852ab5ad3d1/element/0.8312676627999884-1/clear HTTP/1.1" 200 72
+09/03/2018 11:42:23 AM: DEBUG: Finished Request
+09/03/2018 11:42:23 AM: DEBUG: POST http://127.0.0.1:64831/session/96a29582b227e531cbca0852ab5ad3d1/element {"using": "css selector", "sessionId": "96a29582b227e531cbca0852ab5ad3d1", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(3) > input"}
+09/03/2018 11:42:23 AM: DEBUG: http://127.0.0.1:64831 "POST /session/96a29582b227e531cbca0852ab5ad3d1/element HTTP/1.1" 200 102
+09/03/2018 11:42:23 AM: DEBUG: Finished Request
+09/03/2018 11:42:23 AM: DEBUG: POST http://127.0.0.1:64831/session/96a29582b227e531cbca0852ab5ad3d1/element/0.8312676627999884-1/value {"text": "", "sessionId": "96a29582b227e531cbca0852ab5ad3d1", "id": "0.8312676627999884-1", "value": []}
+09/03/2018 11:42:23 AM: DEBUG: http://127.0.0.1:64831 "POST /session/96a29582b227e531cbca0852ab5ad3d1/element/0.8312676627999884-1/value HTTP/1.1" 200 72
+09/03/2018 11:42:23 AM: DEBUG: Finished Request
+09/03/2018 11:42:25 AM: DEBUG: POST http://127.0.0.1:64831/session/96a29582b227e531cbca0852ab5ad3d1/element {"using": "css selector", "sessionId": "96a29582b227e531cbca0852ab5ad3d1", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(5) > input"}
+09/03/2018 11:42:25 AM: DEBUG: http://127.0.0.1:64831 "POST /session/96a29582b227e531cbca0852ab5ad3d1/element HTTP/1.1" 200 102
+09/03/2018 11:42:25 AM: DEBUG: Finished Request
+09/03/2018 11:42:25 AM: DEBUG: POST http://127.0.0.1:64831/session/96a29582b227e531cbca0852ab5ad3d1/element/0.8312676627999884-2/clear {"sessionId": "96a29582b227e531cbca0852ab5ad3d1", "id": "0.8312676627999884-2"}
+09/03/2018 11:42:25 AM: DEBUG: http://127.0.0.1:64831 "POST /session/96a29582b227e531cbca0852ab5ad3d1/element/0.8312676627999884-2/clear HTTP/1.1" 200 72
+09/03/2018 11:42:25 AM: DEBUG: Finished Request
+09/03/2018 11:42:25 AM: DEBUG: POST http://127.0.0.1:64831/session/96a29582b227e531cbca0852ab5ad3d1/element {"using": "css selector", "sessionId": "96a29582b227e531cbca0852ab5ad3d1", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(5) > input"}
+09/03/2018 11:42:25 AM: DEBUG: http://127.0.0.1:64831 "POST /session/96a29582b227e531cbca0852ab5ad3d1/element HTTP/1.1" 200 102
+09/03/2018 11:42:25 AM: DEBUG: Finished Request
+09/03/2018 11:42:25 AM: DEBUG: POST http://127.0.0.1:64831/session/96a29582b227e531cbca0852ab5ad3d1/element/0.8312676627999884-2/value {"text": "Inspire123", "sessionId": "96a29582b227e531cbca0852ab5ad3d1", "id": "0.8312676627999884-2", "value": ["I", "n", "s", "p", "i", "r", "e", "1", "2", "3"]}
+09/03/2018 11:42:25 AM: DEBUG: http://127.0.0.1:64831 "POST /session/96a29582b227e531cbca0852ab5ad3d1/element/0.8312676627999884-2/value HTTP/1.1" 200 72
+09/03/2018 11:42:25 AM: DEBUG: Finished Request
+09/03/2018 11:42:27 AM: DEBUG: POST http://127.0.0.1:64831/session/96a29582b227e531cbca0852ab5ad3d1/element {"using": "css selector", "sessionId": "96a29582b227e531cbca0852ab5ad3d1", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > input.btn.btn-primary.submitButton-customizable"}
+09/03/2018 11:42:27 AM: DEBUG: http://127.0.0.1:64831 "POST /session/96a29582b227e531cbca0852ab5ad3d1/element HTTP/1.1" 200 102
+09/03/2018 11:42:27 AM: DEBUG: Finished Request
+09/03/2018 11:42:27 AM: DEBUG: POST http://127.0.0.1:64831/session/96a29582b227e531cbca0852ab5ad3d1/element/0.8312676627999884-3/click {"sessionId": "96a29582b227e531cbca0852ab5ad3d1", "id": "0.8312676627999884-3"}
+09/03/2018 11:42:27 AM: DEBUG: http://127.0.0.1:64831 "POST /session/96a29582b227e531cbca0852ab5ad3d1/element/0.8312676627999884-3/click HTTP/1.1" 200 72
+09/03/2018 11:42:27 AM: DEBUG: Finished Request
+09/03/2018 11:42:34 AM: DEBUG: POST http://127.0.0.1:64882/session {"capabilities": {"alwaysMatch": {"goog:chromeOptions": {"args": [], "extensions": []}, "browserName": "chrome", "platformName": "any"}, "firstMatch": [{}]}, "desiredCapabilities": {"goog:chromeOptions": {"args": [], "extensions": []}, "platform": "ANY", "browserName": "chrome", "version": ""}}
+09/03/2018 11:42:34 AM: DEBUG: Starting new HTTP connection (1): 127.0.0.1:64882
+09/03/2018 11:42:36 AM: DEBUG: http://127.0.0.1:64882 "POST /session HTTP/1.1" 200 832
+09/03/2018 11:42:36 AM: DEBUG: Finished Request
+09/03/2018 11:42:36 AM: DEBUG: POST http://127.0.0.1:64882/session/db2725c51f02c5f0f43dc98a5747c399/url {"url": "https://mytaptrack.com", "sessionId": "db2725c51f02c5f0f43dc98a5747c399"}
+09/03/2018 11:42:37 AM: DEBUG: http://127.0.0.1:64882 "POST /session/db2725c51f02c5f0f43dc98a5747c399/url HTTP/1.1" 200 72
+09/03/2018 11:42:37 AM: DEBUG: Finished Request
+09/03/2018 11:42:37 AM: DEBUG: POST http://127.0.0.1:64882/session/db2725c51f02c5f0f43dc98a5747c399/element {"using": "class name", "sessionId": "db2725c51f02c5f0f43dc98a5747c399", "value": "nav-link"}
+09/03/2018 11:42:37 AM: DEBUG: http://127.0.0.1:64882 "POST /session/db2725c51f02c5f0f43dc98a5747c399/element HTTP/1.1" 200 101
+09/03/2018 11:42:37 AM: DEBUG: Finished Request
+09/03/2018 11:42:37 AM: DEBUG: POST http://127.0.0.1:64882/session/db2725c51f02c5f0f43dc98a5747c399/element/0.404347487723286-1/click {"sessionId": "db2725c51f02c5f0f43dc98a5747c399", "id": "0.404347487723286-1"}
+09/03/2018 11:42:38 AM: DEBUG: http://127.0.0.1:64882 "POST /session/db2725c51f02c5f0f43dc98a5747c399/element/0.404347487723286-1/click HTTP/1.1" 200 72
+09/03/2018 11:42:38 AM: DEBUG: Finished Request
+09/03/2018 11:42:40 AM: DEBUG: POST http://127.0.0.1:64882/session/db2725c51f02c5f0f43dc98a5747c399/element {"using": "css selector", "sessionId": "db2725c51f02c5f0f43dc98a5747c399", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(3) > input"}
+09/03/2018 11:42:40 AM: DEBUG: http://127.0.0.1:64882 "POST /session/db2725c51f02c5f0f43dc98a5747c399/element HTTP/1.1" 200 104
+09/03/2018 11:42:40 AM: DEBUG: Finished Request
+09/03/2018 11:42:40 AM: DEBUG: POST http://127.0.0.1:64882/session/db2725c51f02c5f0f43dc98a5747c399/element/0.030888591375960672-1/clear {"sessionId": "db2725c51f02c5f0f43dc98a5747c399", "id": "0.030888591375960672-1"}
+09/03/2018 11:42:40 AM: DEBUG: http://127.0.0.1:64882 "POST /session/db2725c51f02c5f0f43dc98a5747c399/element/0.030888591375960672-1/clear HTTP/1.1" 200 72
+09/03/2018 11:42:40 AM: DEBUG: Finished Request
+09/03/2018 11:42:40 AM: DEBUG: POST http://127.0.0.1:64882/session/db2725c51f02c5f0f43dc98a5747c399/element {"using": "css selector", "sessionId": "db2725c51f02c5f0f43dc98a5747c399", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(3) > input"}
+09/03/2018 11:42:40 AM: DEBUG: http://127.0.0.1:64882 "POST /session/db2725c51f02c5f0f43dc98a5747c399/element HTTP/1.1" 200 104
+09/03/2018 11:42:40 AM: DEBUG: Finished Request
+09/03/2018 11:42:40 AM: DEBUG: POST http://127.0.0.1:64882/session/db2725c51f02c5f0f43dc98a5747c399/element/0.030888591375960672-1/value {"text": "parent@tap.com", "sessionId": "db2725c51f02c5f0f43dc98a5747c399", "id": "0.030888591375960672-1", "value": ["p", "a", "r", "e", "n", "t", "@", "t", "a", "p", ".", "c", "o", "m"]}
+09/03/2018 11:42:40 AM: DEBUG: http://127.0.0.1:64882 "POST /session/db2725c51f02c5f0f43dc98a5747c399/element/0.030888591375960672-1/value HTTP/1.1" 200 72
+09/03/2018 11:42:40 AM: DEBUG: Finished Request
+09/03/2018 11:42:42 AM: DEBUG: POST http://127.0.0.1:64882/session/db2725c51f02c5f0f43dc98a5747c399/element {"using": "css selector", "sessionId": "db2725c51f02c5f0f43dc98a5747c399", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(5) > input"}
+09/03/2018 11:42:42 AM: DEBUG: http://127.0.0.1:64882 "POST /session/db2725c51f02c5f0f43dc98a5747c399/element HTTP/1.1" 200 104
+09/03/2018 11:42:42 AM: DEBUG: Finished Request
+09/03/2018 11:42:42 AM: DEBUG: POST http://127.0.0.1:64882/session/db2725c51f02c5f0f43dc98a5747c399/element/0.030888591375960672-2/clear {"sessionId": "db2725c51f02c5f0f43dc98a5747c399", "id": "0.030888591375960672-2"}
+09/03/2018 11:42:42 AM: DEBUG: http://127.0.0.1:64882 "POST /session/db2725c51f02c5f0f43dc98a5747c399/element/0.030888591375960672-2/clear HTTP/1.1" 200 72
+09/03/2018 11:42:42 AM: DEBUG: Finished Request
+09/03/2018 11:42:42 AM: DEBUG: POST http://127.0.0.1:64882/session/db2725c51f02c5f0f43dc98a5747c399/element {"using": "css selector", "sessionId": "db2725c51f02c5f0f43dc98a5747c399", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(5) > input"}
+09/03/2018 11:42:42 AM: DEBUG: http://127.0.0.1:64882 "POST /session/db2725c51f02c5f0f43dc98a5747c399/element HTTP/1.1" 200 104
+09/03/2018 11:42:42 AM: DEBUG: Finished Request
+09/03/2018 11:42:42 AM: DEBUG: POST http://127.0.0.1:64882/session/db2725c51f02c5f0f43dc98a5747c399/element/0.030888591375960672-2/value {"text": "Inspi", "sessionId": "db2725c51f02c5f0f43dc98a5747c399", "id": "0.030888591375960672-2", "value": ["I", "n", "s", "p", "i"]}
+09/03/2018 11:42:42 AM: DEBUG: http://127.0.0.1:64882 "POST /session/db2725c51f02c5f0f43dc98a5747c399/element/0.030888591375960672-2/value HTTP/1.1" 200 72
+09/03/2018 11:42:42 AM: DEBUG: Finished Request
+09/03/2018 11:42:44 AM: DEBUG: POST http://127.0.0.1:64882/session/db2725c51f02c5f0f43dc98a5747c399/element {"using": "css selector", "sessionId": "db2725c51f02c5f0f43dc98a5747c399", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > input.btn.btn-primary.submitButton-customizable"}
+09/03/2018 11:42:44 AM: DEBUG: http://127.0.0.1:64882 "POST /session/db2725c51f02c5f0f43dc98a5747c399/element HTTP/1.1" 200 104
+09/03/2018 11:42:44 AM: DEBUG: Finished Request
+09/03/2018 11:42:44 AM: DEBUG: POST http://127.0.0.1:64882/session/db2725c51f02c5f0f43dc98a5747c399/element/0.030888591375960672-3/click {"sessionId": "db2725c51f02c5f0f43dc98a5747c399", "id": "0.030888591375960672-3"}
+09/03/2018 11:42:45 AM: DEBUG: http://127.0.0.1:64882 "POST /session/db2725c51f02c5f0f43dc98a5747c399/element/0.030888591375960672-3/click HTTP/1.1" 200 72
+09/03/2018 11:42:45 AM: DEBUG: Finished Request
+09/03/2018 11:42:52 AM: DEBUG: POST http://127.0.0.1:64932/session {"capabilities": {"alwaysMatch": {"goog:chromeOptions": {"args": [], "extensions": []}, "browserName": "chrome", "platformName": "any"}, "firstMatch": [{}]}, "desiredCapabilities": {"goog:chromeOptions": {"args": [], "extensions": []}, "platform": "ANY", "browserName": "chrome", "version": ""}}
+09/03/2018 11:42:52 AM: DEBUG: Starting new HTTP connection (1): 127.0.0.1:64932
+09/03/2018 11:42:53 AM: DEBUG: http://127.0.0.1:64932 "POST /session HTTP/1.1" 200 833
+09/03/2018 11:42:53 AM: DEBUG: Finished Request
+09/03/2018 11:42:53 AM: DEBUG: POST http://127.0.0.1:64932/session/799364d5b18127ab7cabd4d6348a1b41/url {"url": "https://mytaptrack.com", "sessionId": "799364d5b18127ab7cabd4d6348a1b41"}
+09/03/2018 11:42:54 AM: DEBUG: http://127.0.0.1:64932 "POST /session/799364d5b18127ab7cabd4d6348a1b41/url HTTP/1.1" 200 72
+09/03/2018 11:42:54 AM: DEBUG: Finished Request
+09/03/2018 11:42:54 AM: DEBUG: POST http://127.0.0.1:64932/session/799364d5b18127ab7cabd4d6348a1b41/element {"using": "class name", "sessionId": "799364d5b18127ab7cabd4d6348a1b41", "value": "nav-link"}
+09/03/2018 11:42:54 AM: DEBUG: http://127.0.0.1:64932 "POST /session/799364d5b18127ab7cabd4d6348a1b41/element HTTP/1.1" 200 103
+09/03/2018 11:42:54 AM: DEBUG: Finished Request
+09/03/2018 11:42:54 AM: DEBUG: POST http://127.0.0.1:64932/session/799364d5b18127ab7cabd4d6348a1b41/element/0.09893357691271332-1/click {"sessionId": "799364d5b18127ab7cabd4d6348a1b41", "id": "0.09893357691271332-1"}
+09/03/2018 11:42:55 AM: DEBUG: http://127.0.0.1:64932 "POST /session/799364d5b18127ab7cabd4d6348a1b41/element/0.09893357691271332-1/click HTTP/1.1" 200 72
+09/03/2018 11:42:55 AM: DEBUG: Finished Request
+09/03/2018 11:42:57 AM: DEBUG: POST http://127.0.0.1:64932/session/799364d5b18127ab7cabd4d6348a1b41/element {"using": "css selector", "sessionId": "799364d5b18127ab7cabd4d6348a1b41", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(3) > input"}
+09/03/2018 11:42:58 AM: DEBUG: http://127.0.0.1:64932 "POST /session/799364d5b18127ab7cabd4d6348a1b41/element HTTP/1.1" 200 102
+09/03/2018 11:42:58 AM: DEBUG: Finished Request
+09/03/2018 11:42:58 AM: DEBUG: POST http://127.0.0.1:64932/session/799364d5b18127ab7cabd4d6348a1b41/element/0.2663039296610472-1/clear {"sessionId": "799364d5b18127ab7cabd4d6348a1b41", "id": "0.2663039296610472-1"}
+09/03/2018 11:42:58 AM: DEBUG: http://127.0.0.1:64932 "POST /session/799364d5b18127ab7cabd4d6348a1b41/element/0.2663039296610472-1/clear HTTP/1.1" 200 72
+09/03/2018 11:42:58 AM: DEBUG: Finished Request
+09/03/2018 11:42:58 AM: DEBUG: POST http://127.0.0.1:64932/session/799364d5b18127ab7cabd4d6348a1b41/element {"using": "css selector", "sessionId": "799364d5b18127ab7cabd4d6348a1b41", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(3) > input"}
+09/03/2018 11:42:58 AM: DEBUG: http://127.0.0.1:64932 "POST /session/799364d5b18127ab7cabd4d6348a1b41/element HTTP/1.1" 200 102
+09/03/2018 11:42:58 AM: DEBUG: Finished Request
+09/03/2018 11:42:58 AM: DEBUG: POST http://127.0.0.1:64932/session/799364d5b18127ab7cabd4d6348a1b41/element/0.2663039296610472-1/value {"text": "parent@mytaptrack.com", "sessionId": "799364d5b18127ab7cabd4d6348a1b41", "id": "0.2663039296610472-1", "value": ["p", "a", "r", "e", "n", "t", "@", "m", "y", "t", "a", "p", "t", "r", "a", "c", "k", ".", "c", "o", "m"]}
+09/03/2018 11:42:58 AM: DEBUG: http://127.0.0.1:64932 "POST /session/799364d5b18127ab7cabd4d6348a1b41/element/0.2663039296610472-1/value HTTP/1.1" 200 72
+09/03/2018 11:42:58 AM: DEBUG: Finished Request
+09/03/2018 11:43:00 AM: DEBUG: POST http://127.0.0.1:64932/session/799364d5b18127ab7cabd4d6348a1b41/element {"using": "css selector", "sessionId": "799364d5b18127ab7cabd4d6348a1b41", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(5) > input"}
+09/03/2018 11:43:00 AM: DEBUG: http://127.0.0.1:64932 "POST /session/799364d5b18127ab7cabd4d6348a1b41/element HTTP/1.1" 200 102
+09/03/2018 11:43:00 AM: DEBUG: Finished Request
+09/03/2018 11:43:00 AM: DEBUG: POST http://127.0.0.1:64932/session/799364d5b18127ab7cabd4d6348a1b41/element/0.2663039296610472-2/clear {"sessionId": "799364d5b18127ab7cabd4d6348a1b41", "id": "0.2663039296610472-2"}
+09/03/2018 11:43:00 AM: DEBUG: http://127.0.0.1:64932 "POST /session/799364d5b18127ab7cabd4d6348a1b41/element/0.2663039296610472-2/clear HTTP/1.1" 200 72
+09/03/2018 11:43:00 AM: DEBUG: Finished Request
+09/03/2018 11:43:00 AM: DEBUG: POST http://127.0.0.1:64932/session/799364d5b18127ab7cabd4d6348a1b41/element {"using": "css selector", "sessionId": "799364d5b18127ab7cabd4d6348a1b41", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(5) > input"}
+09/03/2018 11:43:00 AM: DEBUG: http://127.0.0.1:64932 "POST /session/799364d5b18127ab7cabd4d6348a1b41/element HTTP/1.1" 200 102
+09/03/2018 11:43:00 AM: DEBUG: Finished Request
+09/03/2018 11:43:00 AM: DEBUG: POST http://127.0.0.1:64932/session/799364d5b18127ab7cabd4d6348a1b41/element/0.2663039296610472-2/value {"text": "Inspire@123", "sessionId": "799364d5b18127ab7cabd4d6348a1b41", "id": "0.2663039296610472-2", "value": ["I", "n", "s", "p", "i", "r", "e", "@", "1", "2", "3"]}
+09/03/2018 11:43:00 AM: DEBUG: http://127.0.0.1:64932 "POST /session/799364d5b18127ab7cabd4d6348a1b41/element/0.2663039296610472-2/value HTTP/1.1" 200 72
+09/03/2018 11:43:00 AM: DEBUG: Finished Request
+09/03/2018 11:43:02 AM: DEBUG: POST http://127.0.0.1:64932/session/799364d5b18127ab7cabd4d6348a1b41/element {"using": "css selector", "sessionId": "799364d5b18127ab7cabd4d6348a1b41", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > input.btn.btn-primary.submitButton-customizable"}
+09/03/2018 11:43:02 AM: DEBUG: http://127.0.0.1:64932 "POST /session/799364d5b18127ab7cabd4d6348a1b41/element HTTP/1.1" 200 102
+09/03/2018 11:43:02 AM: DEBUG: Finished Request
+09/03/2018 11:43:02 AM: DEBUG: POST http://127.0.0.1:64932/session/799364d5b18127ab7cabd4d6348a1b41/element/0.2663039296610472-3/click {"sessionId": "799364d5b18127ab7cabd4d6348a1b41", "id": "0.2663039296610472-3"}
+09/03/2018 11:43:03 AM: DEBUG: http://127.0.0.1:64932 "POST /session/799364d5b18127ab7cabd4d6348a1b41/element/0.2663039296610472-3/click HTTP/1.1" 200 72
+09/03/2018 11:43:03 AM: DEBUG: Finished Request
+09/03/2018 11:43:15 AM: DEBUG: DELETE http://127.0.0.1:64550/session/8d67f115228d4d57043486b8d797e28f/window {"sessionId": "8d67f115228d4d57043486b8d797e28f"}
+09/03/2018 11:43:17 AM: DEBUG: http://127.0.0.1:64550 "DELETE /session/8d67f115228d4d57043486b8d797e28f/window HTTP/1.1" 200 72
+09/03/2018 11:43:17 AM: DEBUG: Finished Request
+09/03/2018 11:59:57 AM: DEBUG: POST http://127.0.0.1:50384/session {"capabilities": {"alwaysMatch": {"goog:chromeOptions": {"args": [], "extensions": []}, "browserName": "chrome", "platformName": "any"}, "firstMatch": [{}]}, "desiredCapabilities": {"goog:chromeOptions": {"args": [], "extensions": []}, "platform": "ANY", "browserName": "chrome", "version": ""}}
+09/03/2018 11:59:57 AM: DEBUG: Starting new HTTP connection (1): 127.0.0.1:50384
+09/03/2018 11:59:58 AM: DEBUG: http://127.0.0.1:50384 "POST /session HTTP/1.1" 200 833
+09/03/2018 11:59:58 AM: DEBUG: Finished Request
+09/03/2018 11:59:58 AM: DEBUG: POST http://127.0.0.1:50384/session/0235a6f72b21a8be6bb17002f32c302e/timeouts/implicit_wait {"sessionId": "0235a6f72b21a8be6bb17002f32c302e", "ms": 2000.0}
+09/03/2018 11:59:58 AM: DEBUG: http://127.0.0.1:50384 "POST /session/0235a6f72b21a8be6bb17002f32c302e/timeouts/implicit_wait HTTP/1.1" 200 72
+09/03/2018 11:59:58 AM: DEBUG: Finished Request
+09/03/2018 11:59:58 AM: DEBUG: POST http://127.0.0.1:50384/session/0235a6f72b21a8be6bb17002f32c302e/url {"url": "https://mytaptrack.com", "sessionId": "0235a6f72b21a8be6bb17002f32c302e"}
+09/03/2018 12:00:00 PM: DEBUG: http://127.0.0.1:50384 "POST /session/0235a6f72b21a8be6bb17002f32c302e/url HTTP/1.1" 200 72
+09/03/2018 12:00:00 PM: DEBUG: Finished Request
+09/03/2018 12:00:00 PM: DEBUG: POST http://127.0.0.1:50409/session {"capabilities": {"alwaysMatch": {"goog:chromeOptions": {"args": [], "extensions": []}, "browserName": "chrome", "platformName": "any"}, "firstMatch": [{}]}, "desiredCapabilities": {"goog:chromeOptions": {"args": [], "extensions": []}, "platform": "ANY", "browserName": "chrome", "version": ""}}
+09/03/2018 12:00:00 PM: DEBUG: Starting new HTTP connection (1): 127.0.0.1:50409
+09/03/2018 12:00:02 PM: DEBUG: http://127.0.0.1:50409 "POST /session HTTP/1.1" 200 832
+09/03/2018 12:00:02 PM: DEBUG: Finished Request
+09/03/2018 12:00:02 PM: DEBUG: POST http://127.0.0.1:50409/session/9558e0f72e93180526714d89fb705ee2/url {"url": "https://mytaptrack.com", "sessionId": "9558e0f72e93180526714d89fb705ee2"}
+09/03/2018 12:00:03 PM: DEBUG: http://127.0.0.1:50409 "POST /session/9558e0f72e93180526714d89fb705ee2/url HTTP/1.1" 200 72
+09/03/2018 12:00:03 PM: DEBUG: Finished Request
+09/03/2018 12:00:03 PM: DEBUG: POST http://127.0.0.1:50409/session/9558e0f72e93180526714d89fb705ee2/element {"using": "class name", "sessionId": "9558e0f72e93180526714d89fb705ee2", "value": "nav-link"}
+09/03/2018 12:00:03 PM: DEBUG: http://127.0.0.1:50409 "POST /session/9558e0f72e93180526714d89fb705ee2/element HTTP/1.1" 200 103
+09/03/2018 12:00:03 PM: DEBUG: Finished Request
+09/03/2018 12:00:03 PM: DEBUG: POST http://127.0.0.1:50409/session/9558e0f72e93180526714d89fb705ee2/element/0.27881295624118674-1/click {"sessionId": "9558e0f72e93180526714d89fb705ee2", "id": "0.27881295624118674-1"}
+09/03/2018 12:00:04 PM: DEBUG: http://127.0.0.1:50409 "POST /session/9558e0f72e93180526714d89fb705ee2/element/0.27881295624118674-1/click HTTP/1.1" 200 72
+09/03/2018 12:00:04 PM: DEBUG: Finished Request
+09/03/2018 12:00:06 PM: DEBUG: POST http://127.0.0.1:50409/session/9558e0f72e93180526714d89fb705ee2/element {"using": "css selector", "sessionId": "9558e0f72e93180526714d89fb705ee2", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(3) > input"}
+09/10/2018 10:10:48 AM: DEBUG: POST http://127.0.0.1:49991/session {"capabilities": {"alwaysMatch": {"goog:chromeOptions": {"args": [], "extensions": []}, "browserName": "chrome", "platformName": "any"}, "firstMatch": [{}]}, "desiredCapabilities": {"goog:chromeOptions": {"args": [], "extensions": []}, "platform": "ANY", "browserName": "chrome", "version": ""}}
+09/10/2018 10:10:48 AM: DEBUG: Starting new HTTP connection (1): 127.0.0.1:49991
+09/10/2018 10:10:50 AM: DEBUG: http://127.0.0.1:49991 "POST /session HTTP/1.1" 200 831
+09/10/2018 10:10:50 AM: DEBUG: Finished Request
+09/10/2018 10:10:50 AM: DEBUG: POST http://127.0.0.1:49991/session/8068c449655886b11f55daa74f500875/timeouts/implicit_wait {"sessionId": "8068c449655886b11f55daa74f500875", "ms": 2000.0}
+09/10/2018 10:10:50 AM: DEBUG: http://127.0.0.1:49991 "POST /session/8068c449655886b11f55daa74f500875/timeouts/implicit_wait HTTP/1.1" 200 72
+09/10/2018 10:10:50 AM: DEBUG: Finished Request
+09/10/2018 10:10:50 AM: DEBUG: POST http://127.0.0.1:49991/session/8068c449655886b11f55daa74f500875/url {"url": "https://mytaptrack-test.com", "sessionId": "8068c449655886b11f55daa74f500875"}
+09/10/2018 10:12:40 AM: DEBUG: http://127.0.0.1:49991 "POST /session/8068c449655886b11f55daa74f500875/url HTTP/1.1" 200 72
+09/10/2018 10:12:40 AM: DEBUG: Finished Request
+09/10/2018 10:12:41 AM: DEBUG: POST http://127.0.0.1:50116/session {"capabilities": {"alwaysMatch": {"goog:chromeOptions": {"args": [], "extensions": []}, "browserName": "chrome", "platformName": "any"}, "firstMatch": [{}]}, "desiredCapabilities": {"goog:chromeOptions": {"args": [], "extensions": []}, "platform": "ANY", "browserName": "chrome", "version": ""}}
+09/10/2018 10:12:41 AM: DEBUG: Starting new HTTP connection (1): 127.0.0.1:50116
+09/10/2018 10:12:43 AM: DEBUG: http://127.0.0.1:50116 "POST /session HTTP/1.1" 200 831
+09/10/2018 10:12:43 AM: DEBUG: Finished Request
+09/10/2018 10:12:43 AM: DEBUG: POST http://127.0.0.1:50116/session/fdfd7af5e14e13eef4adb7a705ac8206/url {"url": "https://mytaptrack-test.com", "sessionId": "fdfd7af5e14e13eef4adb7a705ac8206"}
+09/10/2018 10:12:50 AM: DEBUG: http://127.0.0.1:50116 "POST /session/fdfd7af5e14e13eef4adb7a705ac8206/url HTTP/1.1" 200 72
+09/10/2018 10:12:50 AM: DEBUG: Finished Request
+09/10/2018 10:12:50 AM: DEBUG: POST http://127.0.0.1:50116/session/fdfd7af5e14e13eef4adb7a705ac8206/element {"using": "class name", "sessionId": "fdfd7af5e14e13eef4adb7a705ac8206", "value": "nav-link"}
+09/10/2018 10:12:50 AM: DEBUG: http://127.0.0.1:50116 "POST /session/fdfd7af5e14e13eef4adb7a705ac8206/element HTTP/1.1" 200 103
+09/10/2018 10:12:50 AM: DEBUG: Finished Request
+09/10/2018 10:12:50 AM: DEBUG: POST http://127.0.0.1:50116/session/fdfd7af5e14e13eef4adb7a705ac8206/element/0.05914798579119451-1/click {"sessionId": "fdfd7af5e14e13eef4adb7a705ac8206", "id": "0.05914798579119451-1"}
+09/10/2018 10:12:55 AM: DEBUG: http://127.0.0.1:50116 "POST /session/fdfd7af5e14e13eef4adb7a705ac8206/element/0.05914798579119451-1/click HTTP/1.1" 200 72
+09/10/2018 10:12:55 AM: DEBUG: Finished Request
+09/10/2018 10:12:57 AM: DEBUG: POST http://127.0.0.1:50116/session/fdfd7af5e14e13eef4adb7a705ac8206/element {"using": "css selector", "sessionId": "fdfd7af5e14e13eef4adb7a705ac8206", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(3) > input"}
+09/10/2018 10:12:57 AM: DEBUG: http://127.0.0.1:50116 "POST /session/fdfd7af5e14e13eef4adb7a705ac8206/element HTTP/1.1" 200 102
+09/10/2018 10:12:57 AM: DEBUG: Finished Request
+09/10/2018 10:12:57 AM: DEBUG: POST http://127.0.0.1:50116/session/fdfd7af5e14e13eef4adb7a705ac8206/element/0.6899166204493126-1/clear {"sessionId": "fdfd7af5e14e13eef4adb7a705ac8206", "id": "0.6899166204493126-1"}
+09/10/2018 10:12:57 AM: DEBUG: http://127.0.0.1:50116 "POST /session/fdfd7af5e14e13eef4adb7a705ac8206/element/0.6899166204493126-1/clear HTTP/1.1" 200 72
+09/10/2018 10:12:57 AM: DEBUG: Finished Request
+09/10/2018 10:12:57 AM: DEBUG: POST http://127.0.0.1:50116/session/fdfd7af5e14e13eef4adb7a705ac8206/element {"using": "css selector", "sessionId": "fdfd7af5e14e13eef4adb7a705ac8206", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(3) > input"}
+09/10/2018 10:12:57 AM: DEBUG: http://127.0.0.1:50116 "POST /session/fdfd7af5e14e13eef4adb7a705ac8206/element HTTP/1.1" 200 102
+09/10/2018 10:12:57 AM: DEBUG: Finished Request
+09/10/2018 10:12:57 AM: DEBUG: POST http://127.0.0.1:50116/session/fdfd7af5e14e13eef4adb7a705ac8206/element/0.6899166204493126-1/value {"text": "parent@mytaptrack.com", "sessionId": "fdfd7af5e14e13eef4adb7a705ac8206", "id": "0.6899166204493126-1", "value": ["p", "a", "r", "e", "n", "t", "@", "m", "y", "t", "a", "p", "t", "r", "a", "c", "k", ".", "c", "o", "m"]}
+09/10/2018 10:12:57 AM: DEBUG: http://127.0.0.1:50116 "POST /session/fdfd7af5e14e13eef4adb7a705ac8206/element/0.6899166204493126-1/value HTTP/1.1" 200 72
+09/10/2018 10:12:57 AM: DEBUG: Finished Request
+09/10/2018 10:12:59 AM: DEBUG: POST http://127.0.0.1:50116/session/fdfd7af5e14e13eef4adb7a705ac8206/element {"using": "css selector", "sessionId": "fdfd7af5e14e13eef4adb7a705ac8206", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(5) > input"}
+09/10/2018 10:12:59 AM: DEBUG: http://127.0.0.1:50116 "POST /session/fdfd7af5e14e13eef4adb7a705ac8206/element HTTP/1.1" 200 102
+09/10/2018 10:12:59 AM: DEBUG: Finished Request
+09/10/2018 10:12:59 AM: DEBUG: POST http://127.0.0.1:50116/session/fdfd7af5e14e13eef4adb7a705ac8206/element/0.6899166204493126-2/clear {"sessionId": "fdfd7af5e14e13eef4adb7a705ac8206", "id": "0.6899166204493126-2"}
+09/10/2018 10:12:59 AM: DEBUG: http://127.0.0.1:50116 "POST /session/fdfd7af5e14e13eef4adb7a705ac8206/element/0.6899166204493126-2/clear HTTP/1.1" 200 72
+09/10/2018 10:12:59 AM: DEBUG: Finished Request
+09/10/2018 10:12:59 AM: DEBUG: POST http://127.0.0.1:50116/session/fdfd7af5e14e13eef4adb7a705ac8206/element {"using": "css selector", "sessionId": "fdfd7af5e14e13eef4adb7a705ac8206", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(5) > input"}
+09/10/2018 10:12:59 AM: DEBUG: http://127.0.0.1:50116 "POST /session/fdfd7af5e14e13eef4adb7a705ac8206/element HTTP/1.1" 200 102
+09/10/2018 10:12:59 AM: DEBUG: Finished Request
+09/10/2018 10:12:59 AM: DEBUG: POST http://127.0.0.1:50116/session/fdfd7af5e14e13eef4adb7a705ac8206/element/0.6899166204493126-2/value {"text": "Inspire123", "sessionId": "fdfd7af5e14e13eef4adb7a705ac8206", "id": "0.6899166204493126-2", "value": ["I", "n", "s", "p", "i", "r", "e", "1", "2", "3"]}
+09/10/2018 10:12:59 AM: DEBUG: http://127.0.0.1:50116 "POST /session/fdfd7af5e14e13eef4adb7a705ac8206/element/0.6899166204493126-2/value HTTP/1.1" 200 72
+09/10/2018 10:12:59 AM: DEBUG: Finished Request
+09/10/2018 10:13:01 AM: DEBUG: POST http://127.0.0.1:50116/session/fdfd7af5e14e13eef4adb7a705ac8206/element {"using": "css selector", "sessionId": "fdfd7af5e14e13eef4adb7a705ac8206", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > input.btn.btn-primary.submitButton-customizable"}
+09/10/2018 10:13:02 AM: DEBUG: http://127.0.0.1:50116 "POST /session/fdfd7af5e14e13eef4adb7a705ac8206/element HTTP/1.1" 200 102
+09/10/2018 10:13:02 AM: DEBUG: Finished Request
+09/10/2018 10:13:02 AM: DEBUG: POST http://127.0.0.1:50116/session/fdfd7af5e14e13eef4adb7a705ac8206/element/0.6899166204493126-3/click {"sessionId": "fdfd7af5e14e13eef4adb7a705ac8206", "id": "0.6899166204493126-3"}
+09/10/2018 10:13:04 AM: DEBUG: http://127.0.0.1:50116 "POST /session/fdfd7af5e14e13eef4adb7a705ac8206/element/0.6899166204493126-3/click HTTP/1.1" 200 72
+09/10/2018 10:13:04 AM: DEBUG: Finished Request
+09/10/2018 10:13:06 AM: DEBUG: POST http://127.0.0.1:50116/session/fdfd7af5e14e13eef4adb7a705ac8206/element {"using": "css selector", "sessionId": "fdfd7af5e14e13eef4adb7a705ac8206", "value": "#navbarSupportedContent > ul:nth-child(2) > li:nth-child(2) > div > button"}
+09/10/2018 10:13:06 AM: DEBUG: http://127.0.0.1:50116 "POST /session/fdfd7af5e14e13eef4adb7a705ac8206/element HTTP/1.1" 200 103
+09/10/2018 10:13:06 AM: DEBUG: Finished Request
+09/10/2018 10:13:06 AM: DEBUG: POST http://127.0.0.1:50116/session/fdfd7af5e14e13eef4adb7a705ac8206/element/0.49793424894702243-1/click {"sessionId": "fdfd7af5e14e13eef4adb7a705ac8206", "id": "0.49793424894702243-1"}
+09/10/2018 10:13:07 AM: DEBUG: http://127.0.0.1:50116 "POST /session/fdfd7af5e14e13eef4adb7a705ac8206/element/0.49793424894702243-1/click HTTP/1.1" 200 72
+09/10/2018 10:13:07 AM: DEBUG: Finished Request
+09/10/2018 10:13:09 AM: DEBUG: POST http://127.0.0.1:50116/session/fdfd7af5e14e13eef4adb7a705ac8206/element {"using": "css selector", "sessionId": "fdfd7af5e14e13eef4adb7a705ac8206", "value": "#navbarSupportedContent > ul:nth-child(2) > li:nth-child(2) > div > div > a:nth-child(2)"}
+09/10/2018 10:13:09 AM: DEBUG: http://127.0.0.1:50116 "POST /session/fdfd7af5e14e13eef4adb7a705ac8206/element HTTP/1.1" 200 103
+09/10/2018 10:13:09 AM: DEBUG: Finished Request
+09/10/2018 10:13:09 AM: DEBUG: POST http://127.0.0.1:50116/session/fdfd7af5e14e13eef4adb7a705ac8206/element/0.49793424894702243-2/click {"sessionId": "fdfd7af5e14e13eef4adb7a705ac8206", "id": "0.49793424894702243-2"}
+09/10/2018 10:13:11 AM: DEBUG: http://127.0.0.1:50116 "POST /session/fdfd7af5e14e13eef4adb7a705ac8206/element/0.49793424894702243-2/click HTTP/1.1" 200 72
+09/10/2018 10:13:11 AM: DEBUG: Finished Request
+09/10/2018 10:13:17 AM: DEBUG: POST http://127.0.0.1:50157/session {"capabilities": {"alwaysMatch": {"goog:chromeOptions": {"args": [], "extensions": []}, "browserName": "chrome", "platformName": "any"}, "firstMatch": [{}]}, "desiredCapabilities": {"goog:chromeOptions": {"args": [], "extensions": []}, "platform": "ANY", "browserName": "chrome", "version": ""}}
+09/10/2018 10:13:17 AM: DEBUG: Starting new HTTP connection (1): 127.0.0.1:50157
+09/10/2018 10:13:19 AM: DEBUG: http://127.0.0.1:50157 "POST /session HTTP/1.1" 200 832
+09/10/2018 10:13:19 AM: DEBUG: Finished Request
+09/10/2018 10:13:19 AM: DEBUG: POST http://127.0.0.1:50157/session/9370f967eac3e06eb8274529804312ca/url {"url": "https://mytaptrack-test.com", "sessionId": "9370f967eac3e06eb8274529804312ca"}
+09/10/2018 10:13:24 AM: DEBUG: http://127.0.0.1:50157 "POST /session/9370f967eac3e06eb8274529804312ca/url HTTP/1.1" 200 72
+09/10/2018 10:13:24 AM: DEBUG: Finished Request
+09/10/2018 10:13:24 AM: DEBUG: POST http://127.0.0.1:50157/session/9370f967eac3e06eb8274529804312ca/element {"using": "class name", "sessionId": "9370f967eac3e06eb8274529804312ca", "value": "nav-link"}
+09/10/2018 10:13:24 AM: DEBUG: http://127.0.0.1:50157 "POST /session/9370f967eac3e06eb8274529804312ca/element HTTP/1.1" 200 102
+09/10/2018 10:13:24 AM: DEBUG: Finished Request
+09/10/2018 10:13:24 AM: DEBUG: POST http://127.0.0.1:50157/session/9370f967eac3e06eb8274529804312ca/element/0.8424500593766817-1/click {"sessionId": "9370f967eac3e06eb8274529804312ca", "id": "0.8424500593766817-1"}
+09/10/2018 10:13:29 AM: DEBUG: http://127.0.0.1:50157 "POST /session/9370f967eac3e06eb8274529804312ca/element/0.8424500593766817-1/click HTTP/1.1" 200 72
+09/10/2018 10:13:29 AM: DEBUG: Finished Request
+09/10/2018 10:13:31 AM: DEBUG: POST http://127.0.0.1:50157/session/9370f967eac3e06eb8274529804312ca/element {"using": "css selector", "sessionId": "9370f967eac3e06eb8274529804312ca", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(3) > input"}
+09/10/2018 10:13:31 AM: DEBUG: http://127.0.0.1:50157 "POST /session/9370f967eac3e06eb8274529804312ca/element HTTP/1.1" 200 102
+09/10/2018 10:13:31 AM: DEBUG: Finished Request
+09/10/2018 10:13:31 AM: DEBUG: POST http://127.0.0.1:50157/session/9370f967eac3e06eb8274529804312ca/element/0.7367076836816016-1/clear {"sessionId": "9370f967eac3e06eb8274529804312ca", "id": "0.7367076836816016-1"}
+09/10/2018 10:13:31 AM: DEBUG: http://127.0.0.1:50157 "POST /session/9370f967eac3e06eb8274529804312ca/element/0.7367076836816016-1/clear HTTP/1.1" 200 72
+09/10/2018 10:13:31 AM: DEBUG: Finished Request
+09/10/2018 10:13:31 AM: DEBUG: POST http://127.0.0.1:50157/session/9370f967eac3e06eb8274529804312ca/element {"using": "css selector", "sessionId": "9370f967eac3e06eb8274529804312ca", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(3) > input"}
+09/10/2018 10:13:31 AM: DEBUG: http://127.0.0.1:50157 "POST /session/9370f967eac3e06eb8274529804312ca/element HTTP/1.1" 200 102
+09/10/2018 10:13:31 AM: DEBUG: Finished Request
+09/10/2018 10:13:31 AM: DEBUG: POST http://127.0.0.1:50157/session/9370f967eac3e06eb8274529804312ca/element/0.7367076836816016-1/value {"text": "parent@mytaptrack.com", "sessionId": "9370f967eac3e06eb8274529804312ca", "id": "0.7367076836816016-1", "value": ["p", "a", "r", "e", "n", "t", "@", "m", "y", "t", "a", "p", "t", "r", "a", "c", "k", ".", "c", "o", "m"]}
+09/10/2018 10:13:31 AM: DEBUG: http://127.0.0.1:50157 "POST /session/9370f967eac3e06eb8274529804312ca/element/0.7367076836816016-1/value HTTP/1.1" 200 72
+09/10/2018 10:13:31 AM: DEBUG: Finished Request
+09/10/2018 10:13:33 AM: DEBUG: POST http://127.0.0.1:50157/session/9370f967eac3e06eb8274529804312ca/element {"using": "css selector", "sessionId": "9370f967eac3e06eb8274529804312ca", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(5) > input"}
+09/10/2018 10:13:33 AM: DEBUG: http://127.0.0.1:50157 "POST /session/9370f967eac3e06eb8274529804312ca/element HTTP/1.1" 200 102
+09/10/2018 10:13:33 AM: DEBUG: Finished Request
+09/10/2018 10:13:33 AM: DEBUG: POST http://127.0.0.1:50157/session/9370f967eac3e06eb8274529804312ca/element/0.7367076836816016-2/clear {"sessionId": "9370f967eac3e06eb8274529804312ca", "id": "0.7367076836816016-2"}
+09/10/2018 10:13:33 AM: DEBUG: http://127.0.0.1:50157 "POST /session/9370f967eac3e06eb8274529804312ca/element/0.7367076836816016-2/clear HTTP/1.1" 200 72
+09/10/2018 10:13:33 AM: DEBUG: Finished Request
+09/10/2018 10:13:33 AM: DEBUG: POST http://127.0.0.1:50157/session/9370f967eac3e06eb8274529804312ca/element {"using": "css selector", "sessionId": "9370f967eac3e06eb8274529804312ca", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(5) > input"}
+09/10/2018 10:13:33 AM: DEBUG: http://127.0.0.1:50157 "POST /session/9370f967eac3e06eb8274529804312ca/element HTTP/1.1" 200 102
+09/10/2018 10:13:33 AM: DEBUG: Finished Request
+09/10/2018 10:13:33 AM: DEBUG: POST http://127.0.0.1:50157/session/9370f967eac3e06eb8274529804312ca/element/0.7367076836816016-2/value {"text": "Inspire123", "sessionId": "9370f967eac3e06eb8274529804312ca", "id": "0.7367076836816016-2", "value": ["I", "n", "s", "p", "i", "r", "e", "1", "2", "3"]}
+09/10/2018 10:13:33 AM: DEBUG: http://127.0.0.1:50157 "POST /session/9370f967eac3e06eb8274529804312ca/element/0.7367076836816016-2/value HTTP/1.1" 200 72
+09/10/2018 10:13:33 AM: DEBUG: Finished Request
+09/10/2018 10:13:35 AM: DEBUG: POST http://127.0.0.1:50157/session/9370f967eac3e06eb8274529804312ca/element {"using": "css selector", "sessionId": "9370f967eac3e06eb8274529804312ca", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > input.btn.btn-primary.submitButton-customizable"}
+09/10/2018 10:13:35 AM: DEBUG: http://127.0.0.1:50157 "POST /session/9370f967eac3e06eb8274529804312ca/element HTTP/1.1" 200 102
+09/10/2018 10:13:35 AM: DEBUG: Finished Request
+09/10/2018 10:13:35 AM: DEBUG: POST http://127.0.0.1:50157/session/9370f967eac3e06eb8274529804312ca/element/0.7367076836816016-3/click {"sessionId": "9370f967eac3e06eb8274529804312ca", "id": "0.7367076836816016-3"}
+09/10/2018 10:13:38 AM: DEBUG: http://127.0.0.1:50157 "POST /session/9370f967eac3e06eb8274529804312ca/element/0.7367076836816016-3/click HTTP/1.1" 200 72
+09/10/2018 10:13:38 AM: DEBUG: Finished Request
+09/10/2018 10:13:40 AM: DEBUG: POST http://127.0.0.1:50157/session/9370f967eac3e06eb8274529804312ca/element {"using": "css selector", "sessionId": "9370f967eac3e06eb8274529804312ca", "value": "#navbarSupportedContent > ul:nth-child(2) > li:nth-child(2) > div > button"}
+09/10/2018 10:13:40 AM: DEBUG: http://127.0.0.1:50157 "POST /session/9370f967eac3e06eb8274529804312ca/element HTTP/1.1" 200 102
+09/10/2018 10:13:40 AM: DEBUG: Finished Request
+09/10/2018 10:13:40 AM: DEBUG: POST http://127.0.0.1:50157/session/9370f967eac3e06eb8274529804312ca/element/0.5312296964966026-1/click {"sessionId": "9370f967eac3e06eb8274529804312ca", "id": "0.5312296964966026-1"}
+09/10/2018 10:13:40 AM: DEBUG: http://127.0.0.1:50157 "POST /session/9370f967eac3e06eb8274529804312ca/element/0.5312296964966026-1/click HTTP/1.1" 200 72
+09/10/2018 10:13:40 AM: DEBUG: Finished Request
+09/10/2018 10:13:42 AM: DEBUG: POST http://127.0.0.1:50157/session/9370f967eac3e06eb8274529804312ca/element {"using": "css selector", "sessionId": "9370f967eac3e06eb8274529804312ca", "value": "#navbarSupportedContent > ul:nth-child(2) > li:nth-child(2) > div > div > a:nth-child(2)"}
+09/10/2018 10:13:42 AM: DEBUG: http://127.0.0.1:50157 "POST /session/9370f967eac3e06eb8274529804312ca/element HTTP/1.1" 200 102
+09/10/2018 10:13:42 AM: DEBUG: Finished Request
+09/10/2018 10:13:42 AM: DEBUG: POST http://127.0.0.1:50157/session/9370f967eac3e06eb8274529804312ca/element/0.5312296964966026-2/click {"sessionId": "9370f967eac3e06eb8274529804312ca", "id": "0.5312296964966026-2"}
+09/10/2018 10:13:43 AM: DEBUG: http://127.0.0.1:50157 "POST /session/9370f967eac3e06eb8274529804312ca/element/0.5312296964966026-2/click HTTP/1.1" 200 72
+09/10/2018 10:13:43 AM: DEBUG: Finished Request
+09/10/2018 10:13:50 AM: DEBUG: POST http://127.0.0.1:50197/session {"capabilities": {"alwaysMatch": {"goog:chromeOptions": {"args": [], "extensions": []}, "browserName": "chrome", "platformName": "any"}, "firstMatch": [{}]}, "desiredCapabilities": {"goog:chromeOptions": {"args": [], "extensions": []}, "platform": "ANY", "browserName": "chrome", "version": ""}}
+09/10/2018 10:13:50 AM: DEBUG: Starting new HTTP connection (1): 127.0.0.1:50197
+09/10/2018 10:13:52 AM: DEBUG: http://127.0.0.1:50197 "POST /session HTTP/1.1" 200 832
+09/10/2018 10:13:52 AM: DEBUG: Finished Request
+09/10/2018 10:13:52 AM: DEBUG: POST http://127.0.0.1:50197/session/5a5458c523730cefb5a67b21bcb684e9/url {"url": "https://mytaptrack-test.com", "sessionId": "5a5458c523730cefb5a67b21bcb684e9"}
+09/10/2018 10:13:57 AM: DEBUG: http://127.0.0.1:50197 "POST /session/5a5458c523730cefb5a67b21bcb684e9/url HTTP/1.1" 200 72
+09/10/2018 10:13:57 AM: DEBUG: Finished Request
+09/10/2018 10:13:57 AM: DEBUG: POST http://127.0.0.1:50197/session/5a5458c523730cefb5a67b21bcb684e9/element {"using": "class name", "sessionId": "5a5458c523730cefb5a67b21bcb684e9", "value": "nav-link"}
+09/10/2018 10:13:57 AM: DEBUG: http://127.0.0.1:50197 "POST /session/5a5458c523730cefb5a67b21bcb684e9/element HTTP/1.1" 200 104
+09/10/2018 10:13:57 AM: DEBUG: Finished Request
+09/10/2018 10:13:57 AM: DEBUG: POST http://127.0.0.1:50197/session/5a5458c523730cefb5a67b21bcb684e9/element/0.013778076135084305-1/click {"sessionId": "5a5458c523730cefb5a67b21bcb684e9", "id": "0.013778076135084305-1"}
+09/10/2018 10:14:01 AM: DEBUG: http://127.0.0.1:50197 "POST /session/5a5458c523730cefb5a67b21bcb684e9/element/0.013778076135084305-1/click HTTP/1.1" 200 72
+09/10/2018 10:14:01 AM: DEBUG: Finished Request
+09/10/2018 10:14:03 AM: DEBUG: POST http://127.0.0.1:50197/session/5a5458c523730cefb5a67b21bcb684e9/element {"using": "css selector", "sessionId": "5a5458c523730cefb5a67b21bcb684e9", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(3) > input"}
+09/10/2018 10:14:03 AM: DEBUG: http://127.0.0.1:50197 "POST /session/5a5458c523730cefb5a67b21bcb684e9/element HTTP/1.1" 200 102
+09/10/2018 10:14:03 AM: DEBUG: Finished Request
+09/10/2018 10:14:03 AM: DEBUG: POST http://127.0.0.1:50197/session/5a5458c523730cefb5a67b21bcb684e9/element/0.8394042174726839-1/clear {"sessionId": "5a5458c523730cefb5a67b21bcb684e9", "id": "0.8394042174726839-1"}
+09/10/2018 10:14:03 AM: DEBUG: http://127.0.0.1:50197 "POST /session/5a5458c523730cefb5a67b21bcb684e9/element/0.8394042174726839-1/clear HTTP/1.1" 200 72
+09/10/2018 10:14:03 AM: DEBUG: Finished Request
+09/10/2018 10:14:03 AM: DEBUG: POST http://127.0.0.1:50197/session/5a5458c523730cefb5a67b21bcb684e9/element {"using": "css selector", "sessionId": "5a5458c523730cefb5a67b21bcb684e9", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(3) > input"}
+09/10/2018 10:14:03 AM: DEBUG: http://127.0.0.1:50197 "POST /session/5a5458c523730cefb5a67b21bcb684e9/element HTTP/1.1" 200 102
+09/10/2018 10:14:03 AM: DEBUG: Finished Request
+09/10/2018 10:14:03 AM: DEBUG: POST http://127.0.0.1:50197/session/5a5458c523730cefb5a67b21bcb684e9/element/0.8394042174726839-1/value {"text": "parent@mytaptrack.com", "sessionId": "5a5458c523730cefb5a67b21bcb684e9", "id": "0.8394042174726839-1", "value": ["p", "a", "r", "e", "n", "t", "@", "m", "y", "t", "a", "p", "t", "r", "a", "c", "k", ".", "c", "o", "m"]}
+09/10/2018 10:14:03 AM: DEBUG: http://127.0.0.1:50197 "POST /session/5a5458c523730cefb5a67b21bcb684e9/element/0.8394042174726839-1/value HTTP/1.1" 200 72
+09/10/2018 10:14:03 AM: DEBUG: Finished Request
+09/10/2018 10:14:05 AM: DEBUG: POST http://127.0.0.1:50197/session/5a5458c523730cefb5a67b21bcb684e9/element {"using": "css selector", "sessionId": "5a5458c523730cefb5a67b21bcb684e9", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(5) > input"}
+09/10/2018 10:14:05 AM: DEBUG: http://127.0.0.1:50197 "POST /session/5a5458c523730cefb5a67b21bcb684e9/element HTTP/1.1" 200 102
+09/10/2018 10:14:05 AM: DEBUG: Finished Request
+09/10/2018 10:14:05 AM: DEBUG: POST http://127.0.0.1:50197/session/5a5458c523730cefb5a67b21bcb684e9/element/0.8394042174726839-2/clear {"sessionId": "5a5458c523730cefb5a67b21bcb684e9", "id": "0.8394042174726839-2"}
+09/10/2018 10:14:05 AM: DEBUG: http://127.0.0.1:50197 "POST /session/5a5458c523730cefb5a67b21bcb684e9/element/0.8394042174726839-2/clear HTTP/1.1" 200 72
+09/10/2018 10:14:05 AM: DEBUG: Finished Request
+09/10/2018 10:14:05 AM: DEBUG: POST http://127.0.0.1:50197/session/5a5458c523730cefb5a67b21bcb684e9/element {"using": "css selector", "sessionId": "5a5458c523730cefb5a67b21bcb684e9", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(5) > input"}
+09/10/2018 10:14:05 AM: DEBUG: http://127.0.0.1:50197 "POST /session/5a5458c523730cefb5a67b21bcb684e9/element HTTP/1.1" 200 102
+09/10/2018 10:14:05 AM: DEBUG: Finished Request
+09/10/2018 10:14:05 AM: DEBUG: POST http://127.0.0.1:50197/session/5a5458c523730cefb5a67b21bcb684e9/element/0.8394042174726839-2/value {"text": "Inspi", "sessionId": "5a5458c523730cefb5a67b21bcb684e9", "id": "0.8394042174726839-2", "value": ["I", "n", "s", "p", "i"]}
+09/10/2018 10:14:05 AM: DEBUG: http://127.0.0.1:50197 "POST /session/5a5458c523730cefb5a67b21bcb684e9/element/0.8394042174726839-2/value HTTP/1.1" 200 72
+09/10/2018 10:14:05 AM: DEBUG: Finished Request
+09/10/2018 10:14:07 AM: DEBUG: POST http://127.0.0.1:50197/session/5a5458c523730cefb5a67b21bcb684e9/element {"using": "css selector", "sessionId": "5a5458c523730cefb5a67b21bcb684e9", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > input.btn.btn-primary.submitButton-customizable"}
+09/10/2018 10:14:07 AM: DEBUG: http://127.0.0.1:50197 "POST /session/5a5458c523730cefb5a67b21bcb684e9/element HTTP/1.1" 200 102
+09/10/2018 10:14:07 AM: DEBUG: Finished Request
+09/10/2018 10:14:07 AM: DEBUG: POST http://127.0.0.1:50197/session/5a5458c523730cefb5a67b21bcb684e9/element/0.8394042174726839-3/click {"sessionId": "5a5458c523730cefb5a67b21bcb684e9", "id": "0.8394042174726839-3"}
+09/10/2018 10:14:09 AM: DEBUG: http://127.0.0.1:50197 "POST /session/5a5458c523730cefb5a67b21bcb684e9/element/0.8394042174726839-3/click HTTP/1.1" 200 72
+09/10/2018 10:14:09 AM: DEBUG: Finished Request
+09/10/2018 10:14:15 AM: DEBUG: POST http://127.0.0.1:50236/session {"capabilities": {"alwaysMatch": {"goog:chromeOptions": {"args": [], "extensions": []}, "browserName": "chrome", "platformName": "any"}, "firstMatch": [{}]}, "desiredCapabilities": {"goog:chromeOptions": {"args": [], "extensions": []}, "platform": "ANY", "browserName": "chrome", "version": ""}}
+09/10/2018 10:14:15 AM: DEBUG: Starting new HTTP connection (1): 127.0.0.1:50236
+09/10/2018 10:14:17 AM: DEBUG: http://127.0.0.1:50236 "POST /session HTTP/1.1" 200 832
+09/10/2018 10:14:17 AM: DEBUG: Finished Request
+09/10/2018 10:14:17 AM: DEBUG: POST http://127.0.0.1:50236/session/e2a66404812d5706388e1ae2237ca2cb/url {"url": "https://mytaptrack-test.com", "sessionId": "e2a66404812d5706388e1ae2237ca2cb"}
+09/10/2018 10:14:21 AM: DEBUG: http://127.0.0.1:50236 "POST /session/e2a66404812d5706388e1ae2237ca2cb/url HTTP/1.1" 200 72
+09/10/2018 10:14:21 AM: DEBUG: Finished Request
+09/10/2018 10:14:21 AM: DEBUG: POST http://127.0.0.1:50236/session/e2a66404812d5706388e1ae2237ca2cb/element {"using": "class name", "sessionId": "e2a66404812d5706388e1ae2237ca2cb", "value": "nav-link"}
+09/10/2018 10:14:21 AM: DEBUG: http://127.0.0.1:50236 "POST /session/e2a66404812d5706388e1ae2237ca2cb/element HTTP/1.1" 200 103
+09/10/2018 10:14:21 AM: DEBUG: Finished Request
+09/10/2018 10:14:21 AM: DEBUG: POST http://127.0.0.1:50236/session/e2a66404812d5706388e1ae2237ca2cb/element/0.34507626269388814-1/click {"sessionId": "e2a66404812d5706388e1ae2237ca2cb", "id": "0.34507626269388814-1"}
+09/10/2018 10:14:26 AM: DEBUG: http://127.0.0.1:50236 "POST /session/e2a66404812d5706388e1ae2237ca2cb/element/0.34507626269388814-1/click HTTP/1.1" 200 72
+09/10/2018 10:14:26 AM: DEBUG: Finished Request
+09/10/2018 10:14:28 AM: DEBUG: POST http://127.0.0.1:50236/session/e2a66404812d5706388e1ae2237ca2cb/element {"using": "css selector", "sessionId": "e2a66404812d5706388e1ae2237ca2cb", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(3) > input"}
+09/10/2018 10:14:28 AM: DEBUG: http://127.0.0.1:50236 "POST /session/e2a66404812d5706388e1ae2237ca2cb/element HTTP/1.1" 200 102
+09/10/2018 10:14:28 AM: DEBUG: Finished Request
+09/10/2018 10:14:28 AM: DEBUG: POST http://127.0.0.1:50236/session/e2a66404812d5706388e1ae2237ca2cb/element/0.4504004871502594-1/clear {"sessionId": "e2a66404812d5706388e1ae2237ca2cb", "id": "0.4504004871502594-1"}
+09/10/2018 10:14:28 AM: DEBUG: http://127.0.0.1:50236 "POST /session/e2a66404812d5706388e1ae2237ca2cb/element/0.4504004871502594-1/clear HTTP/1.1" 200 72
+09/10/2018 10:14:28 AM: DEBUG: Finished Request
+09/10/2018 10:14:28 AM: DEBUG: POST http://127.0.0.1:50236/session/e2a66404812d5706388e1ae2237ca2cb/element {"using": "css selector", "sessionId": "e2a66404812d5706388e1ae2237ca2cb", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(3) > input"}
+09/10/2018 10:14:28 AM: DEBUG: http://127.0.0.1:50236 "POST /session/e2a66404812d5706388e1ae2237ca2cb/element HTTP/1.1" 200 102
+09/10/2018 10:14:28 AM: DEBUG: Finished Request
+09/10/2018 10:14:28 AM: DEBUG: POST http://127.0.0.1:50236/session/e2a66404812d5706388e1ae2237ca2cb/element/0.4504004871502594-1/value {"text": "parent@mytap.com", "sessionId": "e2a66404812d5706388e1ae2237ca2cb", "id": "0.4504004871502594-1", "value": ["p", "a", "r", "e", "n", "t", "@", "m", "y", "t", "a", "p", ".", "c", "o", "m"]}
+09/10/2018 10:14:28 AM: DEBUG: http://127.0.0.1:50236 "POST /session/e2a66404812d5706388e1ae2237ca2cb/element/0.4504004871502594-1/value HTTP/1.1" 200 72
+09/10/2018 10:14:28 AM: DEBUG: Finished Request
+09/10/2018 10:14:30 AM: DEBUG: POST http://127.0.0.1:50236/session/e2a66404812d5706388e1ae2237ca2cb/element {"using": "css selector", "sessionId": "e2a66404812d5706388e1ae2237ca2cb", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(5) > input"}
+09/10/2018 10:14:30 AM: DEBUG: http://127.0.0.1:50236 "POST /session/e2a66404812d5706388e1ae2237ca2cb/element HTTP/1.1" 200 102
+09/10/2018 10:14:30 AM: DEBUG: Finished Request
+09/10/2018 10:14:30 AM: DEBUG: POST http://127.0.0.1:50236/session/e2a66404812d5706388e1ae2237ca2cb/element/0.4504004871502594-2/clear {"sessionId": "e2a66404812d5706388e1ae2237ca2cb", "id": "0.4504004871502594-2"}
+09/10/2018 10:14:30 AM: DEBUG: http://127.0.0.1:50236 "POST /session/e2a66404812d5706388e1ae2237ca2cb/element/0.4504004871502594-2/clear HTTP/1.1" 200 72
+09/10/2018 10:14:30 AM: DEBUG: Finished Request
+09/10/2018 10:14:30 AM: DEBUG: POST http://127.0.0.1:50236/session/e2a66404812d5706388e1ae2237ca2cb/element {"using": "css selector", "sessionId": "e2a66404812d5706388e1ae2237ca2cb", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(5) > input"}
+09/10/2018 10:14:30 AM: DEBUG: http://127.0.0.1:50236 "POST /session/e2a66404812d5706388e1ae2237ca2cb/element HTTP/1.1" 200 102
+09/10/2018 10:14:30 AM: DEBUG: Finished Request
+09/10/2018 10:14:30 AM: DEBUG: POST http://127.0.0.1:50236/session/e2a66404812d5706388e1ae2237ca2cb/element/0.4504004871502594-2/value {"text": "Inspire123", "sessionId": "e2a66404812d5706388e1ae2237ca2cb", "id": "0.4504004871502594-2", "value": ["I", "n", "s", "p", "i", "r", "e", "1", "2", "3"]}
+09/10/2018 10:14:30 AM: DEBUG: http://127.0.0.1:50236 "POST /session/e2a66404812d5706388e1ae2237ca2cb/element/0.4504004871502594-2/value HTTP/1.1" 200 72
+09/10/2018 10:14:30 AM: DEBUG: Finished Request
+09/10/2018 10:14:32 AM: DEBUG: POST http://127.0.0.1:50236/session/e2a66404812d5706388e1ae2237ca2cb/element {"using": "css selector", "sessionId": "e2a66404812d5706388e1ae2237ca2cb", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > input.btn.btn-primary.submitButton-customizable"}
+09/10/2018 10:14:32 AM: DEBUG: http://127.0.0.1:50236 "POST /session/e2a66404812d5706388e1ae2237ca2cb/element HTTP/1.1" 200 102
+09/10/2018 10:14:32 AM: DEBUG: Finished Request
+09/10/2018 10:14:32 AM: DEBUG: POST http://127.0.0.1:50236/session/e2a66404812d5706388e1ae2237ca2cb/element/0.4504004871502594-3/click {"sessionId": "e2a66404812d5706388e1ae2237ca2cb", "id": "0.4504004871502594-3"}
+09/10/2018 10:14:34 AM: DEBUG: http://127.0.0.1:50236 "POST /session/e2a66404812d5706388e1ae2237ca2cb/element/0.4504004871502594-3/click HTTP/1.1" 200 72
+09/10/2018 10:14:34 AM: DEBUG: Finished Request
+09/10/2018 10:14:40 AM: DEBUG: POST http://127.0.0.1:50275/session {"capabilities": {"alwaysMatch": {"goog:chromeOptions": {"args": [], "extensions": []}, "browserName": "chrome", "platformName": "any"}, "firstMatch": [{}]}, "desiredCapabilities": {"goog:chromeOptions": {"args": [], "extensions": []}, "platform": "ANY", "browserName": "chrome", "version": ""}}
+09/10/2018 10:14:40 AM: DEBUG: Starting new HTTP connection (1): 127.0.0.1:50275
+09/10/2018 10:14:42 AM: DEBUG: http://127.0.0.1:50275 "POST /session HTTP/1.1" 200 833
+09/10/2018 10:14:42 AM: DEBUG: Finished Request
+09/10/2018 10:14:42 AM: DEBUG: POST http://127.0.0.1:50275/session/469353885ffeaac5c931868cdc21fca4/url {"url": "https://mytaptrack-test.com", "sessionId": "469353885ffeaac5c931868cdc21fca4"}
+09/10/2018 10:14:47 AM: DEBUG: http://127.0.0.1:50275 "POST /session/469353885ffeaac5c931868cdc21fca4/url HTTP/1.1" 200 72
+09/10/2018 10:14:47 AM: DEBUG: Finished Request
+09/10/2018 10:14:47 AM: DEBUG: POST http://127.0.0.1:50275/session/469353885ffeaac5c931868cdc21fca4/element {"using": "class name", "sessionId": "469353885ffeaac5c931868cdc21fca4", "value": "nav-link"}
+09/10/2018 10:14:47 AM: DEBUG: http://127.0.0.1:50275 "POST /session/469353885ffeaac5c931868cdc21fca4/element HTTP/1.1" 200 103
+09/10/2018 10:14:47 AM: DEBUG: Finished Request
+09/10/2018 10:14:47 AM: DEBUG: POST http://127.0.0.1:50275/session/469353885ffeaac5c931868cdc21fca4/element/0.21602408578599275-1/click {"sessionId": "469353885ffeaac5c931868cdc21fca4", "id": "0.21602408578599275-1"}
+09/10/2018 10:14:51 AM: DEBUG: http://127.0.0.1:50275 "POST /session/469353885ffeaac5c931868cdc21fca4/element/0.21602408578599275-1/click HTTP/1.1" 200 72
+09/10/2018 10:14:51 AM: DEBUG: Finished Request
+09/10/2018 10:14:53 AM: DEBUG: POST http://127.0.0.1:50275/session/469353885ffeaac5c931868cdc21fca4/element {"using": "css selector", "sessionId": "469353885ffeaac5c931868cdc21fca4", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(3) > input"}
+09/10/2018 10:14:53 AM: DEBUG: http://127.0.0.1:50275 "POST /session/469353885ffeaac5c931868cdc21fca4/element HTTP/1.1" 200 102
+09/10/2018 10:14:53 AM: DEBUG: Finished Request
+09/10/2018 10:14:53 AM: DEBUG: POST http://127.0.0.1:50275/session/469353885ffeaac5c931868cdc21fca4/element/0.1914851735578369-1/clear {"sessionId": "469353885ffeaac5c931868cdc21fca4", "id": "0.1914851735578369-1"}
+09/10/2018 10:14:53 AM: DEBUG: http://127.0.0.1:50275 "POST /session/469353885ffeaac5c931868cdc21fca4/element/0.1914851735578369-1/clear HTTP/1.1" 200 72
+09/10/2018 10:14:53 AM: DEBUG: Finished Request
+09/10/2018 10:14:53 AM: DEBUG: POST http://127.0.0.1:50275/session/469353885ffeaac5c931868cdc21fca4/element {"using": "css selector", "sessionId": "469353885ffeaac5c931868cdc21fca4", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(3) > input"}
+09/10/2018 10:14:53 AM: DEBUG: http://127.0.0.1:50275 "POST /session/469353885ffeaac5c931868cdc21fca4/element HTTP/1.1" 200 102
+09/10/2018 10:14:53 AM: DEBUG: Finished Request
+09/10/2018 10:14:53 AM: DEBUG: POST http://127.0.0.1:50275/session/469353885ffeaac5c931868cdc21fca4/element/0.1914851735578369-1/value {"text": "", "sessionId": "469353885ffeaac5c931868cdc21fca4", "id": "0.1914851735578369-1", "value": []}
+09/10/2018 10:14:53 AM: DEBUG: http://127.0.0.1:50275 "POST /session/469353885ffeaac5c931868cdc21fca4/element/0.1914851735578369-1/value HTTP/1.1" 200 72
+09/10/2018 10:14:53 AM: DEBUG: Finished Request
+09/10/2018 10:14:55 AM: DEBUG: POST http://127.0.0.1:50275/session/469353885ffeaac5c931868cdc21fca4/element {"using": "css selector", "sessionId": "469353885ffeaac5c931868cdc21fca4", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(5) > input"}
+09/10/2018 10:14:55 AM: DEBUG: http://127.0.0.1:50275 "POST /session/469353885ffeaac5c931868cdc21fca4/element HTTP/1.1" 200 102
+09/10/2018 10:14:55 AM: DEBUG: Finished Request
+09/10/2018 10:14:55 AM: DEBUG: POST http://127.0.0.1:50275/session/469353885ffeaac5c931868cdc21fca4/element/0.1914851735578369-2/clear {"sessionId": "469353885ffeaac5c931868cdc21fca4", "id": "0.1914851735578369-2"}
+09/10/2018 10:14:55 AM: DEBUG: http://127.0.0.1:50275 "POST /session/469353885ffeaac5c931868cdc21fca4/element/0.1914851735578369-2/clear HTTP/1.1" 200 72
+09/10/2018 10:14:55 AM: DEBUG: Finished Request
+09/10/2018 10:14:55 AM: DEBUG: POST http://127.0.0.1:50275/session/469353885ffeaac5c931868cdc21fca4/element {"using": "css selector", "sessionId": "469353885ffeaac5c931868cdc21fca4", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(5) > input"}
+09/10/2018 10:14:56 AM: DEBUG: http://127.0.0.1:50275 "POST /session/469353885ffeaac5c931868cdc21fca4/element HTTP/1.1" 200 102
+09/10/2018 10:14:56 AM: DEBUG: Finished Request
+09/10/2018 10:14:56 AM: DEBUG: POST http://127.0.0.1:50275/session/469353885ffeaac5c931868cdc21fca4/element/0.1914851735578369-2/value {"text": "Inspire123", "sessionId": "469353885ffeaac5c931868cdc21fca4", "id": "0.1914851735578369-2", "value": ["I", "n", "s", "p", "i", "r", "e", "1", "2", "3"]}
+09/10/2018 10:14:56 AM: DEBUG: http://127.0.0.1:50275 "POST /session/469353885ffeaac5c931868cdc21fca4/element/0.1914851735578369-2/value HTTP/1.1" 200 72
+09/10/2018 10:14:56 AM: DEBUG: Finished Request
+09/10/2018 10:14:58 AM: DEBUG: POST http://127.0.0.1:50275/session/469353885ffeaac5c931868cdc21fca4/element {"using": "css selector", "sessionId": "469353885ffeaac5c931868cdc21fca4", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > input.btn.btn-primary.submitButton-customizable"}
+09/10/2018 10:14:58 AM: DEBUG: http://127.0.0.1:50275 "POST /session/469353885ffeaac5c931868cdc21fca4/element HTTP/1.1" 200 102
+09/10/2018 10:14:58 AM: DEBUG: Finished Request
+09/10/2018 10:14:58 AM: DEBUG: POST http://127.0.0.1:50275/session/469353885ffeaac5c931868cdc21fca4/element/0.1914851735578369-3/click {"sessionId": "469353885ffeaac5c931868cdc21fca4", "id": "0.1914851735578369-3"}
+09/10/2018 10:14:58 AM: DEBUG: http://127.0.0.1:50275 "POST /session/469353885ffeaac5c931868cdc21fca4/element/0.1914851735578369-3/click HTTP/1.1" 200 72
+09/10/2018 10:14:58 AM: DEBUG: Finished Request
+09/10/2018 10:15:04 AM: DEBUG: POST http://127.0.0.1:50315/session {"capabilities": {"alwaysMatch": {"goog:chromeOptions": {"args": [], "extensions": []}, "browserName": "chrome", "platformName": "any"}, "firstMatch": [{}]}, "desiredCapabilities": {"goog:chromeOptions": {"args": [], "extensions": []}, "platform": "ANY", "browserName": "chrome", "version": ""}}
+09/10/2018 10:15:04 AM: DEBUG: Starting new HTTP connection (1): 127.0.0.1:50315
+09/10/2018 10:15:06 AM: DEBUG: http://127.0.0.1:50315 "POST /session HTTP/1.1" 200 833
+09/10/2018 10:15:06 AM: DEBUG: Finished Request
+09/10/2018 10:15:06 AM: DEBUG: POST http://127.0.0.1:50315/session/a4e38ffdb973e703c28e706371adb7df/url {"url": "https://mytaptrack-test.com", "sessionId": "a4e38ffdb973e703c28e706371adb7df"}
+09/10/2018 10:15:14 AM: DEBUG: http://127.0.0.1:50315 "POST /session/a4e38ffdb973e703c28e706371adb7df/url HTTP/1.1" 200 72
+09/10/2018 10:15:14 AM: DEBUG: Finished Request
+09/10/2018 10:15:14 AM: DEBUG: POST http://127.0.0.1:50315/session/a4e38ffdb973e703c28e706371adb7df/element {"using": "class name", "sessionId": "a4e38ffdb973e703c28e706371adb7df", "value": "nav-link"}
+09/10/2018 10:15:14 AM: DEBUG: http://127.0.0.1:50315 "POST /session/a4e38ffdb973e703c28e706371adb7df/element HTTP/1.1" 200 102
+09/10/2018 10:15:14 AM: DEBUG: Finished Request
+09/10/2018 10:15:14 AM: DEBUG: POST http://127.0.0.1:50315/session/a4e38ffdb973e703c28e706371adb7df/element/0.5482308681434134-1/click {"sessionId": "a4e38ffdb973e703c28e706371adb7df", "id": "0.5482308681434134-1"}
+09/10/2018 10:15:20 AM: DEBUG: http://127.0.0.1:50315 "POST /session/a4e38ffdb973e703c28e706371adb7df/element/0.5482308681434134-1/click HTTP/1.1" 200 72
+09/10/2018 10:15:20 AM: DEBUG: Finished Request
+09/10/2018 10:15:22 AM: DEBUG: POST http://127.0.0.1:50315/session/a4e38ffdb973e703c28e706371adb7df/element {"using": "css selector", "sessionId": "a4e38ffdb973e703c28e706371adb7df", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(3) > input"}
+09/10/2018 10:15:22 AM: DEBUG: http://127.0.0.1:50315 "POST /session/a4e38ffdb973e703c28e706371adb7df/element HTTP/1.1" 200 102
+09/10/2018 10:15:22 AM: DEBUG: Finished Request
+09/10/2018 10:15:22 AM: DEBUG: POST http://127.0.0.1:50315/session/a4e38ffdb973e703c28e706371adb7df/element/0.9159500044139575-1/clear {"sessionId": "a4e38ffdb973e703c28e706371adb7df", "id": "0.9159500044139575-1"}
+09/10/2018 10:15:22 AM: DEBUG: http://127.0.0.1:50315 "POST /session/a4e38ffdb973e703c28e706371adb7df/element/0.9159500044139575-1/clear HTTP/1.1" 200 72
+09/10/2018 10:15:22 AM: DEBUG: Finished Request
+09/10/2018 10:15:22 AM: DEBUG: POST http://127.0.0.1:50315/session/a4e38ffdb973e703c28e706371adb7df/element {"using": "css selector", "sessionId": "a4e38ffdb973e703c28e706371adb7df", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(3) > input"}
+09/10/2018 10:15:22 AM: DEBUG: http://127.0.0.1:50315 "POST /session/a4e38ffdb973e703c28e706371adb7df/element HTTP/1.1" 200 102
+09/10/2018 10:15:22 AM: DEBUG: Finished Request
+09/10/2018 10:15:22 AM: DEBUG: POST http://127.0.0.1:50315/session/a4e38ffdb973e703c28e706371adb7df/element/0.9159500044139575-1/value {"text": "parent@tap.com", "sessionId": "a4e38ffdb973e703c28e706371adb7df", "id": "0.9159500044139575-1", "value": ["p", "a", "r", "e", "n", "t", "@", "t", "a", "p", ".", "c", "o", "m"]}
+09/10/2018 10:15:22 AM: DEBUG: http://127.0.0.1:50315 "POST /session/a4e38ffdb973e703c28e706371adb7df/element/0.9159500044139575-1/value HTTP/1.1" 200 72
+09/10/2018 10:15:22 AM: DEBUG: Finished Request
+09/10/2018 10:15:24 AM: DEBUG: POST http://127.0.0.1:50315/session/a4e38ffdb973e703c28e706371adb7df/element {"using": "css selector", "sessionId": "a4e38ffdb973e703c28e706371adb7df", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(5) > input"}
+09/10/2018 10:15:24 AM: DEBUG: http://127.0.0.1:50315 "POST /session/a4e38ffdb973e703c28e706371adb7df/element HTTP/1.1" 200 102
+09/10/2018 10:15:24 AM: DEBUG: Finished Request
+09/10/2018 10:15:24 AM: DEBUG: POST http://127.0.0.1:50315/session/a4e38ffdb973e703c28e706371adb7df/element/0.9159500044139575-2/clear {"sessionId": "a4e38ffdb973e703c28e706371adb7df", "id": "0.9159500044139575-2"}
+09/10/2018 10:15:24 AM: DEBUG: http://127.0.0.1:50315 "POST /session/a4e38ffdb973e703c28e706371adb7df/element/0.9159500044139575-2/clear HTTP/1.1" 200 72
+09/10/2018 10:15:24 AM: DEBUG: Finished Request
+09/10/2018 10:15:24 AM: DEBUG: POST http://127.0.0.1:50315/session/a4e38ffdb973e703c28e706371adb7df/element {"using": "css selector", "sessionId": "a4e38ffdb973e703c28e706371adb7df", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(5) > input"}
+09/10/2018 10:15:24 AM: DEBUG: http://127.0.0.1:50315 "POST /session/a4e38ffdb973e703c28e706371adb7df/element HTTP/1.1" 200 102
+09/10/2018 10:15:24 AM: DEBUG: Finished Request
+09/10/2018 10:15:24 AM: DEBUG: POST http://127.0.0.1:50315/session/a4e38ffdb973e703c28e706371adb7df/element/0.9159500044139575-2/value {"text": "Inspi", "sessionId": "a4e38ffdb973e703c28e706371adb7df", "id": "0.9159500044139575-2", "value": ["I", "n", "s", "p", "i"]}
+09/10/2018 10:15:24 AM: DEBUG: http://127.0.0.1:50315 "POST /session/a4e38ffdb973e703c28e706371adb7df/element/0.9159500044139575-2/value HTTP/1.1" 200 72
+09/10/2018 10:15:24 AM: DEBUG: Finished Request
+09/10/2018 10:15:26 AM: DEBUG: POST http://127.0.0.1:50315/session/a4e38ffdb973e703c28e706371adb7df/element {"using": "css selector", "sessionId": "a4e38ffdb973e703c28e706371adb7df", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > input.btn.btn-primary.submitButton-customizable"}
+09/10/2018 10:15:26 AM: DEBUG: http://127.0.0.1:50315 "POST /session/a4e38ffdb973e703c28e706371adb7df/element HTTP/1.1" 200 102
+09/10/2018 10:15:26 AM: DEBUG: Finished Request
+09/10/2018 10:15:26 AM: DEBUG: POST http://127.0.0.1:50315/session/a4e38ffdb973e703c28e706371adb7df/element/0.9159500044139575-3/click {"sessionId": "a4e38ffdb973e703c28e706371adb7df", "id": "0.9159500044139575-3"}
+09/10/2018 10:15:27 AM: DEBUG: http://127.0.0.1:50315 "POST /session/a4e38ffdb973e703c28e706371adb7df/element/0.9159500044139575-3/click HTTP/1.1" 200 72
+09/10/2018 10:15:27 AM: DEBUG: Finished Request
+09/10/2018 10:15:34 AM: DEBUG: POST http://127.0.0.1:50357/session {"capabilities": {"alwaysMatch": {"goog:chromeOptions": {"args": [], "extensions": []}, "browserName": "chrome", "platformName": "any"}, "firstMatch": [{}]}, "desiredCapabilities": {"goog:chromeOptions": {"args": [], "extensions": []}, "platform": "ANY", "browserName": "chrome", "version": ""}}
+09/10/2018 10:15:34 AM: DEBUG: Starting new HTTP connection (1): 127.0.0.1:50357
+09/10/2018 10:15:36 AM: DEBUG: http://127.0.0.1:50357 "POST /session HTTP/1.1" 200 833
+09/10/2018 10:15:36 AM: DEBUG: Finished Request
+09/10/2018 10:15:36 AM: DEBUG: POST http://127.0.0.1:50357/session/f54ff9c583b2011f82826190dfe7a1dd/url {"url": "https://mytaptrack-test.com", "sessionId": "f54ff9c583b2011f82826190dfe7a1dd"}
+09/10/2018 10:15:41 AM: DEBUG: http://127.0.0.1:50357 "POST /session/f54ff9c583b2011f82826190dfe7a1dd/url HTTP/1.1" 200 72
+09/10/2018 10:15:41 AM: DEBUG: Finished Request
+09/10/2018 10:15:41 AM: DEBUG: POST http://127.0.0.1:50357/session/f54ff9c583b2011f82826190dfe7a1dd/element {"using": "class name", "sessionId": "f54ff9c583b2011f82826190dfe7a1dd", "value": "nav-link"}
+09/10/2018 10:15:41 AM: DEBUG: http://127.0.0.1:50357 "POST /session/f54ff9c583b2011f82826190dfe7a1dd/element HTTP/1.1" 200 102
+09/10/2018 10:15:41 AM: DEBUG: Finished Request
+09/10/2018 10:15:41 AM: DEBUG: POST http://127.0.0.1:50357/session/f54ff9c583b2011f82826190dfe7a1dd/element/0.6670382344542336-1/click {"sessionId": "f54ff9c583b2011f82826190dfe7a1dd", "id": "0.6670382344542336-1"}
+09/10/2018 10:15:46 AM: DEBUG: http://127.0.0.1:50357 "POST /session/f54ff9c583b2011f82826190dfe7a1dd/element/0.6670382344542336-1/click HTTP/1.1" 200 72
+09/10/2018 10:15:46 AM: DEBUG: Finished Request
+09/10/2018 10:15:48 AM: DEBUG: POST http://127.0.0.1:50357/session/f54ff9c583b2011f82826190dfe7a1dd/element {"using": "css selector", "sessionId": "f54ff9c583b2011f82826190dfe7a1dd", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(3) > input"}
+09/10/2018 10:15:48 AM: DEBUG: http://127.0.0.1:50357 "POST /session/f54ff9c583b2011f82826190dfe7a1dd/element HTTP/1.1" 200 103
+09/10/2018 10:15:48 AM: DEBUG: Finished Request
+09/10/2018 10:15:48 AM: DEBUG: POST http://127.0.0.1:50357/session/f54ff9c583b2011f82826190dfe7a1dd/element/0.27061187654541263-1/clear {"sessionId": "f54ff9c583b2011f82826190dfe7a1dd", "id": "0.27061187654541263-1"}
+09/10/2018 10:15:48 AM: DEBUG: http://127.0.0.1:50357 "POST /session/f54ff9c583b2011f82826190dfe7a1dd/element/0.27061187654541263-1/clear HTTP/1.1" 200 72
+09/10/2018 10:15:48 AM: DEBUG: Finished Request
+09/10/2018 10:15:48 AM: DEBUG: POST http://127.0.0.1:50357/session/f54ff9c583b2011f82826190dfe7a1dd/element {"using": "css selector", "sessionId": "f54ff9c583b2011f82826190dfe7a1dd", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(3) > input"}
+09/10/2018 10:15:48 AM: DEBUG: http://127.0.0.1:50357 "POST /session/f54ff9c583b2011f82826190dfe7a1dd/element HTTP/1.1" 200 103
+09/10/2018 10:15:48 AM: DEBUG: Finished Request
+09/10/2018 10:15:48 AM: DEBUG: POST http://127.0.0.1:50357/session/f54ff9c583b2011f82826190dfe7a1dd/element/0.27061187654541263-1/value {"text": "parent@mytaptrack.com", "sessionId": "f54ff9c583b2011f82826190dfe7a1dd", "id": "0.27061187654541263-1", "value": ["p", "a", "r", "e", "n", "t", "@", "m", "y", "t", "a", "p", "t", "r", "a", "c", "k", ".", "c", "o", "m"]}
+09/10/2018 10:15:48 AM: DEBUG: http://127.0.0.1:50357 "POST /session/f54ff9c583b2011f82826190dfe7a1dd/element/0.27061187654541263-1/value HTTP/1.1" 200 72
+09/10/2018 10:15:48 AM: DEBUG: Finished Request
+09/10/2018 10:15:50 AM: DEBUG: POST http://127.0.0.1:50357/session/f54ff9c583b2011f82826190dfe7a1dd/element {"using": "css selector", "sessionId": "f54ff9c583b2011f82826190dfe7a1dd", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(5) > input"}
+09/10/2018 10:15:50 AM: DEBUG: http://127.0.0.1:50357 "POST /session/f54ff9c583b2011f82826190dfe7a1dd/element HTTP/1.1" 200 103
+09/10/2018 10:15:50 AM: DEBUG: Finished Request
+09/10/2018 10:15:50 AM: DEBUG: POST http://127.0.0.1:50357/session/f54ff9c583b2011f82826190dfe7a1dd/element/0.27061187654541263-2/clear {"sessionId": "f54ff9c583b2011f82826190dfe7a1dd", "id": "0.27061187654541263-2"}
+09/10/2018 10:15:50 AM: DEBUG: http://127.0.0.1:50357 "POST /session/f54ff9c583b2011f82826190dfe7a1dd/element/0.27061187654541263-2/clear HTTP/1.1" 200 72
+09/10/2018 10:15:51 AM: DEBUG: Finished Request
+09/10/2018 10:15:51 AM: DEBUG: POST http://127.0.0.1:50357/session/f54ff9c583b2011f82826190dfe7a1dd/element {"using": "css selector", "sessionId": "f54ff9c583b2011f82826190dfe7a1dd", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(5) > input"}
+09/10/2018 10:15:51 AM: DEBUG: http://127.0.0.1:50357 "POST /session/f54ff9c583b2011f82826190dfe7a1dd/element HTTP/1.1" 200 103
+09/10/2018 10:15:51 AM: DEBUG: Finished Request
+09/10/2018 10:15:51 AM: DEBUG: POST http://127.0.0.1:50357/session/f54ff9c583b2011f82826190dfe7a1dd/element/0.27061187654541263-2/value {"text": "Inspire@123", "sessionId": "f54ff9c583b2011f82826190dfe7a1dd", "id": "0.27061187654541263-2", "value": ["I", "n", "s", "p", "i", "r", "e", "@", "1", "2", "3"]}
+09/10/2018 10:15:51 AM: DEBUG: http://127.0.0.1:50357 "POST /session/f54ff9c583b2011f82826190dfe7a1dd/element/0.27061187654541263-2/value HTTP/1.1" 200 72
+09/10/2018 10:15:51 AM: DEBUG: Finished Request
+09/10/2018 10:15:53 AM: DEBUG: POST http://127.0.0.1:50357/session/f54ff9c583b2011f82826190dfe7a1dd/element {"using": "css selector", "sessionId": "f54ff9c583b2011f82826190dfe7a1dd", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > input.btn.btn-primary.submitButton-customizable"}
+09/10/2018 10:15:53 AM: DEBUG: http://127.0.0.1:50357 "POST /session/f54ff9c583b2011f82826190dfe7a1dd/element HTTP/1.1" 200 103
+09/10/2018 10:15:53 AM: DEBUG: Finished Request
+09/10/2018 10:15:53 AM: DEBUG: POST http://127.0.0.1:50357/session/f54ff9c583b2011f82826190dfe7a1dd/element/0.27061187654541263-3/click {"sessionId": "f54ff9c583b2011f82826190dfe7a1dd", "id": "0.27061187654541263-3"}
+09/10/2018 10:15:54 AM: DEBUG: http://127.0.0.1:50357 "POST /session/f54ff9c583b2011f82826190dfe7a1dd/element/0.27061187654541263-3/click HTTP/1.1" 200 72
+09/10/2018 10:15:54 AM: DEBUG: Finished Request
+09/10/2018 10:16:06 AM: DEBUG: DELETE http://127.0.0.1:49991/session/8068c449655886b11f55daa74f500875/window {"sessionId": "8068c449655886b11f55daa74f500875"}
+09/10/2018 10:16:08 AM: DEBUG: http://127.0.0.1:49991 "DELETE /session/8068c449655886b11f55daa74f500875/window HTTP/1.1" 200 268
+09/10/2018 10:16:08 AM: DEBUG: Finished Request
+09/17/2018 12:32:55 PM: DEBUG: POST http://127.0.0.1:56957/session {"capabilities": {"alwaysMatch": {"goog:chromeOptions": {"args": [], "extensions": []}, "browserName": "chrome", "platformName": "any"}, "firstMatch": [{}]}, "desiredCapabilities": {"goog:chromeOptions": {"args": [], "extensions": []}, "platform": "ANY", "browserName": "chrome", "version": ""}}
+09/17/2018 12:32:55 PM: DEBUG: Starting new HTTP connection (1): 127.0.0.1:56957
+09/17/2018 12:32:57 PM: DEBUG: http://127.0.0.1:56957 "POST /session HTTP/1.1" 200 832
+09/17/2018 12:32:57 PM: DEBUG: Finished Request
+09/17/2018 12:32:57 PM: DEBUG: POST http://127.0.0.1:56957/session/2923fc9fa51545e65fd814e8e1f4e367/timeouts/implicit_wait {"sessionId": "2923fc9fa51545e65fd814e8e1f4e367", "ms": 2000.0}
+09/17/2018 12:32:57 PM: DEBUG: http://127.0.0.1:56957 "POST /session/2923fc9fa51545e65fd814e8e1f4e367/timeouts/implicit_wait HTTP/1.1" 200 72
+09/17/2018 12:32:57 PM: DEBUG: Finished Request
+09/17/2018 12:32:57 PM: DEBUG: POST http://127.0.0.1:56957/session/2923fc9fa51545e65fd814e8e1f4e367/url {"url": "https://mytaptrack-test.com", "sessionId": "2923fc9fa51545e65fd814e8e1f4e367"}
+09/17/2018 12:33:02 PM: DEBUG: http://127.0.0.1:56957 "POST /session/2923fc9fa51545e65fd814e8e1f4e367/url HTTP/1.1" 200 72
+09/17/2018 12:33:02 PM: DEBUG: Finished Request
+09/17/2018 12:33:02 PM: DEBUG: POST http://127.0.0.1:56987/session {"capabilities": {"alwaysMatch": {"goog:chromeOptions": {"args": [], "extensions": []}, "browserName": "chrome", "platformName": "any"}, "firstMatch": [{}]}, "desiredCapabilities": {"goog:chromeOptions": {"args": [], "extensions": []}, "platform": "ANY", "browserName": "chrome", "version": ""}}
+09/17/2018 12:33:02 PM: DEBUG: Starting new HTTP connection (1): 127.0.0.1:56987
+09/17/2018 12:33:04 PM: DEBUG: http://127.0.0.1:56987 "POST /session HTTP/1.1" 200 832
+09/17/2018 12:33:04 PM: DEBUG: Finished Request
+09/17/2018 12:33:04 PM: DEBUG: POST http://127.0.0.1:56987/session/488fbc2c741bdf997196393df1e4a36f/url {"url": "https://mytaptrack-test.com", "sessionId": "488fbc2c741bdf997196393df1e4a36f"}
+09/17/2018 12:33:06 PM: DEBUG: http://127.0.0.1:56987 "POST /session/488fbc2c741bdf997196393df1e4a36f/url HTTP/1.1" 200 72
+09/17/2018 12:33:06 PM: DEBUG: Finished Request
+09/17/2018 12:33:06 PM: DEBUG: POST http://127.0.0.1:56987/session/488fbc2c741bdf997196393df1e4a36f/element {"using": "class name", "sessionId": "488fbc2c741bdf997196393df1e4a36f", "value": "nav-link"}
+09/17/2018 12:33:07 PM: DEBUG: http://127.0.0.1:56987 "POST /session/488fbc2c741bdf997196393df1e4a36f/element HTTP/1.1" 200 102
+09/17/2018 12:33:07 PM: DEBUG: Finished Request
+09/17/2018 12:33:07 PM: DEBUG: POST http://127.0.0.1:56987/session/488fbc2c741bdf997196393df1e4a36f/element/0.7127615064474442-1/click {"sessionId": "488fbc2c741bdf997196393df1e4a36f", "id": "0.7127615064474442-1"}
+09/17/2018 12:33:09 PM: DEBUG: http://127.0.0.1:56987 "POST /session/488fbc2c741bdf997196393df1e4a36f/element/0.7127615064474442-1/click HTTP/1.1" 200 72
+09/17/2018 12:33:09 PM: DEBUG: Finished Request
+09/17/2018 12:33:11 PM: DEBUG: POST http://127.0.0.1:56987/session/488fbc2c741bdf997196393df1e4a36f/element {"using": "css selector", "sessionId": "488fbc2c741bdf997196393df1e4a36f", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(3) > input"}
+09/17/2018 12:33:11 PM: DEBUG: http://127.0.0.1:56987 "POST /session/488fbc2c741bdf997196393df1e4a36f/element HTTP/1.1" 200 102
+09/17/2018 12:33:11 PM: DEBUG: Finished Request
+09/17/2018 12:33:11 PM: DEBUG: POST http://127.0.0.1:56987/session/488fbc2c741bdf997196393df1e4a36f/element/0.5072012936884112-1/clear {"sessionId": "488fbc2c741bdf997196393df1e4a36f", "id": "0.5072012936884112-1"}
+09/17/2018 12:33:11 PM: DEBUG: http://127.0.0.1:56987 "POST /session/488fbc2c741bdf997196393df1e4a36f/element/0.5072012936884112-1/clear HTTP/1.1" 200 72
+09/17/2018 12:33:11 PM: DEBUG: Finished Request
+09/17/2018 12:33:11 PM: DEBUG: POST http://127.0.0.1:56987/session/488fbc2c741bdf997196393df1e4a36f/element {"using": "css selector", "sessionId": "488fbc2c741bdf997196393df1e4a36f", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(3) > input"}
+09/17/2018 12:33:11 PM: DEBUG: http://127.0.0.1:56987 "POST /session/488fbc2c741bdf997196393df1e4a36f/element HTTP/1.1" 200 102
+09/17/2018 12:33:11 PM: DEBUG: Finished Request
+09/17/2018 12:33:11 PM: DEBUG: POST http://127.0.0.1:56987/session/488fbc2c741bdf997196393df1e4a36f/element/0.5072012936884112-1/value {"text": "parent@mytaptrack.com", "sessionId": "488fbc2c741bdf997196393df1e4a36f", "id": "0.5072012936884112-1", "value": ["p", "a", "r", "e", "n", "t", "@", "m", "y", "t", "a", "p", "t", "r", "a", "c", "k", ".", "c", "o", "m"]}
+09/17/2018 12:33:11 PM: DEBUG: http://127.0.0.1:56987 "POST /session/488fbc2c741bdf997196393df1e4a36f/element/0.5072012936884112-1/value HTTP/1.1" 200 72
+09/17/2018 12:33:11 PM: DEBUG: Finished Request
+09/17/2018 12:33:13 PM: DEBUG: POST http://127.0.0.1:56987/session/488fbc2c741bdf997196393df1e4a36f/element {"using": "css selector", "sessionId": "488fbc2c741bdf997196393df1e4a36f", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(5) > input"}
+09/17/2018 12:34:50 PM: DEBUG: POST http://127.0.0.1:57176/session {"capabilities": {"alwaysMatch": {"goog:chromeOptions": {"args": [], "extensions": []}, "browserName": "chrome", "platformName": "any"}, "firstMatch": [{}]}, "desiredCapabilities": {"goog:chromeOptions": {"args": [], "extensions": []}, "platform": "ANY", "browserName": "chrome", "version": ""}}
+09/17/2018 12:34:50 PM: DEBUG: Starting new HTTP connection (1): 127.0.0.1:57176
+09/17/2018 12:34:52 PM: DEBUG: http://127.0.0.1:57176 "POST /session HTTP/1.1" 200 832
+09/17/2018 12:34:52 PM: DEBUG: Finished Request
+09/17/2018 12:34:52 PM: DEBUG: POST http://127.0.0.1:57176/session/c8fa8cb82fd1222db0ca2146667a4d2d/timeouts/implicit_wait {"sessionId": "c8fa8cb82fd1222db0ca2146667a4d2d", "ms": 2000.0}
+09/17/2018 12:34:52 PM: DEBUG: http://127.0.0.1:57176 "POST /session/c8fa8cb82fd1222db0ca2146667a4d2d/timeouts/implicit_wait HTTP/1.1" 200 72
+09/17/2018 12:34:52 PM: DEBUG: Finished Request
+09/17/2018 12:34:52 PM: DEBUG: POST http://127.0.0.1:57176/session/c8fa8cb82fd1222db0ca2146667a4d2d/url {"url": "https://mytaptrack.com", "sessionId": "c8fa8cb82fd1222db0ca2146667a4d2d"}
+09/17/2018 12:35:02 PM: DEBUG: http://127.0.0.1:57176 "POST /session/c8fa8cb82fd1222db0ca2146667a4d2d/url HTTP/1.1" 200 72
+09/17/2018 12:35:02 PM: DEBUG: Finished Request
+09/17/2018 12:35:02 PM: DEBUG: POST http://127.0.0.1:57246/session {"capabilities": {"alwaysMatch": {"goog:chromeOptions": {"args": [], "extensions": []}, "browserName": "chrome", "platformName": "any"}, "firstMatch": [{}]}, "desiredCapabilities": {"goog:chromeOptions": {"args": [], "extensions": []}, "platform": "ANY", "browserName": "chrome", "version": ""}}
+09/17/2018 12:35:02 PM: DEBUG: Starting new HTTP connection (1): 127.0.0.1:57246
+09/17/2018 12:35:04 PM: DEBUG: http://127.0.0.1:57246 "POST /session HTTP/1.1" 200 833
+09/17/2018 12:35:04 PM: DEBUG: Finished Request
+09/17/2018 12:35:04 PM: DEBUG: POST http://127.0.0.1:57246/session/929d1a2fa1e28feb5749be828c497f11/url {"url": "https://mytaptrack.com", "sessionId": "929d1a2fa1e28feb5749be828c497f11"}
+09/17/2018 12:35:09 PM: DEBUG: http://127.0.0.1:57246 "POST /session/929d1a2fa1e28feb5749be828c497f11/url HTTP/1.1" 200 72
+09/17/2018 12:35:09 PM: DEBUG: Finished Request
+09/17/2018 12:35:09 PM: DEBUG: POST http://127.0.0.1:57246/session/929d1a2fa1e28feb5749be828c497f11/element {"using": "class name", "sessionId": "929d1a2fa1e28feb5749be828c497f11", "value": "style-jm3xvrt7label"}
+09/17/2018 12:35:13 PM: DEBUG: http://127.0.0.1:57246 "POST /session/929d1a2fa1e28feb5749be828c497f11/element HTTP/1.1" 200 102
+09/17/2018 12:35:13 PM: DEBUG: Finished Request
+09/17/2018 12:35:13 PM: DEBUG: POST http://127.0.0.1:57246/session/929d1a2fa1e28feb5749be828c497f11/element/0.7792986276768921-1/click {"sessionId": "929d1a2fa1e28feb5749be828c497f11", "id": "0.7792986276768921-1"}
+09/17/2018 12:35:13 PM: DEBUG: http://127.0.0.1:57246 "POST /session/929d1a2fa1e28feb5749be828c497f11/element/0.7792986276768921-1/click HTTP/1.1" 200 72
+09/17/2018 12:35:13 PM: DEBUG: Finished Request
+09/17/2018 12:35:15 PM: DEBUG: POST http://127.0.0.1:57246/session/929d1a2fa1e28feb5749be828c497f11/element {"using": "css selector", "sessionId": "929d1a2fa1e28feb5749be828c497f11", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(3) > input"}
+09/17/2018 12:35:16 PM: DEBUG: http://127.0.0.1:57246 "POST /session/929d1a2fa1e28feb5749be828c497f11/element HTTP/1.1" 200 430
+09/17/2018 12:35:16 PM: DEBUG: Finished Request
+09/17/2018 12:35:16 PM: DEBUG: POST http://127.0.0.1:57329/session {"capabilities": {"alwaysMatch": {"goog:chromeOptions": {"args": [], "extensions": []}, "browserName": "chrome", "platformName": "any"}, "firstMatch": [{}]}, "desiredCapabilities": {"goog:chromeOptions": {"args": [], "extensions": []}, "platform": "ANY", "browserName": "chrome", "version": ""}}
+09/17/2018 12:35:16 PM: DEBUG: Starting new HTTP connection (1): 127.0.0.1:57329
+09/17/2018 12:35:18 PM: DEBUG: http://127.0.0.1:57329 "POST /session HTTP/1.1" 200 832
+09/17/2018 12:35:18 PM: DEBUG: Finished Request
+09/17/2018 12:35:18 PM: DEBUG: POST http://127.0.0.1:57329/session/3128fd0fb4a8cc0195c3fb313eaf1815/url {"url": "https://mytaptrack.com", "sessionId": "3128fd0fb4a8cc0195c3fb313eaf1815"}
+09/17/2018 12:35:27 PM: DEBUG: http://127.0.0.1:57329 "POST /session/3128fd0fb4a8cc0195c3fb313eaf1815/url HTTP/1.1" 200 72
+09/17/2018 12:35:27 PM: DEBUG: Finished Request
+09/17/2018 12:35:27 PM: DEBUG: POST http://127.0.0.1:57329/session/3128fd0fb4a8cc0195c3fb313eaf1815/element {"using": "class name", "sessionId": "3128fd0fb4a8cc0195c3fb313eaf1815", "value": "style-jm3xvrt7label"}
+09/17/2018 12:35:27 PM: DEBUG: http://127.0.0.1:57329 "POST /session/3128fd0fb4a8cc0195c3fb313eaf1815/element HTTP/1.1" 200 101
+09/17/2018 12:35:27 PM: DEBUG: Finished Request
+09/17/2018 12:35:27 PM: DEBUG: POST http://127.0.0.1:57329/session/3128fd0fb4a8cc0195c3fb313eaf1815/element/0.486318564569828-1/click {"sessionId": "3128fd0fb4a8cc0195c3fb313eaf1815", "id": "0.486318564569828-1"}
+09/17/2018 12:35:28 PM: DEBUG: http://127.0.0.1:57329 "POST /session/3128fd0fb4a8cc0195c3fb313eaf1815/element/0.486318564569828-1/click HTTP/1.1" 200 72
+09/17/2018 12:35:28 PM: DEBUG: Finished Request
+09/17/2018 12:35:30 PM: DEBUG: POST http://127.0.0.1:57329/session/3128fd0fb4a8cc0195c3fb313eaf1815/element {"using": "css selector", "sessionId": "3128fd0fb4a8cc0195c3fb313eaf1815", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(3) > input"}
+09/17/2018 12:35:30 PM: DEBUG: http://127.0.0.1:57329 "POST /session/3128fd0fb4a8cc0195c3fb313eaf1815/element HTTP/1.1" 200 430
+09/17/2018 12:35:30 PM: DEBUG: Finished Request
+09/17/2018 12:35:31 PM: DEBUG: POST http://127.0.0.1:57406/session {"capabilities": {"alwaysMatch": {"goog:chromeOptions": {"args": [], "extensions": []}, "browserName": "chrome", "platformName": "any"}, "firstMatch": [{}]}, "desiredCapabilities": {"goog:chromeOptions": {"args": [], "extensions": []}, "platform": "ANY", "browserName": "chrome", "version": ""}}
+09/17/2018 12:35:31 PM: DEBUG: Starting new HTTP connection (1): 127.0.0.1:57406
+09/17/2018 12:35:32 PM: DEBUG: http://127.0.0.1:57406 "POST /session HTTP/1.1" 200 831
+09/17/2018 12:35:32 PM: DEBUG: Finished Request
+09/17/2018 12:35:32 PM: DEBUG: POST http://127.0.0.1:57406/session/2cbec7bf9117b5a23ae7d46e518329f7/url {"url": "https://mytaptrack.com", "sessionId": "2cbec7bf9117b5a23ae7d46e518329f7"}
+09/17/2018 12:35:42 PM: DEBUG: http://127.0.0.1:57406 "POST /session/2cbec7bf9117b5a23ae7d46e518329f7/url HTTP/1.1" 200 72
+09/17/2018 12:35:42 PM: DEBUG: Finished Request
+09/17/2018 12:35:42 PM: DEBUG: POST http://127.0.0.1:57406/session/2cbec7bf9117b5a23ae7d46e518329f7/element {"using": "class name", "sessionId": "2cbec7bf9117b5a23ae7d46e518329f7", "value": "style-jm3xvrt7label"}
+09/17/2018 12:35:42 PM: DEBUG: http://127.0.0.1:57406 "POST /session/2cbec7bf9117b5a23ae7d46e518329f7/element HTTP/1.1" 200 102
+09/17/2018 12:35:42 PM: DEBUG: Finished Request
+09/17/2018 12:35:42 PM: DEBUG: POST http://127.0.0.1:57406/session/2cbec7bf9117b5a23ae7d46e518329f7/element/0.9452758122438585-1/click {"sessionId": "2cbec7bf9117b5a23ae7d46e518329f7", "id": "0.9452758122438585-1"}
+09/17/2018 12:35:42 PM: DEBUG: http://127.0.0.1:57406 "POST /session/2cbec7bf9117b5a23ae7d46e518329f7/element/0.9452758122438585-1/click HTTP/1.1" 200 72
+09/17/2018 12:35:42 PM: DEBUG: Finished Request
+09/17/2018 12:35:44 PM: DEBUG: POST http://127.0.0.1:57406/session/2cbec7bf9117b5a23ae7d46e518329f7/element {"using": "css selector", "sessionId": "2cbec7bf9117b5a23ae7d46e518329f7", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(3) > input"}
+09/17/2018 12:35:44 PM: DEBUG: http://127.0.0.1:57406 "POST /session/2cbec7bf9117b5a23ae7d46e518329f7/element HTTP/1.1" 200 430
+09/17/2018 12:35:44 PM: DEBUG: Finished Request
+09/17/2018 12:35:44 PM: DEBUG: POST http://127.0.0.1:57487/session {"capabilities": {"alwaysMatch": {"goog:chromeOptions": {"args": [], "extensions": []}, "browserName": "chrome", "platformName": "any"}, "firstMatch": [{}]}, "desiredCapabilities": {"goog:chromeOptions": {"args": [], "extensions": []}, "platform": "ANY", "browserName": "chrome", "version": ""}}
+09/17/2018 12:35:44 PM: DEBUG: Starting new HTTP connection (1): 127.0.0.1:57487
+09/17/2018 12:35:46 PM: DEBUG: http://127.0.0.1:57487 "POST /session HTTP/1.1" 200 833
+09/17/2018 12:35:46 PM: DEBUG: Finished Request
+09/17/2018 12:35:46 PM: DEBUG: POST http://127.0.0.1:57487/session/26a806ed375e0f7d001b01e1bd776c2d/url {"url": "https://mytaptrack.com", "sessionId": "26a806ed375e0f7d001b01e1bd776c2d"}
+09/17/2018 12:35:53 PM: DEBUG: http://127.0.0.1:57487 "POST /session/26a806ed375e0f7d001b01e1bd776c2d/url HTTP/1.1" 200 72
+09/17/2018 12:35:53 PM: DEBUG: Finished Request
+09/17/2018 12:35:53 PM: DEBUG: POST http://127.0.0.1:57487/session/26a806ed375e0f7d001b01e1bd776c2d/element {"using": "class name", "sessionId": "26a806ed375e0f7d001b01e1bd776c2d", "value": "style-jm3xvrt7label"}
+09/17/2018 12:35:54 PM: DEBUG: http://127.0.0.1:57487 "POST /session/26a806ed375e0f7d001b01e1bd776c2d/element HTTP/1.1" 200 102
+09/17/2018 12:35:54 PM: DEBUG: Finished Request
+09/17/2018 12:35:54 PM: DEBUG: POST http://127.0.0.1:57487/session/26a806ed375e0f7d001b01e1bd776c2d/element/0.5566941692577521-1/click {"sessionId": "26a806ed375e0f7d001b01e1bd776c2d", "id": "0.5566941692577521-1"}
+09/17/2018 12:35:54 PM: DEBUG: http://127.0.0.1:57487 "POST /session/26a806ed375e0f7d001b01e1bd776c2d/element/0.5566941692577521-1/click HTTP/1.1" 200 72
+09/17/2018 12:35:54 PM: DEBUG: Finished Request
+09/17/2018 12:35:56 PM: DEBUG: POST http://127.0.0.1:57487/session/26a806ed375e0f7d001b01e1bd776c2d/element {"using": "css selector", "sessionId": "26a806ed375e0f7d001b01e1bd776c2d", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(3) > input"}
+09/17/2018 12:35:56 PM: DEBUG: http://127.0.0.1:57487 "POST /session/26a806ed375e0f7d001b01e1bd776c2d/element HTTP/1.1" 200 430
+09/17/2018 12:35:56 PM: DEBUG: Finished Request
+09/17/2018 12:35:57 PM: DEBUG: POST http://127.0.0.1:57565/session {"capabilities": {"alwaysMatch": {"goog:chromeOptions": {"args": [], "extensions": []}, "browserName": "chrome", "platformName": "any"}, "firstMatch": [{}]}, "desiredCapabilities": {"goog:chromeOptions": {"args": [], "extensions": []}, "platform": "ANY", "browserName": "chrome", "version": ""}}
+09/17/2018 12:35:57 PM: DEBUG: Starting new HTTP connection (1): 127.0.0.1:57565
+09/17/2018 12:35:58 PM: DEBUG: http://127.0.0.1:57565 "POST /session HTTP/1.1" 200 831
+09/17/2018 12:35:58 PM: DEBUG: Finished Request
+09/17/2018 12:35:58 PM: DEBUG: POST http://127.0.0.1:57565/session/552a1299ada1740fc8afad18548f6cf5/url {"url": "https://mytaptrack.com", "sessionId": "552a1299ada1740fc8afad18548f6cf5"}
+09/17/2018 12:36:07 PM: DEBUG: http://127.0.0.1:57565 "POST /session/552a1299ada1740fc8afad18548f6cf5/url HTTP/1.1" 200 72
+09/17/2018 12:36:07 PM: DEBUG: Finished Request
+09/17/2018 12:36:07 PM: DEBUG: POST http://127.0.0.1:57565/session/552a1299ada1740fc8afad18548f6cf5/element {"using": "class name", "sessionId": "552a1299ada1740fc8afad18548f6cf5", "value": "style-jm3xvrt7label"}
+09/17/2018 12:36:07 PM: DEBUG: http://127.0.0.1:57565 "POST /session/552a1299ada1740fc8afad18548f6cf5/element HTTP/1.1" 200 102
+09/17/2018 12:36:07 PM: DEBUG: Finished Request
+09/17/2018 12:36:07 PM: DEBUG: POST http://127.0.0.1:57565/session/552a1299ada1740fc8afad18548f6cf5/element/0.2216459341259025-1/click {"sessionId": "552a1299ada1740fc8afad18548f6cf5", "id": "0.2216459341259025-1"}
+09/17/2018 12:36:07 PM: DEBUG: http://127.0.0.1:57565 "POST /session/552a1299ada1740fc8afad18548f6cf5/element/0.2216459341259025-1/click HTTP/1.1" 200 72
+09/17/2018 12:36:07 PM: DEBUG: Finished Request
+09/17/2018 12:36:09 PM: DEBUG: POST http://127.0.0.1:57565/session/552a1299ada1740fc8afad18548f6cf5/element {"using": "css selector", "sessionId": "552a1299ada1740fc8afad18548f6cf5", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(3) > input"}
+09/17/2018 12:36:09 PM: DEBUG: http://127.0.0.1:57565 "POST /session/552a1299ada1740fc8afad18548f6cf5/element HTTP/1.1" 200 430
+09/17/2018 12:36:09 PM: DEBUG: Finished Request
+09/17/2018 12:36:09 PM: DEBUG: POST http://127.0.0.1:57640/session {"capabilities": {"alwaysMatch": {"goog:chromeOptions": {"args": [], "extensions": []}, "browserName": "chrome", "platformName": "any"}, "firstMatch": [{}]}, "desiredCapabilities": {"goog:chromeOptions": {"args": [], "extensions": []}, "platform": "ANY", "browserName": "chrome", "version": ""}}
+09/17/2018 12:36:09 PM: DEBUG: Starting new HTTP connection (1): 127.0.0.1:57640
+09/17/2018 12:36:11 PM: DEBUG: http://127.0.0.1:57640 "POST /session HTTP/1.1" 200 833
+09/17/2018 12:36:11 PM: DEBUG: Finished Request
+09/17/2018 12:36:11 PM: DEBUG: POST http://127.0.0.1:57640/session/90f92f36d38019ce7a8df2041c404deb/url {"url": "https://mytaptrack.com", "sessionId": "90f92f36d38019ce7a8df2041c404deb"}
+09/17/2018 12:36:19 PM: DEBUG: http://127.0.0.1:57640 "POST /session/90f92f36d38019ce7a8df2041c404deb/url HTTP/1.1" 200 72
+09/17/2018 12:36:19 PM: DEBUG: Finished Request
+09/17/2018 12:36:19 PM: DEBUG: POST http://127.0.0.1:57640/session/90f92f36d38019ce7a8df2041c404deb/element {"using": "class name", "sessionId": "90f92f36d38019ce7a8df2041c404deb", "value": "style-jm3xvrt7label"}
+09/17/2018 12:36:19 PM: DEBUG: http://127.0.0.1:57640 "POST /session/90f92f36d38019ce7a8df2041c404deb/element HTTP/1.1" 200 103
+09/17/2018 12:36:19 PM: DEBUG: Finished Request
+09/17/2018 12:36:19 PM: DEBUG: POST http://127.0.0.1:57640/session/90f92f36d38019ce7a8df2041c404deb/element/0.32832799497739695-1/click {"sessionId": "90f92f36d38019ce7a8df2041c404deb", "id": "0.32832799497739695-1"}
+09/17/2018 12:36:19 PM: DEBUG: http://127.0.0.1:57640 "POST /session/90f92f36d38019ce7a8df2041c404deb/element/0.32832799497739695-1/click HTTP/1.1" 200 72
+09/17/2018 12:36:19 PM: DEBUG: Finished Request
+09/17/2018 12:36:21 PM: DEBUG: POST http://127.0.0.1:57640/session/90f92f36d38019ce7a8df2041c404deb/element {"using": "css selector", "sessionId": "90f92f36d38019ce7a8df2041c404deb", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(3) > input"}
+09/17/2018 12:36:21 PM: DEBUG: http://127.0.0.1:57640 "POST /session/90f92f36d38019ce7a8df2041c404deb/element HTTP/1.1" 200 430
+09/17/2018 12:36:21 PM: DEBUG: Finished Request
+09/17/2018 12:36:21 PM: DEBUG: POST http://127.0.0.1:57740/session {"capabilities": {"alwaysMatch": {"goog:chromeOptions": {"args": [], "extensions": []}, "browserName": "chrome", "platformName": "any"}, "firstMatch": [{}]}, "desiredCapabilities": {"goog:chromeOptions": {"args": [], "extensions": []}, "platform": "ANY", "browserName": "chrome", "version": ""}}
+09/17/2018 12:36:21 PM: DEBUG: Starting new HTTP connection (1): 127.0.0.1:57740
+09/17/2018 12:36:23 PM: DEBUG: http://127.0.0.1:57740 "POST /session HTTP/1.1" 200 833
+09/17/2018 12:36:23 PM: DEBUG: Finished Request
+09/17/2018 12:36:23 PM: DEBUG: POST http://127.0.0.1:57740/session/44c14caff966d613ff1bff52865325e8/url {"url": "https://mytaptrack.com", "sessionId": "44c14caff966d613ff1bff52865325e8"}
+09/17/2018 12:36:31 PM: DEBUG: http://127.0.0.1:57740 "POST /session/44c14caff966d613ff1bff52865325e8/url HTTP/1.1" 200 72
+09/17/2018 12:36:31 PM: DEBUG: Finished Request
+09/17/2018 12:36:31 PM: DEBUG: POST http://127.0.0.1:57740/session/44c14caff966d613ff1bff52865325e8/element {"using": "class name", "sessionId": "44c14caff966d613ff1bff52865325e8", "value": "style-jm3xvrt7label"}
+09/17/2018 12:36:31 PM: DEBUG: http://127.0.0.1:57740 "POST /session/44c14caff966d613ff1bff52865325e8/element HTTP/1.1" 200 102
+09/17/2018 12:36:31 PM: DEBUG: Finished Request
+09/17/2018 12:36:31 PM: DEBUG: POST http://127.0.0.1:57740/session/44c14caff966d613ff1bff52865325e8/element/0.8506010227816705-1/click {"sessionId": "44c14caff966d613ff1bff52865325e8", "id": "0.8506010227816705-1"}
+09/17/2018 12:36:31 PM: DEBUG: http://127.0.0.1:57740 "POST /session/44c14caff966d613ff1bff52865325e8/element/0.8506010227816705-1/click HTTP/1.1" 200 72
+09/17/2018 12:36:31 PM: DEBUG: Finished Request
+09/17/2018 12:36:33 PM: DEBUG: POST http://127.0.0.1:57740/session/44c14caff966d613ff1bff52865325e8/element {"using": "css selector", "sessionId": "44c14caff966d613ff1bff52865325e8", "value": "#div-forms > div:nth-child(2) > div:nth-child(2) > div > div > form > div:nth-child(3) > input"}
+09/17/2018 12:36:33 PM: DEBUG: http://127.0.0.1:57740 "POST /session/44c14caff966d613ff1bff52865325e8/element HTTP/1.1" 200 430
+09/17/2018 12:36:33 PM: DEBUG: Finished Request
+09/17/2018 12:36:39 PM: DEBUG: DELETE http://127.0.0.1:57176/session/c8fa8cb82fd1222db0ca2146667a4d2d/window {"sessionId": "c8fa8cb82fd1222db0ca2146667a4d2d"}
+09/17/2018 12:36:41 PM: DEBUG: http://127.0.0.1:57176 "DELETE /session/c8fa8cb82fd1222db0ca2146667a4d2d/window HTTP/1.1" 200 72
+09/17/2018 12:36:41 PM: DEBUG: Finished Request

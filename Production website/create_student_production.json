@@ -1,0 +1,194 @@
+{
+    "create_student": [
+        {
+            "path": ".student-new a",
+            "action": "-click-",
+            "selector_type":"css"
+        },
+        {
+            "path": "body > div.container-main > div > div.content > ui-view > div > div > div:nth-child(2) > div:nth-child(1) > input",
+            "action": "Auto",
+            "selector_type":"css"
+        
+        },
+    
+        {
+            "path": "body > div.container-main > div > div.content > ui-view > div > div > div:nth-child(2) > div:nth-child(2) > input",
+            "action": "test2",
+            "selector_type":"css"
+        
+        },
+        {
+            "path": "/html/body/div[1]/div/div[2]/ui-view/div/div/div[2]/div[3]/select/option[2]",
+            "action": "-click-",
+           "selector_type":"xpath" 
+        },
+        {
+            "path":"body > div.container-main > div > div.content > ui-view > div > div > div:nth-child(2) > div:nth-child(4) > input",
+            "action": "abcd"
+        ,"selector_type":"css" 
+        },
+        {
+            "path": "/html/body/div[1]/div/div[2]/ui-view/div/div/div[2]/div[6]/div/div[2]/a",
+            "action":"-click-",
+            "selector_type":"xpath" 
+        }
+    ],
+"create_student_empty_fname": [
+    {
+        "path": ".student-new a",
+        "action": "-click-",
+        "selector_type":"css"
+    },
+    
+    {
+        "path": "body > div.container-main > div > div.content > ui-view > div > div > div:nth-child(2) > div:nth-child(2) > input",
+        "action": "test1",
+        "selector_type":"css"
+    
+    },
+    {
+        "path": "/html/body/div[1]/div/div[2]/ui-view/div/div/div[2]/div[3]/select/option[2]",
+        "action": "-click-",
+       "selector_type":"xpath" 
+    },
+    {
+        "path":"body > div.container-main > div > div.content > ui-view > div > div > div:nth-child(2) > div:nth-child(4) > input",
+        "action": "abcd"
+    ,"selector_type":"css" 
+    },
+    {
+        "path": "/html/body/div[1]/div/div[2]/ui-view/div/div/div[2]/div[6]/div/div[2]/a",
+        "action":"-click-",
+        "selector_type":"xpath" 
+    }
+],
+"create_student_empty_lname": [
+    {
+        "path": ".student-new a",
+        "action": "-click-",
+        "selector_type":"css"
+    },
+    {
+        "path": "body > div.container-main > div > div.content > ui-view > div > div > div:nth-child(2) > div:nth-child(1) > input",
+        "action": "Auto",
+        "selector_type":"css"
+    },
+    
+    {
+        "path": "/html/body/div[1]/div/div[2]/ui-view/div/div/div[2]/div[3]/select/option[2]",
+        "action": "-click-",
+       "selector_type":"xpath" 
+    },
+    {
+        "path":"body > div.container-main > div > div.content > ui-view > div > div > div:nth-child(2) > div:nth-child(4) > input",
+        "action": "abcd"
+    ,"selector_type":"css" 
+    },
+    {
+        "path": "/html/body/div[1]/div/div[2]/ui-view/div/div/div[2]/div[6]/div/div[2]/a",
+        "action":"-click-",
+        "selector_type":"xpath" 
+    }
+],
+"create_student_unselect_role": [
+    {
+        "path": ".student-new a",
+        "action": "-click-",
+        "selector_type":"css"
+    },
+    {
+        "path": "body > div.container-main > div > div.content > ui-view > div > div > div:nth-child(2) > div:nth-child(1) > input",
+        "action": "Auto",
+        "selector_type":"css"
+    },
+    {
+        "path": "body > div.container-main > div > div.content > ui-view > div > div > div:nth-child(2) > div:nth-child(2) > input",
+        "action": "test1",
+        "selector_type":"css"
+    
+    },
+   
+    {
+        "path":"body > div.container-main > div > div.content > ui-view > div > div > div:nth-child(2) > div:nth-child(4) > input",
+        "action": "abcd"
+    ,"selector_type":"css" 
+    },
+    {
+        "path": "/html/body/div[1]/div/div[2]/ui-view/div/div/div[2]/div[6]/div/div[2]/a",
+        "action":"-click-",
+        "selector_type":"xpath" 
+    }
+],
+"create_student_empty_district": [
+    {
+        "path": ".student-new a",
+        "action": "-click-",
+        "selector_type":"css"
+    },
+    {
+        "path": "body > div.container-main > div > div.content > ui-view > div > div > div:nth-child(2) > div:nth-child(1) > input",
+        "action": "Auto",
+        "selector_type":"css"
+    },
+    {
+        "path": "body > div.container-main > div > div.content > ui-view > div > div > div:nth-child(2) > div:nth-child(2) > input",
+        "action": "test1",
+        "selector_type":"css"
+    
+    },
+    {
+        "path": "/html/body/div[1]/div/div[2]/ui-view/div/div/div[2]/div[3]/select/option[2]",
+        "action": "-click-",
+       "selector_type":"xpath" 
+    },
+    
+    {
+        "path": "/html/body/div[1]/div/div[2]/ui-view/div/div/div[2]/div[6]/div/div[2]/a",
+        "action":"-click-",
+        "selector_type":"xpath" 
+    }
+],
+"create_student_with_teacher": [
+    {
+        "path": ".student-new a",
+        "action": "-click-",
+        "selector_type":"css"
+    },
+    {
+        "path": "body > div.container-main > div > div.content > ui-view > div > div > div:nth-child(2) > div:nth-child(1) > input",
+        "action": "Auto",
+        "selector_type":"css"
+    },
+    {
+        "path": "body > div.container-main > div > div.content > ui-view > div > div > div:nth-child(2) > div:nth-child(2) > input",
+        "action": "test2",
+        "selector_type":"css"
+    
+    },
+    {
+        "path": "/html/body/div[1]/div/div[2]/ui-view/div/div/div[2]/div[3]/select/option[2]",
+        "action": "-click-",
+       "selector_type":"xpath" 
+    },
+    {
+        "path":"body > div:nth-child(2) > ui-view > div > div > div:nth-child(2) > div:nth-child(4) > input",
+        "action": "xyz"
+    ,"selector_type":"css" 
+    },
+    
+{
+    "path": "//*[@id='contactSchoolDistrict']",
+    "action":"-click-"
+},
+{
+    "path": "body > div.container-main > div > div.content > ui-view > div > div > div:nth-child(2) > div.col-12.container.group-highlight > div:nth-child(2) > div > input",
+    "action":"teacher1"
+},
+{
+    "path": "/html/body/div[1]/div/div[2]/ui-view/div/div/div[2]/div[6]/div/div[2]/a",
+    "action":"-click-",
+    "selector_type":"xpath" 
+}
+]
+}

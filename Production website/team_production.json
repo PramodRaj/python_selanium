@@ -1,0 +1,23 @@
+{
+    "team":[
+        {
+            "path":"/html/body/div[1]/div/div[2]/ui-view/div/div/div/div[1]/div[2]/div/div/div[2]/a",
+            "action":"-click-",
+            "type":"xpath"
+        },
+        {
+            "path":"body > div.container-main > div > div.content > ui-view > div > div:nth-child(2) > div > input",
+            "action":"teacher@mytaptrack.com",
+            "type":"css"
+        },
+        {
+            "path":"/html/body/div[1]/div/div[2]/ui-view/div/div[3]/div/select/option[3]",
+            "action":"-click",
+            "type":"xpath"
+        },
+        {
+            "path":"/html/body/div[1]/div/div[2]/ui-view/div/div[4]/div/div[2]/a",
+            "action":"-click-",
+            "type":"xpath"
+        }
+    ]}

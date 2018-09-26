@@ -1,0 +1,71 @@
+{
+    "graph":[
+        {
+            "path":".graph-new a",
+            "action":"-click-",
+            "selector_type":"css"
+        },
+        {
+            "path":"//*[@id='step1']/div/div[1]/a",
+            "action":"-click-",
+            "selector_type":"xpath"
+        },
+        {
+            "path":"/html/body/div[1]/div/div[2]/ui-view/div/div[7]/div/div[2]/a[1]",
+            "action":"-click-",
+            "selector_type":"xpath"
+        },
+        {
+            "path":"//*[@id='step2']/div/div[1]/a",
+            "action":"-click-",
+            "selector_type":"xpath"
+        },
+        {
+            "path":"//*[@id='step2']/div/div[2]/a",
+            "action":"-click-",
+            "selector_type":"xpath"
+
+        },
+        {
+            "path":"/html/body/div[1]/div/div[2]/ui-view/div/div[7]/div/div[2]/a[1]",
+            "action":"-click-",
+            "selector_type":"xpath"
+        },
+        {
+            "path":"//*[@id='step3']/div/div/div[1]/a",
+            "action":"-click-",
+            "selector_type":"xpath"
+        },
+        {
+            "path":"/html/body/div[1]/div/div[2]/ui-view/div/div[7]/div/div[2]/a[1]",
+            "action":"-click-",
+            "selector_type":"xpath"
+        },
+        {
+            "path":"//*[@id='step4']/div/div[1]/div/div/div[2]/a",
+            "action":"-click-",
+            "selector_type":"xpath"
+        },
+        {
+            "path":"//*[@id='step4']/div/div[2]/div/div/div[2]/a",
+            "action":"-click-",
+            "selector_type":"xpath"
+        },
+        {
+            "path":"/html/body/div[1]/div/div[2]/ui-view/div/div[7]/div/div[2]/a[1]",
+            "action":"-click-",
+            "selector_type":"xpath"
+        },
+        {
+            "path":"#step5 > div > div > div > input",
+            "action":"Test Student's graph",
+            "selector_type":"css"
+        },
+        {
+            "path":"/html/body/div[1]/div/div[2]/ui-view/div/div[7]/div/div[2]/a[2]",
+            "action":"-click-",
+            "selector_type":"xpath"
+        }
+        
+    ]
+}

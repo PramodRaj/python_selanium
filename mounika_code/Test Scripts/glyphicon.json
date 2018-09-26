@@ -1,0 +1,44 @@
+{
+  "Test41_fb": [
+    {
+      "path": "body > div.footer.container-fluid > div > div:nth-child(4) > div > a:nth-child(1)",
+      "action": "-click-"
+    }
+  ],
+   "Test42_instagram": [
+    {
+      "path": "body > div.footer.container-fluid > div > div:nth-child(4) > div > a:nth-child(2) > i",
+      "action": "-click-"
+    }
+  ],
+   "Test43_twitter": [
+    {
+      "path": "body > div.footer.container-fluid > div > div:nth-child(4) > div > a:nth-child(3) > i",
+      "action": "-click-"
+    }
+  ],
+   "Test44_linkedin": [
+    {
+      "path": "body > div.footer.container-fluid > div > div:nth-child(4) > div > a:nth-child(4) > i",
+      "action": "-click-"
+    }
+  ],
+    "Test45_printerest": [
+    {
+      "path": "body > div.footer.container-fluid > div > div:nth-child(4) > div > a:nth-child(5) > i",
+      "action": "-click-"
+    }
+  ],
+   "Test46_terms": [
+    {
+      "path": "body > div.footer.container-fluid > div > div.col-md-3.footer-form > div:nth-child(2) > a",
+      "action": "-click-"
+    }
+  ],
+   "Test47_privacy": [
+    {
+      "path": "body > div.footer.container-fluid > div > div.col-md-3.footer-form > div:nth-child(3) > a",
+      "action": "-click-"
+    }
+  ]
+}
